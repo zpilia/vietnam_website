@@ -16,7 +16,7 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="accueil.php">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="accueil.php">Accueil</a>
                     </li>
                     <!-- Navbar dropdown 1-->
                     <li class="nav-item dropdown">
