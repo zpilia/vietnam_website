@@ -21,12 +21,12 @@
                     <!-- Navbar dropdown 1-->
                     <li class="nav-item dropdown">
                         <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-expanded="false"
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
                         >
                             Culture
                         </a>
@@ -40,12 +40,12 @@
                     <!-- Navbar dropdown 2-->
                     <li class="nav-item dropdown">
                         <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-expanded="false"
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
                         >
                             Cuisine
                         </a>
@@ -59,12 +59,12 @@
                     <!-- Navbar dropdown 3-->
                     <li class="nav-item dropdown">
                         <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-expanded="false"
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
                         >
                             A visiter
                         </a>
@@ -77,12 +77,12 @@
                     <!-- Navbar dropdown 4-->
                     <li class="nav-item dropdown">
                         <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-expanded="false"
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
                         >
                             Histoire
                         </a>
