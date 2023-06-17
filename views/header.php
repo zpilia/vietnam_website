@@ -18,7 +18,7 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="accueil.php">Accueil</a>
                     </li>
-                    <!-- Navbar dropdown -->
+                    <!-- Navbar dropdown 1-->
                     <li class="nav-item dropdown">
                         <a
                                 class="nav-link dropdown-toggle"
@@ -32,26 +32,72 @@
                         </a>
                         <!-- Dropdown menu -->
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Coutume</a></li>
-                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                            <li><a class="dropdown-item" href="coutume.php">Coutume</a></li>
+                            <li><a class="dropdown-item" href="religion.php">Religion</a></li>
+                        </ul>
+                    </li>
+                    <!-- end dropdown -->
+                    <!-- Navbar dropdown 2-->
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                        >
+                            Cuisine
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="specialite_viet.php">Spécialité(s) vietnamienne(s)</a></li>
+                            <li><a class="dropdown-item" href="recette.php">Recette(s)</a></li>
+                        </ul>
+                    </li>
+                    <!-- end dropdown -->
+                    <!-- Navbar dropdown 3-->
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                        >
+                            A visiter
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="incontournable.php">Incontournable</a></li>
+                        </ul>
+                    </li>
+                    <!-- end dropdown -->
+                    <!-- Navbar dropdown 4-->
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                        >
+                            Histoire
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="famille_royal.php">Famille royal</a></li>
+                            <li><a class="dropdown-item" href="chrono.php">Chrnologie</a></li>
                         </ul>
                     </li>
                     <!-- end dropdown -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cuisine</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A visiter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Histoire</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" aria-current="page" href="contact.php">Contact</a>
                     </li>
                 </ul>
                 <!-- Left links -->
-
             </div>
             <!-- Collapsible wrapper -->
         </div>
