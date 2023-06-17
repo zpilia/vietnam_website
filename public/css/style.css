@@ -5,3 +5,7 @@
     color: #B71C1C;
 }
 
+.navbar-nav {
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 130%;
+}

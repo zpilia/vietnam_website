@@ -8,7 +8,7 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-white">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Collapsible wrapper -->
@@ -18,23 +18,36 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="accueil.php">Accueil</a>
                     </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                        >
+                            Culture
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Coutume</a></li>
+                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                        </ul>
+                    </li>
+                    <!-- end dropdown -->
                     <li class="nav-item">
-                        <a class="nav-link" href="societe.php">Société</a>
+                        <a class="nav-link" href="#">Cuisine</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="service.php">Services</a>
+                        <a class="nav-link" href="#">A visiter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="information.php">Information</a>
+                        <a class="nav-link" href="#">Histoire</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galerie.php">Galerie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="recrutement.php">Recrutement</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -44,17 +57,5 @@
         </div>
         <!-- Container wrapper -->
     </nav>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </header>
