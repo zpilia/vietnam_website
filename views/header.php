@@ -7,7 +7,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Collapsible wrapper -->

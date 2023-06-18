@@ -1,3 +1,4 @@
+/* ============ HEADER ============ */
 .title-header {
     font-family: 'Georgia', 'Times New Roman', serif;
     font-size: 60px;
@@ -5,7 +6,7 @@
     color: #B71C1C;
 }
 
-/* ============ navbar ============ */
+/* ============ NAVBAR ============ */
 .navbar-nav , .nav-link{
     font-family: 'Calibri', 'sans-serif';
     font-size: 130%;
@@ -23,3 +24,28 @@
 .dropdown-menu > li:hover > .dropdown-submenu {
     display: block;
 }
+/* ============ FIN HEADER ============ */
+
+/* ============ BODY ============ */
+
+body {
+    background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+    height: 200vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* ============ FIN BODY ============ */
