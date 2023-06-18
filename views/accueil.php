@@ -16,6 +16,14 @@
     <body>
 
 
+    <div class="title">
+        <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
+    </div>
+
+    <div>
+        <img src="../public/img/pays_2.jpg" class>
+    </div>
+
     </body>
 
 
