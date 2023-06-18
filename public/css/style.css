@@ -15,7 +15,7 @@
 
 .dropdown-menu li {
     position: relative;
-    font-family: 'Calibri', 'sans-serif';
+    font-family: 'Georgia', 'sans-serif';
 }
 .dropdown-menu {
     display: none;
@@ -51,7 +51,11 @@ body {
 .title {
     font-family: 'Georgia', 'Times New Roman', serif;
     font-size: 40px;
-
 }
 
+p {
+    font-family: 'Georgia', serif;
+    font-size: 130%;
+    color: black;
+}
 /* ============ FIN BODY ============ */

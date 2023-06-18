@@ -20,15 +20,21 @@
         <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
 
-    <div class="container">
-        <div class="row ">
+    <div class="container mt-4 mb-5">
+        <div class="row justify-content-center mt-2">
 
-            <div class="col-md-6">
+            <div class="col-lg-5">
                 <img src="../public/img/pays_3.png" class="img-fluid w-50 m-5">
             </div>
 
-            <div class="col-md-6">
-
+            <div class="col-md-5">
+                <p class="mt-5">Le Vietnam est un pays du sud-est de l’Asie qui s’étend sur toute la longueur de la péninsule
+                    indochinoise (le Laos et le Cambodge) et que baigne la mer de Chine sur son flanc oriental.
+                    <br><br>
+                    Possédant une superficie de totale de 331 699 km² sous forme d’un immense S. Il est bordé par la mer de Chine,
+                    le golfe du Tonkin et le golfe de Thaïlande. Le Vietnam est constitué de trois grands ensembles : le
+                    Vietnam septentrional, central et méridional.
+                </p>
             </div>
 
         </div>
