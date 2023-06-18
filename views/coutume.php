@@ -21,51 +21,42 @@
 
     <br>
 
-    <ul class="cards">
-        <li class="cards__item">
-            <div class="card">
-                <div class="card__image card__image--fence"></div>
-                <div class="card__content">
-                    <div class="card__title">Flex</div>
-                    <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-                    <button class="btn btn--block card__btn">Button</button>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img
+                                src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                                alt="Trendy Pants and Shoes"
+                                class="img-fluid rounded-start"
+                        />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </li>
-        <li class="cards__item">
+        </div>
+        <div class="col">
             <div class="card">
-                <div class="card__image card__image--river"></div>
-                <div class="card__content">
-                    <div class="card__title">Flex Grow</div>
-                    <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                    <button class="btn btn--block card__btn">Button</button>
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
                 </div>
             </div>
-        </li>
-        <li class="cards__item">
-            <div class="card">
-                <div class="card__image card__image--record"></div>
-                <div class="card__content">
-                    <div class="card__title">Flex Shrink</div>
-                    <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-                    <button class="btn btn--block card__btn">Button</button>
-                </div>
-            </div>
-        </li>
-        <li class="cards__item">
-            <div class="card">
-                <div class="card__image card__image--flowers"></div>
-                <div class="card__content">
-                    <div class="card__title">Flex Basis</div>
-                    <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-                    <button class="btn btn--block card__btn">Button</button>
-                </div>
-            </div>
-        </li>
-    </ul>
-
-
-
+        </div>
+        
     </body>
 
 
