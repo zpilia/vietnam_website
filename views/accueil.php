@@ -15,11 +15,13 @@
 
     <body>
 
+    <!--Présentation du pays -->
 
     <div class="title">
         <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
 
+    <!-- Container -->
     <div class="container mt-4 mb-5">
         <div class="row justify-content-center mt-2">
 
