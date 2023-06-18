@@ -22,7 +22,7 @@
                     <li class="nav-item dropdown">
                         <a
                             class="nav-link dropdown-toggle"
-                            href="accueil.php"
+                            href="#"
                             id="navbarDropdown"
                             role="button"
                             data-toggle="dropdown"
