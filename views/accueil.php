@@ -13,5 +13,6 @@
     <?php require 'header.php'?>
 
 
+
     <!-- insertion en pied -->
     <?php require 'footer.php'?>
