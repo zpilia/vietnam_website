@@ -24,8 +24,8 @@
                             Culture
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Coutume</a>
-                            <a class="dropdown-item" href="#">Religion</a>
+                            <a class="dropdown-item" href="coutume.php">Coutume</a>
+                            <a class="dropdown-item" href="religion.php">Religion</a>
                     </li>
                     <!-- End Dropdown -->
 
@@ -35,8 +35,8 @@
                             Cuisine
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Spécialité(s) Vietnamienne(s)</a>
-                            <a class="dropdown-item" href="#">Recette(s)</a>
+                            <a class="dropdown-item" href="specialite_viet.php">Spécialité(s) Vietnamienne(s)</a>
+                            <a class="dropdown-item" href="recette.php">Recette(s)</a>
                     </li>
                     <!-- End Dropdown 2-->
 
@@ -46,7 +46,7 @@
                             A visiter
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Incontournable</a>
+                            <a class="dropdown-item" href="incontournable.php">Incontournable</a>
                     </li>
                     <!-- End Dropdown 3-->
 
@@ -56,13 +56,13 @@
                             Histoire
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Famille royal</a>
-                            <a class="dropdown-item" href="#">Chornologie</a>
+                            <a class="dropdown-item" href="famille_royal.php">Famille royal</a>
+                            <a class="dropdown-item" href="chrono.php">Chornologie</a>
                     </li>
                     <!-- End Dropdown 4-->
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
