@@ -12,10 +12,6 @@
     <!-- insertion entête -->
     <?php require 'header.php'?>
 
-    <body>
 
-
-
-    </body>
-
-<?php require 'footer.php'?>
+    <!-- insertion en pied -->
+    <?php require 'footer.php'?>
