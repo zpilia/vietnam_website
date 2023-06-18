@@ -32,11 +32,24 @@
                     indochinoise (le Laos et le Cambodge) et que baigne la mer de Chine sur son flanc oriental.
                     <br><br>
                     Possédant une superficie de totale de 331 699 km² sous forme d’un immense S. Il est bordé par la mer de Chine,
-                    le golfe du Tonkin et le golfe de Thaïlande. Le Vietnam est constitué de trois grands ensembles : le
-                    Vietnam septentrional, central et méridional.
+                    le golfe du Tonkin et le golfe de Thaïlande.
+                    <br><br>
+                    Le Vietnam est constitué de trois grands ensembles : le Vietnam septentrional, central et méridional.
                 </p>
             </div>
 
+            <br>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4">
+                    <ul class="mt-5">
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="../public/img/carte_viet_region.png" class="img-fluid w-50 m-5">
+                </div>
         </div>
     </div>
 
