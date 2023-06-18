@@ -20,8 +20,18 @@
         <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
 
-    <div>
-        <img src="../public/img/pays_2.jpg" class>
+    <div class="container">
+        <div class="row ">
+
+            <div class="col-md-6">
+                <img src="../public/img/pays_3.png" class="img-fluid w-50 m-5">
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+
+        </div>
     </div>
 
     </body>
