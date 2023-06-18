@@ -13,12 +13,17 @@
     <?php require 'header.php'?>
 
 
+    <body>
 
 
 
 
 
 
+
+
+
+    </body>
 
 
     <!-- insertion en pied -->
