@@ -42,13 +42,27 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 mb-4">
-                    <ul class="mt-5">
-
-                    </ul>
+                    <ol class="mt-5">
+                        <li>Le Nord-ouest (Tây Bắc)</li>
+                        <br>
+                        <li>Le Nord-est (Đông Bắc)</li>
+                        <br>
+                        <li>Le Delta du Fleuve Rouge (Đồng bằng sông Hồng)</li>
+                        <br>
+                        <li>La Côte centrale du Nord (Bắc Trung Bộ)</li>
+                        <br>
+                        <li>La Côte centrale du sud (Nam Trung Bộ)</li>
+                        <br>
+                        <li>Les Montagnes Centrales (Tây Nguyên)</li>
+                        <br>
+                        <li>Le Sud-est (Đông Nam Bộ)</li>
+                        <br>
+                        <li>Le Delta du Mékong (Đồng bằng sông Cửu Long)</li>
+                    </ol>
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="../public/img/carte_viet_region.png" class="img-fluid w-50 m-5">
+                    <img src="../public/img/carte_viet_region.png" class="img-fluid w-50 m-2">
                 </div>
         </div>
     </div>

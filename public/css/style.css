@@ -8,9 +8,9 @@
 
 /* ============ NAVBAR ============ */
 .navbar-nav , .nav-link{
-    font-family: 'Georgia', 'sans-serif';
+    font-family: 'Calibri', 'sans-serif';
     font-style: italic;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .dropdown-menu li {
@@ -56,7 +56,15 @@ body {
 p {
     font-family: 'Georgia', serif;
     text-align: justify;
-    font-size: 130%;
+    font-size: 120%;
     color: black;
 }
+
+li {
+    font-family: 'Georgia', serif;
+    text-align: justify;
+    font-size: 120%;
+    color: black;
+}
+
 /* ============ FIN BODY ============ */
