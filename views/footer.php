@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer fixed-bottom font-small mdb-color pt-4">
+<footer class="page-footer font-small mdb-color pt-4">
     <hr>
     <!-- Copyright -->
     <div class="text-center p-3 fw-bold mb-2">
@@ -8,4 +8,3 @@
     <!-- Copyright -->
 </footer>
 <!-- Footer -->
-
