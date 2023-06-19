@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- library CSS-->
     <link href="../public/css/bootstrap.css">
-    <link href="../public/css/style.css">
     <!-- Boostrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Boostrap 4-->
@@ -23,13 +22,16 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body>
+    <body
+        style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);
+        height: 200vh;"
+    >
 
     <!--Présentation du pays -->
 
     <!-- Titre -->
     <div class="title">
-        <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
+        <h1 class="mt-4 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
 
     <!-- Container -->
