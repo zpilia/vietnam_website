@@ -39,10 +39,10 @@
     </div>
     <br>
     <!-- Container -->
-    <div class="container-fluid mt-4 mb-5">
+    <div class="container mt-4 mb-5">
         <div class="row justify-content-center mt-2">
 
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <img src="../public/img/pays_3.png" class="img-fluid mx-auto h-75" alt="carte_viet"
                      style="">
             </div>
@@ -65,8 +65,8 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-7 mb-4">
-                    <p
+                <div class="col-lg-7">
+                    <p class="mt-5"
                        style="font-family: 'Georgia', serif;
                           text-align: justify;
                           font-size: 110%;
@@ -74,7 +74,7 @@
                     >
                         Les différentes régions du pays :
                     </p>
-                    <ol
+                    <ol class="mt-4"
                         style="font-family: 'Georgia', serif;
                                text-align: justify;
                                font-size: 110%;

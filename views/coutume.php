@@ -28,8 +28,21 @@
     >
 
     <div class="container-fluid mt-4 mb-5">
-        
+        <div class="row gx-1 ">
 
+            <div class="col-lg-4 col-md-12">
+                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid mx-auto rounded h-50">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+            </div>
+
+        </div>
     </div>
 
 
