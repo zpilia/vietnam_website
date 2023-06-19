@@ -24,16 +24,11 @@
 
     <body>
 
-    <!-- présentation du pays -->
-
-
-
-
-
-
+    <!--Présentation du pays -->
 
 
     </body>
+
 
     <!-- insertion en pied -->
     <?php require 'footer.php' ?>
