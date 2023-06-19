@@ -32,13 +32,13 @@
                 font-size: 40px;
                 color: black"
     >
-        <h2 class="mt-4 fw-bold text-center">Les différents coutumes</h2>
+        <h1 class="mt-4 fw-bold text-center">Les différents coutumes</h1>
     </div>
 
     <br>
 
     <!-- 1er container ==> 1er publication -->
-    <div class="container mt-4 mb-5">
+    <div class="container ">
         <h3 style="font-family: 'Georgia', serif;
                     text-align: center;
                     color: black"
@@ -46,12 +46,22 @@
             Nouvel An - Têt Nguyên Dán
         </h3>
         <br>
-        <div class="row gx-5 justify-content-center">
+        <div class="row justify-content-center">
             <div class="col">
-                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid ">
+                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded" style="width:70%; height:auto">
             </div>
-            <div class="col">k
-
+            <div class="col mt-2">
+                <p style="font-family: 'Georgia', serif;
+                          text-align: justify;
+                          font-size: 120%;
+                          color: black;"
+                >
+                    Le « Tet Nguyen Dan » (le Nouvel An Vietnamien) est célébré au même moment que le Nouvel An chinois, entre mi-janvier et mi-février, selon les années.
+                    Suivant les moyens de la famille, les festivités peuvent durer de 3 à 7 jours.
+                    <br><br>
+                    C'est l'occasion pour les vietnamiens de se retrouver autour de copieux repas et de mets festifs.
+                    De petites enveloppes rouges garnies de quelques billets sont également offertes aux plus jeunes et aux aînés, comme autant de promesses de la fortune à venir au cours de l'année.
+                </p>
             </div>
         </div>
     </div>
