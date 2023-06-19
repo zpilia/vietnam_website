@@ -43,11 +43,18 @@
         <div class="row justify-content-center mt-2">
 
             <div class="col-lg-5">
-                <img src="../public/img/pays_3.png" class="img-fluid w-50 m-5" alt="carte viet">
+                <img src="../public/img/pays_3.png" class="img-fluid m-auto" alt="carte_viet"
+                     style="">
             </div>
 
             <div class="col-md-5">
-                <p class="mt-5">Le Vietnam est un pays du sud-est de l’Asie qui s’étend sur toute la longueur de la péninsule
+                <p class="mt-5"
+                   style="font-family: 'Georgia', serif;
+                          text-align: justify;
+                          font-size: 120%;
+                          color: black;"
+                >
+                    Le Vietnam est un pays du sud-est de l’Asie qui s’étend sur toute la longueur de la péninsule
                     indochinoise (le Laos et le Cambodge) et que baigne la mer de Chine sur son flanc oriental.
                     <br><br>
                     Possédant une superficie de totale de 331 699 km² sous forme d’un immense S. Il est bordé par la mer de Chine,
@@ -61,7 +68,12 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 mb-4">
-                    <ol class="mt-5">
+                    <ol class="mt-5"
+                        style="font-family: 'Georgia', serif;
+                               text-align: justify;
+                               font-size: 120%;
+                               color: black;"
+                    >
                         <li>Le Nord-ouest (Tây Bắc)</li>
                         <br>
                         <li>Le Nord-est (Đông Bắc)</li>
@@ -81,7 +93,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="../public/img/carte_viet_region.png" class="img-fluid w-50 m-2">
+                    <img src="../public/img/carte_viet_region.png" class="img-fluid float-md-right">
                 </div>
             </div>
         </div>
