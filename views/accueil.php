@@ -30,7 +30,11 @@
     <!--Présentation du pays -->
 
     <!-- Titre -->
-    <div class="title">
+    <div class="title"
+         style="font-family: 'Georgia', 'Times New Roman', serif;
+                font-size: 40px;
+                color: black"
+    >
         <h1 class="mt-4 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
 
@@ -39,7 +43,7 @@
         <div class="row justify-content-center mt-2">
 
             <div class="col-lg-5">
-                <img src="../public/img/pays_3.png" class="img-fluid w-50 m-5">
+                <img src="../public/img/pays_3.png" class="img-fluid w-50 m-5" alt="carte viet">
             </div>
 
             <div class="col-md-5">
@@ -96,5 +100,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
-
 </html>

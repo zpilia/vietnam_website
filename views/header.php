@@ -20,9 +20,9 @@
                     <div id="navbarCollapse" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav"
                             style="font-family: 'Calibri', 'sans-serif';
-                        font-weight: bold;
-                        font-style: italic;
-                        font-size: 120%;"
+                                   font-weight: bold;
+                                   font-style: italic;
+                                   font-size: 120%;"
                         >
                             <li class="nav-item">
                                 <a href="accueil.php" class="nav-link">Accueil</a>
