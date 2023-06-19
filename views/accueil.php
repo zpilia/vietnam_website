@@ -39,7 +39,7 @@
     </div>
     <br>
     <!-- Container -->
-    <div class="container mt-4 mb-5">
+    <div class="container-fluid mt-4 mb-5">
         <div class="row justify-content-center mt-2">
 
             <div class="col-lg-5">
