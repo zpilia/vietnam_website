@@ -20,6 +20,9 @@
     <title>Accueil</title>
 </head>
 
+    <!-- insertion entête -->
+    <?php require 'header.php' ?>
+
     <body>
 
     <!-- présentation du pays -->
