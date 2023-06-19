@@ -43,8 +43,7 @@
         <div class="row justify-content-center mt-2">
 
             <div class="col-lg-6">
-                <img src="../public/img/pays_3.png" class="img-fluid mx-auto h-75" alt="carte_viet"
-                     style="">
+                <img src="../public/img/pays_3.png" class="img-fluid mx-auto h-75" alt="carte_viet">
             </div>
 
             <div class="col-md-4">

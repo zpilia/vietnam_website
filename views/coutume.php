@@ -27,24 +27,34 @@
         height: 200vh;"
     >
 
-    <div class="container-fluid mt-4 mb-5">
-        <div class="row gx-1 ">
-
-            <div class="col-lg-4 col-md-12">
-                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid mx-auto rounded h-50">
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-
-            </div>
-
-        </div>
+    <div class="title"
+         style="font-family: 'Georgia', 'Times New Roman', serif;
+                font-size: 40px;
+                color: black"
+    >
+        <h2 class="mt-4 fw-bold text-center">Les différents coutumes</h2>
     </div>
 
+    <br>
+
+    <!-- 1er container ==> 1er publication -->
+    <div class="container mt-4 mb-5">
+        <h3 style="font-family: 'Georgia', serif;
+                    text-align: center;
+                    color: black"
+        >
+            Nouvel An - Têt Nguyên Dán
+        </h3>
+        <br>
+        <div class="row gx-5 justify-content-center">
+            <div class="col">
+                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid ">
+            </div>
+            <div class="col">k
+
+            </div>
+        </div>
+    </div>
 
     </body>
 
