@@ -16,15 +16,19 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
             <div id="navbarCollapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav"
+                    style="font-family: 'Calibri', 'sans-serif';
+                    font-style: italic;
+                    font-size: 120%;"
+                >
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Accueil</a>
+                        <a href="accueil.php" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Culture</a>
                         <div class="dropdown-menu">
                             <a href="coutume.php" class="dropdown-item">Coutume(s)</a>
-                            <a href="#" class="dropdown-item">Religion</a>
+                            <a href="#" class="dropdown-item">Religion(s)</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
