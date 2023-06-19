@@ -1,0 +1,70 @@
+/* ============ HEADER ============ */
+.title-header {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #B71C1C;
+}
+
+/* ============ NAVBAR ============ */
+.navbar-nav , .nav-link{
+    font-family: 'Calibri', 'sans-serif';
+    font-style: italic;
+    font-size: 120%;
+}
+
+.dropdown-menu li {
+    position: relative;
+    font-family: 'Georgia', 'sans-serif';
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+/* ============ FIN HEADER ============ */
+
+/* ============ BODY ============ */
+
+body {
+    background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+    height: 200vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.title {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    text-align: justify;
+    font-size: 120%;
+    color: black;
+}
+
+li {
+    font-family: 'Georgia', serif;
+    text-align: justify;
+    font-size: 120%;
+    color: black;
+}
+
+/* ============ FIN BODY ============ */

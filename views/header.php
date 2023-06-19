@@ -57,7 +57,7 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Famille royal</a>
-                            <a class="dropdown-item" href="#">Chornologie</a>
+                            <a class="dropdown-item" href="#">Chronologie</a>
                     </li>
                     <!-- End Dropdown 4-->
 
