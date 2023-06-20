@@ -23,8 +23,7 @@
     <?php require 'header.php' ?>
 
     <body
-        style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);
-        height: 200vh;"
+        style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
     <!--Présentation du pays -->
@@ -33,9 +32,9 @@
     <div class="title"
          style="font-family: 'Georgia', 'Times New Roman', serif;
                 font-size: 40px;
-                color: black"
+                color: #e60000"
     >
-        <h1 class="mt-4 fw-bold text-center">Terre de courage et de ténacité</h1>
+        <h1 class="mt-5 fw-bold text-center mb-5">Terre de courage et de ténacité</h1>
     </div>
     <br>
     <!-- Container -->
