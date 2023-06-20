@@ -38,6 +38,7 @@
         <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
     <br>
+
     <!-- Container 1 - part 1 présentation-->
     <div class="container mt-4 mb-4">
         <div class="row justify-content-center mt-2">
