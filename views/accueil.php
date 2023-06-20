@@ -42,11 +42,13 @@
     <div class="container mt-4 mb-4">
         <div class="row justify-content-center mt-2">
 
+            <!-- image -->
             <div class="col-lg-6">
-                <img src="../public/img/pays_3.png" class="img-fluid mx-auto h-75" alt="carte_viet">
+                <img src="../public/img/pays_3.png" class="img-fluid mx-5 h-75" alt="carte_viet">
             </div>
 
-            <div class="col-md-4">
+            <!-- texte -->
+            <div class="col-md-5">
                 <p class="mt-5"
                    style="font-family: 'Georgia', serif;
                           text-align: justify;
@@ -68,6 +70,8 @@
     <!-- Container 2 - part 2 présentation-->
     <div class="container mt-4 mb-4">
         <div class="row justify-content-center">
+
+            <!-- texte -->
             <div class="col-lg-6">
                 <p class="mt-5"
                    style="font-family: 'Georgia', serif;
@@ -101,8 +105,9 @@
                 </ol>
             </div>
 
+            <!-- image -->
             <div class="col-lg-3">
-                <img src="../public/img/carte_viet_region_2.png" class="img-fluid mx-auto">
+                <img src="../public/img/carte_viet_region_2.png" class="img-fluid mx-auto d-block" alt=carte_viet_region">
             </div>
         </div>
     </div>
