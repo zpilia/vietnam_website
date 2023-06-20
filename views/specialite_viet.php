@@ -92,7 +92,7 @@
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Bò bún</h4>
                                                 <hr>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify">
                                                     Ce plat se compose généralement de vermicelles de riz, accompagné de crudités (carotte, concombre, etc.) et de lamelles de bœuf.
                                                     <br><br>
                                                     Il se mange avec une sauce Nuoc Nam. On peut avoir des cacahuètes concassées ou des oignons frits par-dessus.
@@ -105,10 +105,16 @@
                                     <!-- 3ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <img class="img-fluid" alt="banh_bao" src="../public/img/banh_bao_2.jpg">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <h4 class="card-title text-center">Bánh Bao</h4>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                    Il s’agit d’une brioche farcie de viande, de légumes, d’œufs cuite à la vapeur dans des paniers en
+                                                    bambou.
+                                                    <br><br>
+                                                    Elle existe également en version sucrée garnie de confiture de coco.
+                                                </p>
 
                                             </div>
                                         </div>
@@ -116,8 +122,9 @@
                                     <!-- Fin 3ème post -->
                                 </div>
                             </div>
+                            <!-- Fin 1er page de carousel -->
 
-                            <!-- 2 page de carousel -->
+                            <!-- 2ème page de carousel -->
                             <div class="carousel-item">
                                 <div class="row">
 
@@ -127,7 +134,7 @@
                                             <img class="img-fluid" alt="" src="">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
 
                                             </div>
                                         </div>
@@ -152,13 +159,14 @@
                                             <img class="img-fluid" alt="" src="">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Fin 2ème post -->
+                                    <!-- Fin 3ème post -->
                                 </div>
                             </div>
+                            <!-- Fin 2ème page de carousel -->
 
                             <!-- 3ème page de carousel -->
                             <div class="carousel-item">
@@ -170,7 +178,7 @@
                                             <img class="img-fluid" alt="" src="">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -182,7 +190,7 @@
                                             <img class="img-fluid" alt="" src="">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
 
                                             </div>
                                         </div>
@@ -195,14 +203,14 @@
                                             <img class="img-fluid" alt="" src="">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Fin 1er post -->
-
+                                    <!-- Fin 3ème post -->
                                 </div>
                             </div>
+                            <!-- Fin 3ème page de carousel -->
                         </div>
                     </div>
                 </div>
