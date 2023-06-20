@@ -32,19 +32,23 @@
                 font-size: 40px;
                 color: #e60000"
     >
-        <h1 class="mt-5 fw-bold text-center mt-4">Les différents coutumes</h1>
+        <h1 class="mt-5 fw-bold text-center">Les différents coutumes</h1>
     </div>
 
     <br>
 
     <!-- 1er container ==> 1er publication -->
-    <div class="container ">
+    <div class="container my-auto">
         <br>
-        <div class="row justify-content-center">
-            <div class="col mt-4">
-                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded" style="width:70%; height:auto">
+        <div class="row justify-content-center my-auto">
+
+            <!-- image -->
+            <div class="col my-auto">
+                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded mx-5" style="width:70%; height:auto">
             </div>
-            <div class="col mt-2">
+
+            <!-- texte -->
+            <div class="col my-auto">
                 <h4 class="mb-3" style="font-family: 'Georgia', serif;
                     font-weight: bold;
                     text-align: left;
@@ -67,34 +71,73 @@
         </div>
     </div>
 
-    <br><br>
+    <br>
 
     <!-- 2er container ==> 2er publication -->
-    <div class="container ">
+    <div class="container my-auto">
         <br>
-        <div class="row justify-content-center">
-            <div class="col mt-2">
+        <div class="row justify-content-center my-auto">
+
+            <!-- texte -->
+            <div class="col my-auto">
                 <h4 class="mb-3" style="font-family: 'Georgia', serif;
                     font-weight: bold;
                     text-align: left;
                     color: #ff1a1a"
                 >
-                    Nouvel An - Têt Nguyên Dán
+                    Fête de la mi-automne - Tet Trung Thu
                 </h4>
                 <p style="font-family: 'Georgia', serif;
                           text-align: justify;
                           font-size: 110%;
                           color: black;"
                 >
-                    Le « Tet Nguyen Dan » (le Nouvel An Vietnamien) est célébré au même moment que le Nouvel An chinois, entre mi-janvier et mi-février, selon les années.
-                    Suivant les moyens de la famille, les festivités peuvent durer de 3 à 7 jours.
+                    A l'origine, le Têt Trung Thu était dédié au culte à la lune, dont on espérait une saison florissante.
+                    Aujourd'hui, la fête de la mi-automne est une fête haute en couleurs qui célèbre l'union familiale
+                    et met à l'honneur les enfants, pour qui elle représente la fête la plus importante de l'année.
                     <br><br>
-                    C'est l'occasion pour les vietnamiens de se retrouver autour de copieux repas et de mets festifs.
-                    De petites enveloppes rouges garnies de quelques billets sont également offertes aux plus jeunes et aux aînés, comme autant de promesses de la fortune à venir au cours de l'année.
+                    Célébrée le 15ème jour du 8ème mois lunaire, elle est avant tout un prétexte pour faire la fête en famille
+                    ou entre amis autour de petits morceaux de « gâteau de lune », de chants et de parades illuminées de belles
+                    lanternes en forme d’étoile, d’animal ou de lune.
                 </p>
             </div>
-            <div class="col">
-                <img src="../public/img/tet.jpg" alt="" class="img-fluid rounded" style="width:70%; height:auto">
+
+            <!-- image -->
+            <div class="col my-auto">
+                <img src="../public/img/fete_mi_automne.jpg" alt="fete_mi_automne" class="img-fluid rounded ms-5 mt-2" style="width:70%; height:auto">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- 3eme container ==> 3er publication -->
+    <div class="container my-auto">
+        <br>
+        <div class="row justify-content-center my-auto">
+
+            <!-- image -->
+            <div class="col my-auto">
+                <img src="../public/img/culte_ancetre.jpg" alt="culte_ancetre" class="img-fluid rounded mx-5" style="width:65%; height:auto">
+            </div>
+
+            <!-- texte -->
+            <div class="col my-auto">
+                <h4 class="mb-3" style="font-family: 'Georgia', serif;
+                    font-weight: bold;
+                    text-align: left;
+                    color: #ff1a1a"
+                >
+                    Têt Thanh Minh - l'hommage aux morts
+                </h4>
+                <p class="mt-5" style="font-family: 'Georgia', serif;
+                          text-align: justify;
+                          font-size: 110%;
+                          color: black;"
+                >
+                    Têt Thanh Minh est célébré au cours des premiers jours du 3ème mois lunaire. A cette occasion, les vietnamiens se rendent sur les tombes de leurs ancêtres.
+                    Ils les nettoient et organisent une cérémonie pour leur rendre hommage.
+                </p>
             </div>
         </div>
     </div>
