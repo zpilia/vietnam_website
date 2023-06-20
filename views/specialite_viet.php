@@ -72,10 +72,12 @@
                                             <img class="img-fluid" alt="pho" src="../public/img/pho_4.jpg">
                                             <!-- texte -->
                                             <div class="card-body">
-                                                <h4 class="card-title">Phở</h4>
+                                                <h4 class="card-title text-center">Phở</h4>
+                                                <hr>
                                                 <p class="card-text">
                                                     Cette soupe à base de bouillon de viande et de nouilles de riz est aromatisée avec plusieurs épices et accompagnée de différents ingrédients.
                                                     Tu peux avoir des feuilles de basilic thaï, du piment, du citron vert ou encore de la coriandre.
+                                                    <br><br>
                                                     Il se déguste de partout, du matin au soir. Tu en trouveras à tous les coins de rue !
                                                 </p>
                                             </div>
@@ -86,11 +88,15 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                            <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun_3.jpeg">
                                             <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                                                <h4 class="card-title text-center">Bò bún</h4>
+                                                <hr>
+                                                <p class="card-text">
+                                                    Ce plat se compose généralement de vermicelles de riz, accompagné de crudités (carotte, concombre, etc.) et de lamelles de bœuf.
+                                                    <br><br>
+                                                    Il se mange avec une sauce Nuoc Nam. On peut avoir des cacahuètes concassées ou des oignons frits par-dessus.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
