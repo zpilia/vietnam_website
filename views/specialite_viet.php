@@ -88,7 +88,7 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun_3.jpeg">
+                                            <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun_3.2.jpeg">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Bò bún</h4>
                                                 <hr>
@@ -149,7 +149,7 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="banh_mi" src="../public/img/banh_mi_2.png">
+                                            <img class="img-fluid" alt="banh_mi" src="../public/img/banh_mi_2.4.png">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Bánh mi</h4>
                                                 <hr>
