@@ -74,7 +74,7 @@
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Phở</h4>
                                                 <hr>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify" style="font-size: medium">
                                                     Cette soupe à base de bouillon de viande et de nouilles de riz est aromatisée avec plusieurs épices et accompagnée de différents ingrédients.
                                                     Tu peux avoir des feuilles de basilic thaï, du piment, du citron vert ou encore de la coriandre.
                                                     <br><br>
@@ -131,11 +131,16 @@
                                     <!-- 1er post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <img class="img-fluid" alt="nem" src="../public/img/nem_2.jpg">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
-
+                                                <h4 class="card-title text-center">Nem</h4>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                    Il existe plusieurs types de nem, au porc, au poulet ou bien, avec des crustacés.
+                                                    <br><br>
+                                                    Avec tes nems, il y aura sans doute des feuilles de salade verte dans lesquelles tu peux enrouler le nem,
+                                                    mais également, une sauce épicée !
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
