@@ -74,7 +74,7 @@
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Phở</h4>
                                                 <hr>
-                                                <p class="card-text text-justify" style="font-size: medium">
+                                                <p class="card-text text-justify">
                                                     Cette soupe à base de bouillon de viande et de nouilles de riz est aromatisée avec plusieurs épices et accompagnée de différents ingrédients.
                                                     Tu peux avoir des feuilles de basilic thaï, du piment, du citron vert ou encore de la coriandre.
                                                     <br><br>
@@ -149,10 +149,15 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <img class="img-fluid" alt="banh_mi" src="../public/img/banh_mi_2.png">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <h4 class="card-title text-center">Bánh mi</h4>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                    Ce sandwich est composé de tranches de poulet ou de porc grillés ou de rousong (viande effilochée),
+                                                    de crudités aigres-douces avec concombres et daikons (radis blanc) et toujours, de la coriandre et du
+                                                    piment vert.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -161,9 +166,9 @@
                                     <!-- 3ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <img class="img-fluid" alt="" src="../public/img/">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
+                                                <h4 class="card-title text-center"></h4>
                                                 <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
                                             </div>
                                         </div>
