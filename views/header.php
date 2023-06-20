@@ -33,7 +33,7 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Culture</a>
                                 <div class="dropdown-menu">
                                     <a href="coutume.php" class="dropdown-item">Coutume(s)</a>
-                                    <a href="religion.php" class="dropdown-item">Religion(s)</a>
+                                    <a href="#" class="dropdown-item">Religion(s)</a>
                                 </div>
                             </li>
                             <!-- End Dropdown 1-->
@@ -42,7 +42,7 @@
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cuisine</a>
                                 <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Spécialité(s) Vietnaminne(s)</a>
+                                    <a href="specialite_viet.php" class="dropdown-item">Spécialité(s) Vietnamienne(s)</a>
                                     <a href="#" class="dropdown-item">Recette(s)</a>
                                 </div>
                             </li>
