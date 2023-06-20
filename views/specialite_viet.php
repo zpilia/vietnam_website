@@ -25,8 +25,7 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body oncontextmenu='return false'
-          class='snippet-body'
+    <body 
           style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
@@ -35,7 +34,7 @@
                 font-size: 40px;
                 color: #e60000"
     >
-        <h1 class="mt-5 fw-bold text-center">Les différentes spécilaités vietnamienne</h1>
+        <h1 class="mt-5 fw-bold text-center">Les différentes spéciliatés vietnamienne</h1>
     </div>
 
     <br>
