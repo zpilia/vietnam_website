@@ -23,7 +23,8 @@
     <?php require 'header.php' ?>
 
     <body
-        style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
+        style="
+        background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
     <!--Présentation du pays -->
@@ -34,11 +35,11 @@
                 font-size: 40px;
                 color: #e60000"
     >
-        <h1 class="mt-5 fw-bold text-center mb-5">Terre de courage et de ténacité</h1>
+        <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
     </div>
     <br>
-    <!-- Container -->
-    <div class="container mt-4 mb-5">
+    <!-- Container 1 - part 1 présentation-->
+    <div class="container mt-4 mb-4">
         <div class="row justify-content-center mt-2">
 
             <div class="col-lg-6">
@@ -61,46 +62,50 @@
                     Le Vietnam est constitué de trois grands ensembles : le Vietnam septentrional, central et méridional.
                 </p>
             </div>
+        </div>
+    </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <p class="mt-5"
-                       style="font-family: 'Georgia', serif;
+    <!-- Container 2 - part 2 présentation-->
+    <div class="container mt-4 mb-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <p class="mt-5"
+                   style="font-family: 'Georgia', serif;
                           text-align: justify;
                           font-size: 110%;
                           color: black;"
-                    >
-                        Les différentes régions du pays :
-                    </p>
-                    <ol class="mt-4"
-                        style="font-family: 'Georgia', serif;
+                >
+                    Les différentes régions du pays :
+                </p>
+                <ol class="mt-4"
+                    style="font-family: 'Georgia', serif;
                                text-align: justify;
                                font-size: 110%;
                                color: black;"
-                    >
-                        <li>Le Nord-ouest (Tây Bắc)</li>
-                        <br>
-                        <li>Le Nord-est (Đông Bắc)</li>
-                        <br>
-                        <li>Le Delta du Fleuve Rouge (Đồng bằng sông Hồng)</li>
-                        <br>
-                        <li>La Côte centrale du Nord (Bắc Trung Bộ)</li>
-                        <br>
-                        <li>La Côte centrale du sud (Nam Trung Bộ)</li>
-                        <br>
-                        <li>Les Montagnes Centrales (Tây Nguyên)</li>
-                        <br>
-                        <li>Le Sud-est (Đông Nam Bộ)</li>
-                        <br>
-                        <li>Le Delta du Mékong (Đồng bằng sông Cửu Long)</li>
-                    </ol>
-                </div>
+                >
+                    <li>Le Nord-ouest (Tây Bắc)</li>
+                    <br>
+                    <li>Le Nord-est (Đông Bắc)</li>
+                    <br>
+                    <li>Le Delta du Fleuve Rouge (Đồng bằng sông Hồng)</li>
+                    <br>
+                    <li>La Côte centrale du Nord (Bắc Trung Bộ)</li>
+                    <br>
+                    <li>La Côte centrale du sud (Nam Trung Bộ)</li>
+                    <br>
+                    <li>Les Montagnes Centrales (Tây Nguyên)</li>
+                    <br>
+                    <li>Le Sud-est (Đông Nam Bộ)</li>
+                    <br>
+                    <li>Le Delta du Mékong (Đồng bằng sông Cửu Long)</li>
+                </ol>
+            </div>
 
-                <div class="col-lg-3">
-                    <img src="../public/img/carte_viet_region_2.png" class="img-fluid mx-auto">
-                </div>
+            <div class="col-lg-3">
+                <img src="../public/img/carte_viet_region_2.png" class="img-fluid mx-auto">
             </div>
         </div>
+    </div>
 
     </body>
 

@@ -23,13 +23,14 @@
     <?php require 'header.php' ?>
 
     <body
-        style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
+        style="
+        background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
     <div class="title"
          style="font-family: 'Georgia', 'Times New Roman', serif;
                 font-size: 40px;
-                color: black"
+                color: #e60000"
     >
         <h1 class="mt-5 fw-bold text-center mt-4">Les différents coutumes</h1>
     </div>
@@ -40,19 +41,20 @@
     <div class="container ">
         <br>
         <div class="row justify-content-center">
-            <div class="col">
+            <div class="col mt-4">
                 <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded" style="width:70%; height:auto">
             </div>
             <div class="col mt-2">
-                <h3 style="font-family: 'Georgia', serif;
+                <h4 class="mb-3" style="font-family: 'Georgia', serif;
+                    font-weight: bold;
                     text-align: left;
-                    color: black"
+                    color: #ff1a1a"
                 >
                     Nouvel An - Têt Nguyên Dán
-                </h3>
+                </h4>
                 <p style="font-family: 'Georgia', serif;
                           text-align: justify;
-                          font-size: 120%;
+                          font-size: 110%;
                           color: black;"
                 >
                     Le « Tet Nguyen Dan » (le Nouvel An Vietnamien) est célébré au même moment que le Nouvel An chinois, entre mi-janvier et mi-février, selon les années.
@@ -69,21 +71,19 @@
 
     <!-- 2er container ==> 2er publication -->
     <div class="container ">
-        <h3 style="font-family: 'Georgia', serif;
-                    text-align: center;
-                    color: black"
-        >
-            Nouvel An - Têt Nguyên Dán
-        </h3>
         <br>
         <div class="row justify-content-center">
-            <div class="col">
-                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded" style="width:70%; height:auto">
-            </div>
             <div class="col mt-2">
+                <h4 class="mb-3" style="font-family: 'Georgia', serif;
+                    font-weight: bold;
+                    text-align: left;
+                    color: #ff1a1a"
+                >
+                    Nouvel An - Têt Nguyên Dán
+                </h4>
                 <p style="font-family: 'Georgia', serif;
                           text-align: justify;
-                          font-size: 120%;
+                          font-size: 110%;
                           color: black;"
                 >
                     Le « Tet Nguyen Dan » (le Nouvel An Vietnamien) est célébré au même moment que le Nouvel An chinois, entre mi-janvier et mi-février, selon les années.
@@ -92,6 +92,9 @@
                     C'est l'occasion pour les vietnamiens de se retrouver autour de copieux repas et de mets festifs.
                     De petites enveloppes rouges garnies de quelques billets sont également offertes aux plus jeunes et aux aînés, comme autant de promesses de la fortune à venir au cours de l'année.
                 </p>
+            </div>
+            <div class="col">
+                <img src="../public/img/tet.jpg" alt="" class="img-fluid rounded" style="width:70%; height:auto">
             </div>
         </div>
     </div>
