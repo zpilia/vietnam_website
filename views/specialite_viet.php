@@ -88,7 +88,7 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun_3.2.jpeg">
+                                            <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun.jpg">
                                             <div class="card-body">
                                                 <h4 class="card-title text-center">Bò bún</h4>
                                                 <hr>
