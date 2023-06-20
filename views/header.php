@@ -27,15 +27,17 @@
                             <li class="nav-item">
                                 <a href="accueil.php" class="nav-link">Accueil</a>
                             </li>
+
                             <!-- Dropdown 1-->
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Culture</a>
-                                <div class="dropdown-menu" style="">
+                                <div class="dropdown-menu">
                                     <a href="coutume.php" class="dropdown-item">Coutume(s)</a>
-                                    <a href="#" class="dropdown-item">Religion(s)</a>
+                                    <a href="religion.php" class="dropdown-item">Religion(s)</a>
                                 </div>
                             </li>
                             <!-- End Dropdown 1-->
+
                             <!-- Dropdown 2-->
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cuisine</a>
@@ -45,6 +47,7 @@
                                 </div>
                             </li>
                             <!-- End Dropdown 2-->
+
                             <!-- Dropdown 3-->
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">A visiter</a>
@@ -53,6 +56,7 @@
                                 </div>
                             </li>
                             <!-- End Dropdown 3-->
+
                             <!-- Dropdown 4-->
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Histoire</a>
@@ -62,6 +66,7 @@
                                 </div>
                             </li>
                             <!-- End Dropdown 4-->
+
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Contact</a>
                             </li>
