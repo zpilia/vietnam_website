@@ -52,7 +52,7 @@
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">A visiter</a>
                                 <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Incontournables</a>
+                                    <a href="incontournable.php" class="dropdown-item">Incontournables</a>
                                 </div>
                             </li>
                             <!-- End Dropdown 3-->
