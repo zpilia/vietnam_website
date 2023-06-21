@@ -36,9 +36,30 @@
         <h1 class="mt-5 fw-bold text-center">Les religions pratiquées</h1>
     </div>
 
-    <div>
-        
-    </div>
+    <!-- 1er container -->
+    <div class="container">
+        <!-- 1er post -->
+        <div class="row wow fadeIn mt-5">
+            <div class="col-lg-7">
+                <!-- image -->
+                <div class="view overlay hm-white-light z-depth-1-half">
+                    <img src="../public/img/culte_ancetre.jpg" class="img-fluid" alt="culte_ancetre">
+                    <div class="mask">
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <!-- information -->
+            <div class="col-lg-5">
+                <h2 class="h2-responsive">We are professionals</h2>
+                <hr>
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                <a href="" class="btn btn-info">Contact</a>
+            </div>
+        </div>
+        <!-- Fin 1er post-->
+
 
     </body>
 
