@@ -104,7 +104,7 @@
 
     <!-- 3ème container -->
     <div class="container">
-        <!-- 1er post -->
+        <!-- 3ème post -->
         <div class="row gx-5 wow fadeIn mt-5">
             <!-- image -->
             <div class="col-lg-6 my-auto">
