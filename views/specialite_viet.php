@@ -72,9 +72,12 @@
                                                 <img class="img-fluid" alt="pho" src="../public/img/pho_4.jpg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Phở</h4>
+                                                    <h4 class="card-title text-center text-dark">Phở</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Cette soupe à base de bouillon de viande et de nouilles de riz est aromatisée avec plusieurs épices et accompagnée de différents ingrédients.
                                                         Tu peux avoir des feuilles de basilic thaï, du piment, du citron vert ou encore de la coriandre.
                                                         <br><br>
@@ -92,9 +95,12 @@
                                                 <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun.jpg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Bò bún</h4>
+                                                    <h4 class="card-title text-center text-dark">Bò bún</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Ce plat se compose généralement de vermicelles de riz, accompagné de crudités (carotte, concombre, etc.) et de lamelles de bœuf.
                                                         <br><br>
                                                         Il se mange avec une sauce Nuoc Nam. On peut avoir des cacahuètes concassées ou des oignons frits par-dessus.
@@ -113,7 +119,10 @@
                                                     <!-- Texte -->
                                                     <h4 class="card-title text-center">Bánh Bao</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify text-dark" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Il s’agit d’une brioche farcie de viande, de légumes, d’œufs cuite à la vapeur dans des paniers en
                                                         bambou.
                                                         <br><br>
@@ -138,9 +147,12 @@
                                                 <img class="img-fluid" alt="nem" src="../public/img/nem_2.jpg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Nem</h4>
+                                                    <h4 class="card-title text-center text-dark">Nem</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Il existe plusieurs types de nem, au porc, au poulet ou bien, avec des crustacés.
                                                         <br><br>
                                                         Avec tes nems, il y aura sans doute des feuilles de salade verte dans lesquelles tu peux enrouler le nem,
@@ -158,9 +170,12 @@
                                                 <img class="img-fluid" alt="banh_mi" src="../public/img/banh_mi_2.4.png">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Bánh mi</h4>
+                                                    <h4 class="card-title text-center text-dark">Bánh mi</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Ce sandwich est composé de tranches de poulet ou de porc grillés ou de rousong (viande effilochée),
                                                         de crudités aigres-douces avec concombres et daikons (radis blanc) et toujours, de la coriandre et du
                                                         piment vert.
@@ -179,7 +194,10 @@
                                                     <!-- Texte -->
                                                     <h4 class="card-title text-center">Bánh xèo</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify text-dark" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Le bánh xèo est une crêpe croustillante farcie de viande, de crevettes et de légumes.
                                                         On la reconnaît par sa couleur jaune.
                                                         <br><br>
@@ -204,9 +222,12 @@
                                                 <img class="img-fluid" alt="bun_cha" src="../public/img/bun_cha.jpg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Bun Cha Ha Noi</h4>
+                                                    <h4 class="card-title text-center text-dark">Bun Cha Ha Noi</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Il s’agit de porc grillé, que l’on trempe souvent dans le nuoc mam et que l’on sert accompagné de
                                                         vermicelles de riz, ainsi que bien entendu de différentes menthes.
                                                     </p>
@@ -222,9 +243,12 @@
                                                 <img class="img-fluid" alt="bun_bo_hue" src="../public/img/banh_bun_hue_2.jpeg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Bún bò Huế</h4>
+                                                    <h4 class="card-title text-center text-dark">Bún bò Huế</h4>
                                                     <hr>
-                                                    <p class="card-text text-justify">
+                                                    <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                              text-align: justify;
+                                                                                              font-size: 100%;
+                                                                                              color: black;">
                                                         Il est composé d’un bouillon épicé et pimenté, de vermicelles de riz (bún), de bœuf (bò) et de
                                                         différentes épices.
                                                     </p>

@@ -36,14 +36,15 @@
         <h1 class="mt-5 fw-bold text-center">Les religions pratiquées</h1>
     </div>
 
+
     <!-- 1er container -->
     <div class="container">
         <!-- 1er post -->
         <div class="row wow fadeIn mt-5">
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <!-- image -->
                 <div class="view overlay hm-white-light z-depth-1-half">
-                    <img src="../public/img/culte_ancetre.jpg" class="img-fluid h-75" alt="culte_ancetre">
+                    <img src="../public/img/culte_ancetre_3.jpg.png" class="img-fluid" alt="culte_ancetre">
                     <div class="mask">
                     </div>
                 </div>
@@ -52,13 +53,45 @@
 
             <!-- information -->
             <div class="col-lg-5">
-                <h2 class="h2-responsive">We are professionals</h2>
+                <h2 class="h2-responsive text-dark">Culte des ancêtres</h2>
                 <hr>
-                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                <a href="" class="btn btn-info">Contact</a>
+                <p style="font-family: 'Georgia', serif;
+                              text-align: justify;
+                              font-size: 100%;
+                              color: black;">
+                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                </p>
             </div>
         </div>
         <!-- Fin 1er post-->
+    </div>
+    <!-- Fin 1er container -->
+
+
+        <!-- 2ème container -->
+        <div class="container">
+            <!-- 2ème post -->
+            <div class="row wow fadeIn mt-5">
+                <div class="col-lg-7">
+                    <h2 class="h2-responsive">We are professionals</h2>
+                    <hr>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <br>
+                </div>
+
+                <!-- information -->
+                <div class="col-lg-5">
+                    <!-- image -->
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="../public/img/culte_ancetre_3.jpg.png" class="img-fluid" alt="culte_ancetre">
+                        <div class="mask">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin 2ème post-->
+        </div>
+    <!-- Fin 2ème container -->
 
 
     </body>
