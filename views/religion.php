@@ -43,7 +43,7 @@
             <div class="col-lg-7">
                 <!-- image -->
                 <div class="view overlay hm-white-light z-depth-1-half">
-                    <img src="../public/img/culte_ancetre.jpg" class="img-fluid" alt="culte_ancetre">
+                    <img src="../public/img/culte_ancetre.jpg" class="img-fluid h-75" alt="culte_ancetre">
                     <div class="mask">
                     </div>
                 </div>
