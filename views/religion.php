@@ -38,12 +38,12 @@
 
 
     <!-- 1er container -->
-    <div class="container">
+    <div class="container mt-5">
         <!-- 1er post -->
-        <div class="row gx-5 wow fadeIn mt-5">
+        <div class="row gx-5 wow fadeIn">
             <!-- image -->
             <div class="col-lg-6 my-auto">
-                <div class="view overlay">
+                <div class="view overlay my-auto">
                     <img src="../public/img/culte_ancetre_3.jpg.png" class="img-fluid" alt="culte_ancetre">
                     <div class="mask">
                     </div>
@@ -70,10 +70,15 @@
     </div>
     <!-- Fin 1er container -->
 
+    <!-- container ligne séparation -->
+    <div class="container mt-4 mb-4">
+        <hr>
+    </div>
+
     <!-- 2ème container -->
         <div class="container">
             <!-- 2ème post -->
-            <div class="row gx-5 wow fadeIn mt-5">
+            <div class="row gx-5 wow fadeIn">
                 <!-- information -->
                 <div class="col-lg-6 my-auto">
                     <h2 class="h2-responsive text-dark">Bouddhisme</h2>
@@ -87,12 +92,11 @@
                         <br><br>
                         Le but de cette philosophie est de sortir du cycle des réincarnations et accéder au nirvana (affranchissement éternel de la succession d'épreuves qu'est la vie terrestre) ...
                     </p>
-                    <br>
                 </div>
                 <!-- image -->
                 <div class="col-lg-5 my-auto">
-                    <div class="view overlay">
-                        <img src="../public/img/bouddhisme_2.jpg" class="img-fluid mx-5" alt="bouddhisme">
+                    <div class="view overlay mx-5">
+                        <img src="../public/img/bouddhisme_2.jpg" class="img-fluid" alt="bouddhisme">
                         <div class="mask">
                         </div>
                     </div>
@@ -102,14 +106,19 @@
         </div>
     <!-- Fin 2ème container -->
 
+    <!-- container ligne séparation -->
+    <div class="container">
+        <hr>
+    </div>
+
     <!-- 3ème container -->
     <div class="container">
         <!-- 3ème post -->
-        <div class="row gx-5 wow fadeIn mt-5">
+        <div class="row gx-5 wow fadeIn">
             <!-- image -->
             <div class="col-lg-6 my-auto">
-                <div class="view overlay">
-                    <img src="../public/img/confucianisme.jpg" class="img-fluid" alt="confucianisme">
+                <div class="view overlay my-auto">
+                    <img src="../public/img/confucianisme.jpg" class="img-fluid my-5" alt="confucianisme">
                     <div class="mask">
                     </div>
                 </div>
@@ -134,6 +143,83 @@
         <!-- Fin 1er post-->
     </div>
     <!-- Fin 3ème container -->
+
+    <!-- container ligne séparation -->
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- 4ème container -->
+    <div class="container mt-4">
+        <!-- 4ème post -->
+        <div class="row gx-5 wow fadeIn">
+            <!-- information -->
+            <div class="col-lg-6 my-auto">
+                <h2 class="h2-responsive text-dark">Taoïsme</h2>
+                <hr>
+                <p style="font-family: 'Georgia', serif;
+                              text-align: justify;
+                              font-size: 100%;
+                              color: black;">
+                    Avant d'être une religion, le taoïsme est d'abord une très belle leçon de sagesse orientale élaborée par un Chinois nommé Lao-tseu.
+                    <br><br>
+                    Ainsi naquit le Tao Te King (Dao De Jing) ou Livre de la Voie et de la Vertu. Cet ouvrage de 5 000 caractères constitue l’un des plus petits livres de Sagesse qui soient
+                    par sa taille, mais l’un des plus grands par la qualité de ses pensées et réflexions ! C’est la bible du taoïsme.
+                    <br><br>
+                    Le monde est régi par 2 principes contradictoires complémentaires : le yin et le yang.
+                    Le yin représente le côté féminin, passif, réceptif, l’obscurité, et le mou. Le yang, lui, incarne au contraire le principe masculin, actif, créatif, la clarté et la dureté.
+                    L’harmonie du yin et du yang donne le Tao, qui est une mutation perpétuelle.
+                </p>
+            </div>
+            <!-- image -->
+            <div class="col-lg-5 my-auto">
+                <div class="view overlay my-auto">
+                    <img src="../public/img/taoïsme.jpg" class="img-fluid mx-5" alt="taoisme">
+                    <div class="mask">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin 2ème post-->
+    </div>
+    <!-- Fin 4ème container -->
+
+    <!-- container ligne séparation -->
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- 5ème container -->
+    <div class="container mt-4">
+        <!-- 3ème post -->
+        <div class="row gx-5 wow fadeIn">
+            <!-- image -->
+            <div class="col-lg-6 my-auto">
+                <div class="view overlay my-auto">
+                    <img src="../public/img/" class="img-fluid my-5" alt="christianisme">
+                    <div class="mask">
+                    </div>
+                </div>
+            </div>
+
+            <!-- information -->
+            <div class="col-lg-6 my-auto">
+                <h2 class="h2-responsive text-dark">Christianisme</h2>
+                <hr>
+                <p style="font-family: 'Georgia', serif;
+                              text-align: justify;
+                              font-size: 100%;
+                              color: black;">
+                    Les catholiques forment la 2e communauté religieuse, le Vietnam étant le 2e pays catholique d'Asie (avec 7 à 8 % de la population) après les Philippines.
+                    <br><br>
+                    Depuis 1975, les catholiques vivent en liberté surveillée. Le culte est autorisé. Mais les messes et les ordinations sont soumises à l'autorisation du gouvernement.
+                    Depuis l’ouverture du pays et sa relative libéralisation politique, l’avenir semble moins sombre pour les catholiques vietnamiens.
+                </p>
+            </div>
+        </div>
+        <!-- Fin 1er post-->
+    </div>
+    <!-- Fin 5ème container -->
 
     </body>
 
