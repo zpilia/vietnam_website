@@ -52,7 +52,9 @@
 
             <!-- information -->
             <div class="col-lg-6 my-auto">
-                <h2 class="h2-responsive text-dark">Culte des ancêtres</h2>
+                <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    Culte des ancêtres
+                </h2>
                 <hr>
                 <p style="font-family: 'Georgia', serif;
                               text-align: justify;
@@ -81,7 +83,9 @@
             <div class="row gx-5 wow fadeIn">
                 <!-- information -->
                 <div class="col-lg-6 my-auto">
-                    <h2 class="h2-responsive text-dark">Bouddhisme</h2>
+                    <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                        Bouddhisme
+                    </h2>
                     <hr>
                     <p style="font-family: 'Georgia', serif;
                               text-align: justify;
@@ -126,7 +130,9 @@
 
             <!-- information -->
             <div class="col-lg-6 my-auto">
-                <h2 class="h2-responsive text-dark">Confucianisme</h2>
+                <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    Confucianisme
+                </h2>
                 <hr>
                 <p style="font-family: 'Georgia', serif;
                               text-align: justify;
@@ -155,7 +161,9 @@
         <div class="row gx-5 wow fadeIn">
             <!-- information -->
             <div class="col-lg-6 my-auto">
-                <h2 class="h2-responsive text-dark">Taoïsme</h2>
+                <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    Taoïsme
+                </h2>
                 <hr>
                 <p style="font-family: 'Georgia', serif;
                               text-align: justify;
@@ -190,13 +198,13 @@
     </div>
 
     <!-- 5ème container -->
-    <div class="container mt-4">
+    <div class="container">
         <!-- 3ème post -->
         <div class="row gx-5 wow fadeIn">
             <!-- image -->
             <div class="col-lg-6 my-auto">
                 <div class="view overlay my-auto">
-                    <img src="../public/img/" class="img-fluid my-5" alt="christianisme">
+                    <img src="../public/img/christianisme_3.jpg" class="img-fluid my-5" alt="christianisme">
                     <div class="mask">
                     </div>
                 </div>
@@ -204,7 +212,9 @@
 
             <!-- information -->
             <div class="col-lg-6 my-auto">
-                <h2 class="h2-responsive text-dark">Christianisme</h2>
+                <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    Christianisme
+                </h2>
                 <hr>
                 <p style="font-family: 'Georgia', serif;
                               text-align: justify;
