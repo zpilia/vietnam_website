@@ -118,7 +118,7 @@
 
             <!-- image -->
             <div class="col my-auto">
-                <img src="../public/img/m" alt="mort" class="img-fluid rounded mx-5" style="width:65%; height:auto">
+                <img src="../public/img/mort_3.jpg" alt="mort" class="img-fluid rounded mx-5" style="width:65%; height:auto">
             </div>
 
             <!-- texte -->
