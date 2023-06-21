@@ -223,6 +223,7 @@
                                             <div class="card-body">
                                                 <!-- Texte -->
                                                 <h4 class="card-title text-center">Bún bò Huế</h4>
+                                                <hr>
                                                 <p class="card-text text-justify">
                                                     Il est composé d’un bouillon épicé et pimenté, de vermicelles de riz (bún), de bœuf (bò) et de
                                                     différentes épices.
