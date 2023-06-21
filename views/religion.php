@@ -86,7 +86,6 @@
                         (vers 560-483 av. J.-C.), prince de la tribu des Sakya, connu sous le nom de Bouddha "l'Illuminé".
                         <br><br>
                         Le but de cette philosophie est de sortir du cycle des réincarnations et accéder au nirvana (affranchissement éternel de la succession d'épreuves qu'est la vie terrestre) ...
-
                     </p>
                     <br>
                 </div>
@@ -103,6 +102,38 @@
         </div>
     <!-- Fin 2ème container -->
 
+    <!-- 3ème container -->
+    <div class="container">
+        <!-- 1er post -->
+        <div class="row gx-5 wow fadeIn mt-5">
+            <!-- image -->
+            <div class="col-lg-6 my-auto">
+                <div class="view overlay">
+                    <img src="../public/img/confucianisme.jpg" class="img-fluid" alt="confucianisme">
+                    <div class="mask">
+                    </div>
+                </div>
+            </div>
+
+            <!-- information -->
+            <div class="col-lg-6 my-auto">
+                <h2 class="h2-responsive text-dark">Confucianisme</h2>
+                <hr>
+                <p style="font-family: 'Georgia', serif;
+                              text-align: justify;
+                              font-size: 100%;
+                              color: black;">
+                    Difficile de parler de religion transcendante avec le confucianisme qui ne se réfère à aucun dieu mais instaure une philosophie morale basée sur le respect de la
+                    hiérarchie familiale et sociale, la bonté naturelle de l’homme et sa capacité à se perfectionner.
+                    <br><br>
+                    Inventé par Confucius (551-479 av. J.-C.), le confucianisme ne se préoccupe pas des origines du monde, ni des fins dernières de l'homme, mais il édicte un code moral basé sur 5 vertus :
+                    l'humanisme, l'équité, l'urbanité, l'intelligence et l'honnêteté.
+                </p>
+            </div>
+        </div>
+        <!-- Fin 1er post-->
+    </div>
+    <!-- Fin 3ème container -->
 
     </body>
 
