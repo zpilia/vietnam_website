@@ -35,7 +35,7 @@
                 font-size: 40px;
                 color: #e60000"
     >
-        <h1 class="mt-5 fw-bold text-center">Les différentes spéciliatés vietnamienne</h1>
+        <h1 class="mt-5 fw-bold text-center">Les différentes spécialités vietnamiennes</h1>
     </div>
 
     <br>
