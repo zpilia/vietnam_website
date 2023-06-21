@@ -25,8 +25,8 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-          style="background: linear-gradient(-45deg, #ffff00, #a7ddf1, #70db70);"
+    <body style="
+        background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
     <!-- Titre -->
@@ -227,8 +227,6 @@
             </div>
         </div>
     </section>
-
-
 
     </body>
 
