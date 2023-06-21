@@ -40,26 +40,29 @@
     <!-- 1er container -->
     <div class="container">
         <!-- 1er post -->
-        <div class="row wow fadeIn mt-5">
-            <div class="col-lg-6">
-                <!-- image -->
-                <div class="view overlay hm-white-light z-depth-1-half">
+        <div class="row gx-5 wow fadeIn mt-5">
+            <!-- image -->
+            <div class="col-lg-6 my-auto">
+                <div class="view overlay">
                     <img src="../public/img/culte_ancetre_3.jpg.png" class="img-fluid" alt="culte_ancetre">
                     <div class="mask">
                     </div>
                 </div>
-                <br>
             </div>
 
             <!-- information -->
-            <div class="col-lg-5">
+            <div class="col-lg-6 my-auto">
                 <h2 class="h2-responsive text-dark">Culte des ancêtres</h2>
                 <hr>
                 <p style="font-family: 'Georgia', serif;
                               text-align: justify;
                               font-size: 100%;
                               color: black;">
-                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                    Le culte des ancêtres est le trait le plus saillant de la vie spirituelle vietnamienne.
+                    Si un homme meurt sans descendance, si l’encens ne brûle plus sur l’autel, les âmes des disparus sont condamnées à une errance éternelle, faute d’être honorées aux dates anniversaires.
+                    <br><br>
+                    Dans chaque maison vietnamienne, l’autel des ancêtres occupe une place importante, il est le cœur du foyer.
+                    Lorsqu’un Vietnamien décède, les membres de sa famille se ceignent la tête d’un bandeau blanc, couleur du deuil dans ce pays.
                 </p>
             </div>
         </div>
@@ -67,23 +70,30 @@
     </div>
     <!-- Fin 1er container -->
 
-
-        <!-- 2ème container -->
+    <!-- 2ème container -->
         <div class="container">
             <!-- 2ème post -->
-            <div class="row wow fadeIn mt-5">
-                <div class="col-lg-7">
-                    <h2 class="h2-responsive">We are professionals</h2>
+            <div class="row gx-5 wow fadeIn mt-5">
+                <!-- information -->
+                <div class="col-lg-6 my-auto">
+                    <h2 class="h2-responsive text-dark">Bouddhisme</h2>
                     <hr>
-                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p style="font-family: 'Georgia', serif;
+                              text-align: justify;
+                              font-size: 100%;
+                              color: black;">
+                        Le bouddhisme est largement défini non pas comme une religion mais plutôt comme une philosophie orientale, fondée en Inde par Siddhârta Gautama
+                        (vers 560-483 av. J.-C.), prince de la tribu des Sakya, connu sous le nom de Bouddha "l'Illuminé".
+                        <br><br>
+                        Le but de cette philosophie est de sortir du cycle des réincarnations et accéder au nirvana (affranchissement éternel de la succession d'épreuves qu'est la vie terrestre) ...
+
+                    </p>
                     <br>
                 </div>
-
-                <!-- information -->
-                <div class="col-lg-5">
-                    <!-- image -->
-                    <div class="view overlay hm-white-light z-depth-1-half">
-                        <img src="../public/img/culte_ancetre_3.jpg.png" class="img-fluid" alt="culte_ancetre">
+                <!-- image -->
+                <div class="col-lg-5 my-auto">
+                    <div class="view overlay">
+                        <img src="../public/img/bouddhisme_2.jpg" class="img-fluid mx-5" alt="bouddhisme">
                         <div class="mask">
                         </div>
                     </div>
