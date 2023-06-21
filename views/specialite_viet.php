@@ -67,11 +67,11 @@
 
                                     <!-- 1er post -->
                                     <div class="col-md-4 mb-3">
-                                        <!-- image -->
                                         <div class="card">
+                                            <!-- Image -->
                                             <img class="img-fluid" alt="pho" src="../public/img/pho_4.jpg">
-                                            <!-- texte -->
                                             <div class="card-body">
+                                                <!-- Texte -->
                                                 <h4 class="card-title text-center">Phở</h4>
                                                 <hr>
                                                 <p class="card-text text-justify">
@@ -88,8 +88,10 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
+                                            <!-- Image -->
                                             <img class="img-fluid" alt="bon_bun" src="../public/img/bo_bun.jpg">
                                             <div class="card-body">
+                                                <!-- Texte -->
                                                 <h4 class="card-title text-center">Bò bún</h4>
                                                 <hr>
                                                 <p class="card-text text-justify">
@@ -105,8 +107,10 @@
                                     <!-- 3ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
+                                            <!-- Image -->
                                             <img class="img-fluid" alt="banh_bao" src="../public/img/banh_bao_2.jpg">
                                             <div class="card-body">
+                                                <!-- Texte -->
                                                 <h4 class="card-title text-center">Bánh Bao</h4>
                                                 <hr>
                                                 <p class="card-text text-justify">
@@ -115,7 +119,6 @@
                                                     <br><br>
                                                     Elle existe également en version sucrée garnie de confiture de coco.
                                                 </p>
-
                                             </div>
                                         </div>
                                     </div>
@@ -131,8 +134,10 @@
                                     <!-- 1er post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
+                                            <!-- Image -->
                                             <img class="img-fluid" alt="nem" src="../public/img/nem_2.jpg">
                                             <div class="card-body">
+                                                <!-- Texte -->
                                                 <h4 class="card-title text-center">Nem</h4>
                                                 <hr>
                                                 <p class="card-text text-justify">
@@ -149,8 +154,10 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
+                                            <!-- Image -->
                                             <img class="img-fluid" alt="banh_mi" src="../public/img/banh_mi_2.4.png">
                                             <div class="card-body">
+                                                <!-- Texte -->
                                                 <h4 class="card-title text-center">Bánh mi</h4>
                                                 <hr>
                                                 <p class="card-text text-justify">
@@ -166,10 +173,18 @@
                                     <!-- 3ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="../public/img/">
+                                            <!-- Image -->
+                                            <img class="img-fluid" alt="banh_xeo" src="../public/img/banh_xeo_2.jpg">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center"></h4>
-                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
+                                                <!-- Texte -->
+                                                <h4 class="card-title text-center">Bánh xèo</h4>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                    Le bánh xèo est une crêpe croustillante farcie de viande, de crevettes et de légumes.
+                                                    On la reconnaît par sa couleur jaune.
+                                                    <br><br>
+                                                    La pâte est composée de farine de riz, de lait de coco et de curcuma.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -185,10 +200,16 @@
                                     <!-- 1er post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <!-- Image -->
+                                            <img class="img-fluid" alt="bun_cha" src="../public/img/bun_cha.jpg">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
+                                                <!-- Texte -->
+                                                <h4 class="card-title text-center">Bun Cha Ha Noi</h4>
+                                                <hr>
+                                                <p class="card-text text-justify">
+                                                    Il s’agit de porc grillé, que l’on trempe souvent dans le nuoc mam et que l’on sert accompagné de
+                                                    vermicelles de riz, ainsi que bien entendu de différentes menthes.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -197,27 +218,19 @@
                                     <!-- 2ème post -->
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="" src="">
+                                            <!-- Image -->
+                                            <img class="img-fluid" alt="bun_bo_hue" src="../public/img/banh_bun_hue_2.jpeg">
                                             <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
-
+                                                <!-- Texte -->
+                                                <h4 class="card-title text-center">Bún bò Huế</h4>
+                                                <p class="card-text text-justify">
+                                                    Il est composé d’un bouillon épicé et pimenté, de vermicelles de riz (bún), de bœuf (bò) et de
+                                                    différentes épices.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- Fin 2ème post -->
-
-                                    <!-- 3ème post -->
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="" src="">
-                                            <div class="card-body">
-                                                <h4 class="card-title text-center">Special title treatment</h4>
-                                                <p class="card-text text-justify">With supporting text below as a natural lead-in to additional content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Fin 3ème post -->
                                 </div>
                             </div>
                             <!-- Fin 3ème page de carousel -->
