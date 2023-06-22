@@ -190,7 +190,7 @@
                                                 <img class="img-fluid" alt="banh_xeo" src="../public/img/banh_xeo_2.jpg">
                                                 <div class="card-body">
                                                     <!-- Texte -->
-                                                    <h4 class="card-title text-center">Bánh xèo</h4>
+                                                    <h4 class="card-title text-center text-dark">Bánh xèo</h4>
                                                     <hr>
                                                     <p class="card-text text-justify text-dark" style="font-family: 'Georgia', serif;
                                                                                               text-align: justify;
