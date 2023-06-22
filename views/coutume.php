@@ -32,7 +32,7 @@
                         font-size: 40px;
                         color: #e60000"
     >
-        <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
+        <h1 class="mt-4 fw-bold text-center">Les fêtes et les lunes</h1>
     </div>
 
 

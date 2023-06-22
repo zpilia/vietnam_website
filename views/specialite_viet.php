@@ -35,7 +35,7 @@
                         font-size: 40px;
                         color: #e60000"
         >
-            <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
+            <h1 class="mt-4 fw-bold text-center">Les plus grandes spécialités vietnamiennes</h1>
         </div>
 
         <!-- section ==> carousel avec chaque plat + image  -->
