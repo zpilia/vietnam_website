@@ -25,266 +25,331 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body style="
-            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body style="background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);">
 
-    <!-- Titre -->
-    <div class="title"
-         style="font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 40px;
-                        color: #e60000"
-    >
-        <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
-    </div>
-
-    <div class="container mt-4">
-        <div class="row ">
-
-            <!-- 1er post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" alt="hanoi"/>
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 1er post -->
-
-            <!-- 2ème post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 2ème post -->
-
-            <!-- 3ème post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 3ème post -->
-
+        <!-- Titre -->
+        <div class="title"
+             style="font-family: 'Georgia', 'Times New Roman', serif;
+                            font-size: 40px;
+                            color: #e60000"
+        >
+            <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
         </div>
-    </div>
 
-    <div class="container mt-4">
-        <div class="row ">
+        <!-- 1ère ligne -->
+        <div class="container mt-4">
+            <div class="row ">
 
-            <!-- 1er post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
+                <!-- 1er post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/hanoi.jpg" class="img-fluid" alt="hanoi"/>
+                        </div>
 
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h4 class="card-title text-dark">Hanoi</h4>
+                            <hr>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                La capitale vietnamienne est connue pour son ambiance si particulière, typiquement vietnamienne avec son agitation
+                                et son ébullition qui est séduit par sa richesse culturelle dont le Temple de la Littérature,
+                                le lac Hoan Kiem, le Mausolée Ho Chi Minh ou son formidable musée d’Ethnographie ne sont que quelques-uns des sites culturels emblématiques de la ville.
+                            </p>
+                            <hr>
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Button</button>
 
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 1er post -->
+                            <!-- Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <!-- Modal body -->
+                                        <div class="modal-body mb-0 p-0">
+                                            <!-- Google Maps -->
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
+                                                 style="overflow:hidden;
+                                                        padding-bottom:56.25%;
+                                                        position:relative;
+                                                        height:0;"
+                                            >
+                                                <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                                        frameborder="0" allowfullscreen
+                                                        style="left:0;
+                                                               top:0;
+                                                               height:100%;
+                                                               width:100%;
+                                                               position:absolute;"
+                                                ></iframe>
+                                            </div>
+                                        </div>
 
-            <!-- 2ème post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        </div>
 
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 2ème post -->
-
-            <!-- 3ème post -->
-            <div class="col-lg-4 col-md-12">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Fin 3ème post -->
+                <!-- Fin 1er post -->
 
+                <!-- 2ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 2ème post -->
+
+                <!-- 3ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 3ème post -->
+
+            </div>
         </div>
-    </div>
 
-    <div class="container mt-4">
-        <div class="row ">
+        <!-- 2ème ligne -->
+        <div class="container mt-4">
+            <div class="row ">
 
-            <!-- 1er post -->
-            <div class="col-lg-3 col-md-6">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
+                <!-- 1er post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
 
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
 
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 1er post -->
-
-            <!-- 2ème post -->
-            <div class="col-lg-3 col-md-6">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Fin 2ème post -->
+                <!-- Fin 1er post -->
 
-            <!-- 3ème post -->
-            <div class="col-lg-3 col-md-6">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
+                <!-- 2ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
 
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
 
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 3ème post -->
-
-            <!-- 4ème post -->
-            <div class="col-lg-3 col-md-6">
-                <div class="card  ">
-                    <!-- Image -->
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                    </div>
-
-                    <!-- Contenu -->
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-
-                        <!-- Bouton -->
-                        <button type="button" class="btn btn-primary">Button</button>
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Fin 4ème post -->
+                <!-- Fin 2ème post -->
 
+                <!-- 3ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 3ème post -->
+
+            </div>
         </div>
-    </div>
+
+        <!-- 3ème ligne -->
+        <div class="container mt-4">
+            <div class="row ">
+
+                <!-- 1er post -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 1er post -->
+
+                <!-- 2ème post -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 2ème post -->
+
+                <!-- 3ème post -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 3ème post -->
+
+                <!-- 4ème post -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card  ">
+                        <!-- Image -->
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                        </div>
+
+                        <!-- Contenu -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-justify" style="font-family: 'Georgia', serif;
+                                                                                                  text-align: justify;
+                                                                                                  font-size: 100%;
+                                                                                                  color: black;">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                            </p>
+
+                            <!-- Bouton -->
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 4ème post -->
+            </div>
+        </div>
 
 
 
