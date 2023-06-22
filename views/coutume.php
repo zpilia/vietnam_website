@@ -71,7 +71,10 @@
         </div>
     </div>
 
-    <br>
+    <!-- container ligne séparation -->
+    <div class="container mt-4 mb-4">
+        <hr>
+    </div>
 
     <!-- 2er container ==> 2er publication -->
     <div class="container my-auto">
@@ -109,7 +112,10 @@
         </div>
     </div>
 
-    <br>
+    <!-- container ligne séparation -->
+    <div class="container mt-4 mb-4">
+        <hr>
+    </div>
 
     <!-- 3eme container ==> 3er publication -->
     <div class="container my-auto">
