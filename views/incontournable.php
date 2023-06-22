@@ -41,15 +41,15 @@
     <div class="container mt-4">
         <div class="row ">
 
+            <!-- 1er post -->
             <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" alt="hanoi"/>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -57,20 +57,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 1er post -->
 
-            <div class="col-lg-4 col-md-6">
+            <!-- 2ème post -->
+            <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -78,20 +80,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 2ème post -->
 
-            <div class="col-lg-4 col-md-6">
+            <!-- 3ème post -->
+            <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -99,10 +103,12 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 3ème post -->
 
         </div>
     </div>
@@ -110,15 +116,15 @@
     <div class="container mt-4">
         <div class="row ">
 
+            <!-- 1er post -->
             <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -126,20 +132,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 1er post -->
 
-            <div class="col-lg-4 col-md-6">
+            <!-- 2ème post -->
+            <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -147,20 +155,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 2ème post -->
 
-            <div class="col-lg-4 col-md-6">
+            <!-- 3ème post -->
+            <div class="col-lg-4 col-md-12">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -168,10 +178,12 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 3ème post -->
 
         </div>
     </div>
@@ -179,15 +191,15 @@
     <div class="container mt-4">
         <div class="row ">
 
+            <!-- 1er post -->
             <div class="col-lg-3 col-md-6">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -195,20 +207,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 1er post -->
 
+            <!-- 2ème post -->
             <div class="col-lg-3 col-md-6">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -216,20 +230,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 2ème post -->
 
+            <!-- 3ème post -->
             <div class="col-lg-3 col-md-6">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -237,20 +253,22 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 3ème post -->
 
+            <!-- 4ème post -->
             <div class="col-lg-3 col-md-6">
                 <div class="card  ">
+                    <!-- Image -->
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
                     </div>
 
+                    <!-- Contenu -->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -258,10 +276,12 @@
                             card's content.
                         </p>
 
+                        <!-- Bouton -->
                         <button type="button" class="btn btn-primary">Button</button>
                     </div>
                 </div>
             </div>
+            <!-- Fin 4ème post -->
 
         </div>
     </div>
