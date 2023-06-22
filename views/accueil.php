@@ -32,16 +32,15 @@
         <!-- Titre -->
         <div class="title"
              style="font-family: 'Georgia', 'Times New Roman', serif;
-                    font-size: 40px;
-                    color: #e60000"
+                        font-size: 40px;
+                        color: #e60000"
         >
-            <h1 class="mt-5 fw-bold text-center">Terre de courage et de ténacité</h1>
+            <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
         </div>
 
-        <br>
 
         <!-- Container 1 - part 1 présentation-->
-        <div class="container mt-4 mb-4">
+        <div class="container mt-5 mb-4">
             <div class="row justify-content-center mt-2">
 
                 <!-- image -->

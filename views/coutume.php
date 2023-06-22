@@ -29,13 +29,12 @@
 
     <div class="title"
          style="font-family: 'Georgia', 'Times New Roman', serif;
-                font-size: 40px;
-                color: #e60000"
+                        font-size: 40px;
+                        color: #e60000"
     >
-        <h1 class="mt-5 fw-bold text-center">Les différents coutumes</h1>
+        <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
     </div>
 
-    <br>
 
     <!-- 1er container ==> 1er publication -->
     <div class="container my-auto">

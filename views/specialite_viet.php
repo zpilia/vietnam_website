@@ -32,13 +32,11 @@
         <!-- Titre -->
         <div class="title"
              style="font-family: 'Georgia', 'Times New Roman', serif;
-                    font-size: 40px;
-                    color: #e60000"
+                        font-size: 40px;
+                        color: #e60000"
         >
-            <h1 class="mt-5 fw-bold text-center">Les différentes spécialités vietnamiennes</h1>
+            <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
         </div>
-
-        <br>
 
         <!-- section ==> carousel avec chaque plat + image  -->
         <section class="pt-5 pb-5">
@@ -48,11 +46,11 @@
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-6 text-right">
-                        <a class="btn btn-primary mb-3 mr-1" href="#myCarousel" role="button" data-slide="prev">
-                            <i class="fa fa-arrow-left"></i>
+                        <a class="btn mb-3 mr-1" href="#myCarousel" role="button" data-slide="prev" style="background-color: white">
+                            <i class="fas fa-angle-left fa-lg"></i>
                         </a>
-                        <a class="btn btn-primary mb-3 " href="#myCarousel" role="button" data-slide="next">
-                            <i class="fa fa-arrow-right"></i>
+                        <a class="btn mb-3" href="#myCarousel" role="button" data-slide="next" style="background-color: white">
+                            <i class="fas fa-angle-right fa-lg"></i>
                         </a>
                     </div>
 
