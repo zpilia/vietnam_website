@@ -124,12 +124,12 @@
                             </p>
                             <hr>
                             <!-- Bouton -->
-                            <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#myModal">
+                            <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#myModal_2">
                                 Localisation
                             </button>
 
                             <!-- Modal -->
-                            <div class="modal" id="myModal">
+                            <div class="modal" id="myModal_2">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <!-- Modal body -->
@@ -141,7 +141,7 @@
                                                         position:relative;
                                                         height:0;"
                                             >
-                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59585.969790435425!2d105.79296009040836!3d21.02775943883605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2sHano%C3%AF%2C%20District%20de%20Hoan%20Kiem%2C%20Hano%C3%AF%2C%20Vietnam!5e0!3m2!1sfr!2sfr!4v1687455326871!5m2!1sfr!2sfr"
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238637.4487194976!2d107.00954203101978!3d20.843408353365028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2sBaie%20de%20H%E1%BA%A1%20Long!5e0!3m2!1sfr!2sfr!4v1687529533133!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
                                                         style="left:0;
                                                                top:0;
