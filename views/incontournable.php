@@ -502,6 +502,7 @@
                                 <br><br>
                                 Mégalopole moderne, passionnante, gigantesque et métissée, tournée vers l’avenir sans pour autant renier son passé :
                                 c’est ici que les vestiges de l’époque coloniale sont les plus visibles et mis en valeur, dans l’architecture comme dans la décoration.
+                                Dans le paysage urbain, les témoignages de ce passé pas si lointain, où la ville s’appelait « la perle de l’Extrême-Orient ».
                             </p>
                             <hr>
                             <!-- Bouton -->
@@ -569,7 +570,9 @@
                                       color: black;"
                             >
                                 Cette immense plaine extrêmement fertile traversée par les neuf bras du fleuve légendaire Mékong est quadrillé par une multitude de canaux et
-                                d’arroyos verdoyants, de rizières et de vergers, d’îles et de villages nonchalants habité par une population très accueillante.
+                                d’arroyos verdoyants, de rizières et de vergers, d’îles et de villages nonchalants.
+                                <br><br>
+                                Le bateau et le vélo sont le meilleur pour profiter pleinement de ce paradis terrestre habité par une population très accueillante.
                             </p>
                             <hr>
                             <!-- Bouton -->
