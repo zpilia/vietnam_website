@@ -43,7 +43,7 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cuisine</a>
                                 <div class="dropdown-menu">
                                     <a href="specialite_viet.php" class="dropdown-item">Spécialité(s) Vietnamienne(s)</a>
-                                    <a href="#" class="dropdown-item">Recette(s)</a>
+                                    <a href="recette.php" class="dropdown-item">Recette(s)</a>
                                 </div>
                             </li>
                             <!-- End Dropdown 2-->
