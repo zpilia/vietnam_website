@@ -19,7 +19,7 @@
     <!-- Font-awesome -->
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <title>Culture - Religion(s)</title>
+    <title>A visiter - Incontournables</title>
 </head>
 
     <!-- insertion entête -->
