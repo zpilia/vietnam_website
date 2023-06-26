@@ -23,10 +23,9 @@
     <?php require 'header.php' ?>
 
     <body
-        style="
+            style="
             background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
     >
-
 
     <!-- Titre -->
     <div class="title"
