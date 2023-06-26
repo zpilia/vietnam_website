@@ -37,24 +37,6 @@
     </div>
 
 
-    <section class="timeline">
-        <ul>
-            <li>
-                <div>
-                    <time>300 000 à 500 000 ans av. J.C.</time>
-                    Des vestiges du paléolithique au site de NUI-DO (province de THANH HOA) confirme la présence humaine au Vietnam
-                </div>
-            </li>
-            <li>
-                <div>
-                    <time>5 000 av. J.C.</time>
-                    Plusieurs cultures s'épanouissent à l'époque mésolithique à BAC SON et HOA BINH...
-                </div>
-            </li>
-        </ul>
-    </section>
-
-
 
 
     </body>
