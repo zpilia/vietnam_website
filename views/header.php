@@ -61,7 +61,7 @@
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Histoire</a>
                                 <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Famille royal</a>
+                                    <a href="famille_royal.php" class="dropdown-item">Famille royal</a>
                                     <a href="#" class="dropdown-item">Chronologie</a>
                                 </div>
                             </li>
