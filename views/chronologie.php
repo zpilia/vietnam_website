@@ -16,7 +16,7 @@
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <title>Contact</title>
+    <title>Histoire - Chronologie</title>
 </head>
 
     <!-- insertion entête -->
@@ -33,7 +33,7 @@
                                 font-size: 40px;
                                 color: #e60000"
     >
-        <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
+        <h1 class="mt-4 fw-bold text-center">Dates importantes</h1>
     </div>
 
 

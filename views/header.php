@@ -62,13 +62,13 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Histoire</a>
                                 <div class="dropdown-menu">
                                     <a href="famille_royal.php" class="dropdown-item">Famille royal</a>
-                                    <a href="#" class="dropdown-item">Chronologie</a>
+                                    <a href="chronologie.php" class="dropdown-item">Chronologie</a>
                                 </div>
                             </li>
                             <!-- End Dropdown 4-->
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="contact.php" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
