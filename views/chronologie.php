@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- library CSS-->
-    <link href="../public/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.css">
     <!-- Boostrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Boostrap 4-->
@@ -37,6 +37,22 @@
     </div>
 
 
+    <section class="timeline">
+        <ul>
+            <li>
+                <div>
+                    <time>300 000 à 500 000 ans av. J.C.</time>
+                    Des vestiges du paléolithique au site de NUI-DO (province de THANH HOA) confirme la présence humaine au Vietnam
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>5 000 av. J.C.</time>
+                    Plusieurs cultures s'épanouissent à l'époque mésolithique à BAC SON et HOA BINH...
+                </div>
+            </li>
+        </ul>
+    </section>
 
 
 
@@ -48,6 +64,7 @@
     <?php require 'footer.php' ?>
 
     <!-- library JS-->
+    <script src="../public/js/main.js"></script>
     <!-- Boostrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Boostrap 4-->
