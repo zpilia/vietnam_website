@@ -37,17 +37,14 @@
         <h1 class="mt-4 fw-bold text-center">Cuisinons ensemble !</h1>
     </div>
 
-    <!-- partie recette -->
-    <div class="recipe-post-area section">
-        <!-- carousel recette -->
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12">
-                    <div class="recipe-slider">
-                        dsd
-                        </div>
-                    </div>
-                </div>
+    <!-- receipe slider -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-12">
+
+
+            
             </div>
         </div>
     </div>
