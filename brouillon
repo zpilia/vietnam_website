@@ -1,0 +1,37 @@
+<div class="row justify-content-center my-auto">
+
+            <!-- image -->
+            <div class="col-md-6 my-auto">
+                <img src="../public/img/bo_bun_4.webp" alt="bo_bun" class="img-fluid rounded mx-5" style="width:70%; height:auto">
+            </div>
+
+            <!-- checkbox ingredient -->
+            <div class="col-md-6 my-auto">
+                <div>
+                    <h3 style="font-family: 'Georgia', serif;
+                        font-weight: bold;
+                        text-align: left;
+                        color: black"
+                    >
+                        Ingredients
+                    </h3>
+                </div>
+                <ul class="form-check-ingredient mt-5"
+                    style="font-family: 'Georgia', serif;
+                           text-align: justify;
+                           font-size: 110%;
+                           color: black;"
+                >
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou crevettes)</label>
+                    </li>
+            </ul>
+
+        </div>
+</div>
+
