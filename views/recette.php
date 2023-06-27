@@ -40,15 +40,24 @@
 
     <!-- 1er container -->
     <div class="container my-auto">
-        <div class="title mt-5">
-            <h4 style="font-family: 'Georgia', serif;
+        <div class="row">
+            <div class="col-12">
+                <div class="title mt-5">
+                    <h4 style="font-family: 'Georgia', serif;
                     font-weight: bold;
                     text-align: center;
                     color: black"
-            >
-                Bò bún (4 personnes)
-            </h4>
+                    >
+                        Bò bún (4 personnes)
+                    </h4>
+                    <img src="../public/img/bo_bun_4.webp" class="img-fluid rounded-pill" alt="bo_bun"
+                         style="width:40%;
+                                height:auto;">
+                </div>
+            </div>
         </div>
+    </div>
+
 
 
 
