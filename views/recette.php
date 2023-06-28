@@ -66,7 +66,7 @@
                     <!-- titre + bouton direction recette -->
                     <div class="card-body">
                         <h5 class="card-title">Bánh Bao</h5>
-                        <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        <a href="banh_bao.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     <!-- titre + bouton direction recette -->
                     <div class="card-body">
                         <h5 class="card-title">Phở</h5>
-                        <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        <a href="pho.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     <!-- titre + bouton direction recette -->
                     <div class="card-body">
                         <h5 class="card-title">Salade de papaye</h5>
-                        <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        <a href="salade_papaye.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
                     </div>
                 </div>
             </div>
@@ -123,14 +123,14 @@
                     <!-- titre + bouton direction recette -->
                     <div class="card-body">
                         <h5 class="card-title">Banh lot - Khao lod song</h5>
-                        <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        <a href="banh_lot.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
                     </div>
                 </div>
             </div>
             <!-- Fin 3ème post -->
         </div>
     </div>
-    
+
 
     </body>
 
