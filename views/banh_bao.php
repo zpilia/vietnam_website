@@ -57,12 +57,41 @@
     </div>
     <!-- Fin container // Video + photo -->
 
+    <!-- container ligne séparation -->
+    <div class="container mt-4 mb-4">
+        <hr>
+    </div>
+
+    <!-- Titre 2 du contenu -->
+    <div class="container">
+        <div class="title">
+            <h4 style="font-family: 'Georgia', serif;
+                        font-weight: bold;
+                        text-align: center;
+                        color: black">
+                Ingredients
+            </h4>
+        </div>
+    </div>
+
     <!-- container // liste ingredient -->
     <div class="container">
         <div class="row justify-content-center my-auto ">
 
             <div class="col-lg-3 col-md-6 my-auto">
-
+                <h5 style="font-family: 'Georgia', serif; color: black;" class="text-decoration-underline">
+                    Pour la pâte :
+                </h5>
+                <ul class="form-check"
+                    style="font-family: 'Georgia', serif;
+                           font-size: 110%;
+                           color: black;"
+                >
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                    </li>
+                </ul>
             </div>
 
             <div class="col-lg-3 col-md-6">
