@@ -37,26 +37,37 @@
         <h1 class="mt-4 fw-bold text-center">Cuisinons ensemble !</h1>
     </div>
 
-
-    <!-- 1er container -->
-    <div class="container my-auto">
-        <div class="row">
-            <div class="col-12">
-                <div class="title mt-5">
-                    <h4 style="font-family: 'Georgia', serif;
+    <!-- Titre du contenu -->
+    <div class="container mt-5 mb-4">
+        <div class="title">
+            <h4 style="font-family: 'Georgia', serif;
                     font-weight: bold;
                     text-align: center;
-                    color: black"
-                    >
-                        Bò bún (4 personnes)
-                    </h4>
-                    <img src="../public/img/bo_bun_4.webp" class="img-fluid rounded-pill" alt="bo_bun"
-                         style="width:40%;
-                                height:auto;">
+                    color: black">
+                Bò bún (4 personnes)
+            </h4>
+        </div>
+    </div>
+
+    <!-- 1er container // Recette n°1 -->
+    <div class="container">
+        <div class="row gx-1">
+            <div class="col-md-6">
+                <img src="../public/img/bo_bun_4.webp" class="img-fluid rounded-pill ms-5 mt-2" alt="bo_bun"
+                     style="width:80%;
+                           height:auto;">
+            </div>
+
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/ievMUS_tzjI" title="YouTube video player bo_bun" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 
 
