@@ -35,3 +35,16 @@
         </div>
 </div>
 
+<div class="col-md-4 mb-3">
+                                        <!-- image -->
+                                        <div class="card text-center ">
+                                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                                <img src="../public/img/bo_bun_4.webp" class="img-fluid" alt="bo_bun"/>
+                                            </div>
+                                            <!-- titre + bouton direction recette -->
+                                            <div class="card-body">
+                                                <h5 class="card-title">Bò bún</h5>
+                                                <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                                            </div>
+                                        </div>
+                                    </div>
