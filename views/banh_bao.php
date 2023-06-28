@@ -63,7 +63,7 @@
     </div>
 
     <!-- Titre 2 du contenu -->
-    <div class="container">
+    <div class="container mb-4">
         <div class="title">
             <h4 style="font-family: 'Georgia', serif;
                         font-weight: bold;
@@ -76,34 +76,98 @@
 
     <!-- container // liste ingredient -->
     <div class="container">
-        <div class="row justify-content-center my-auto ">
+        <div class="row gx-1 justify-content-center my-auto ">
 
-            <div class="col-lg-3 col-md-6 my-auto">
-                <h5 style="font-family: 'Georgia', serif; color: black;" class="text-decoration-underline">
+            <div class="col-md-6 my-auto">
+                <h5 style="font-family: 'Georgia', sans-serif; color: black;" class="text-decoration-underline">
                     Pour la pâte :
                 </h5>
                 <ul class="form-check"
-                    style="font-family: 'Georgia', serif;
+                    style="font-family: 'Georgia', sans-serif;
                            font-size: 110%;
                            color: black;"
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                        <label class="form-check-label" for="flexCheckDefault">300 g de farine de blé</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">50 g de farine de riz blanc</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 sachet de levure boulangère (4,6 g)</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de levure chimique</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">4 cuillères à soupe de sucre</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">20 cl d'eau</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">2 cuillères à soupe d'huile de tournesol</label>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-
+            <div class="col-md-6 my-auto">
+                <h5 style="font-family: 'Georgia', sans-serif; color: black;" class="text-decoration-underline">
+                    Pour la farce :
+                </h5>
+                <ul class="form-check"
+                    style="font-family: 'Georgia', sans-serif;
+                           font-size: 110%;
+                           color: black;"
+                >
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">350 g de porc haché</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">6 g de champignons noirs(poids sec, 60 g réhydratés)</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de sucre</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">2 œufs durs</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de poisson</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">2 cuillères à soupe de sauce d'huître</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 saucisse chinoise (lap xuong)</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 carotte</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 branche de cébette</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">Poivre</label>
+                    </li>
+                </ul>
             </div>
 
         </div>
