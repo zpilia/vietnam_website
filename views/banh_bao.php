@@ -79,9 +79,12 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-md-6 my-auto">
-                <h5 style="font-family: 'Georgia', sans-serif; color: black;" class="text-decoration-underline">
+                <h5 class="text-decoration-underline"
+                    style="font-family: 'Georgia', sans-serif; color: black;"
+                >
                     Pour la pâte :
                 </h5>
+
                 <ul class="form-check"
                     style="font-family: 'Georgia', sans-serif;
                            font-size: 110%;
@@ -119,9 +122,12 @@
             </div>
 
             <div class="col-md-6 my-auto">
-                <h5 style="font-family: 'Georgia', sans-serif; color: black;" class="text-decoration-underline">
+                <h5 class="text-decoration-underline"
+                    style="font-family: 'Georgia', sans-serif; color: black;"
+                >
                     Pour la farce :
                 </h5>
+
                 <ul class="form-check"
                     style="font-family: 'Georgia', sans-serif;
                            font-size: 110%;
@@ -169,7 +175,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </div>
     <!-- Fin container // liste ingredient -->
