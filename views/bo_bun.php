@@ -106,7 +106,7 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou crevettes)</label>
+                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou</label><label>crevettes)</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -114,7 +114,7 @@
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de</label><label>poisson</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -178,7 +178,7 @@
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
-                    Pour la pâte :
+                    Pour la sauce :
                 </h5>
 
                 <ul class="form-check"
@@ -188,7 +188,27 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">300 g de farine de blé</label>
+                        <label class="form-check-label" for="flexCheckDefault">3 piments frais</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sucre</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">6 cuillères à soupe de sauce de</label><label>poisson</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1/2 citron vert</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">20 cl d'eau</label>
                     </li>
                 </ul>
             </div>
