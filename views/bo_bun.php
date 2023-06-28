@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row gx-1">
             <div class="col-md-6">
-                <img src="../public/img/bo_bun_4.webp" class="img-fluid rounded-pill ms-5 mt-2" alt="bo_bun"
+                <img src="../public/img/bo_bun_5.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="bo_bun"
                      style="width:80%;
                            height:auto;">
             </div>
