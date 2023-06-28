@@ -30,12 +30,13 @@
     <!-- Titre du contenu -->
     <div class="container mt-4 mb-5">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
+            <h2 style="font-family: 'Georgia', serif;
                         font-weight: bold;
                         text-align: center;
-                        color: black">
+                        color: #e60000"
+            >
                 Bánh Bao (8 brioches)
-            </h4>
+            </h2>
         </div>
     </div>
 
@@ -239,6 +240,11 @@
                         laisser reposer environ 15 minutes si vous les voulez plus gonflés puis les faire cuire pendant 15 minutes.
                     </li>
                 </ol>
+            </div>
+
+            <!-- bouton retour -->
+            <div class="container text-center mt-4">
+                <a type="button" class="btn btn-link text-dark" href="recette.php">Retour</a>
             </div>
         </div>
     </div>
