@@ -34,7 +34,7 @@
                         font-weight: bold;
                         text-align: center;
                         color: black">
-                Bò bún (4 personnes)
+                Phở (4 personnes)
             </h4>
         </div>
     </div>

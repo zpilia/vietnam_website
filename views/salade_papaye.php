@@ -34,7 +34,7 @@
                         font-weight: bold;
                         text-align: center;
                         color: black">
-                Bò bún (4 personnes)
+                Salade de papaye (2 personnes)
             </h4>
         </div>
     </div>
