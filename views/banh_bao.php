@@ -69,7 +69,7 @@
                         font-weight: bold;
                         text-align: center;
                         color: black">
-                Ingredients
+                Ingrédients
             </h4>
         </div>
     </div>
@@ -178,6 +178,71 @@
         </div>
     </div>
     <!-- Fin container // liste ingredient -->
+
+    <!-- container ligne séparation -->
+    <div class="container mt-4 mb-4">
+        <hr>
+    </div>
+
+    <!-- Titre 2 du contenu -->
+    <div class="container mb-4">
+        <div class="title">
+            <h4 style="font-family: 'Georgia', serif;
+                        font-weight: bold;
+                        text-align: center;
+                        color: black">
+                Déroulement
+            </h4>
+        </div>
+    </div>
+
+    <!-- container // deroulement -->
+    <div class="container">
+        <div class="row gx-1 justify-content-center my-auto ">
+
+            <div class="col-12 my-auto">
+                <p style="font-family: 'Georgia', sans-serif;
+                          text-align: justify;
+                          font-size: 110%;
+                          color: black;"
+                >
+                    Avant la préparation réhydrater les champignons noirs.
+                </p>
+                <ol style="font-family: 'Georgia', sans-serif;
+                           text-align: justify;
+                           font-size: 110%;
+                           color: black;">
+                    <li class="mb-3">
+                        Préparer la pâte : dans un saladier, mélanger la farine de blé, la farine de riz blanc, le sucre,
+                        la levure boulangère et la levure chimique, ajouter progressivement l'eau puis pétrir une minute,
+                        ajouter ensuite l'huile et pétrir de nouveau pendant 4 à 5 minutes, former une boule, couvrir et laisser
+                        reposer entre 45 minutes et une heure.
+                    </li>
+                    <li class="mb-3">
+                        Préparer la farce : mettre le porc haché dans un saladier, ajouter les champignons noirs et la carotte coupés en fines juliennes
+                        et la cébette détaillée en rondelles. Découper la saucisse chinoise en 16 tranches et les œufs en 4, réserver ces 2 derniers.
+                        <br><br>
+                        Assaisonner la farce avec le sucre, la sauce d'huître, la sauce de poisson et le poivre.
+                        Bien mélanger l'ensemble jusqu'à obtention d'une texture homogène (3 à 4 minutes environ).
+                        Terminer en formant 8 boulettes avec cette farce et réserver au frais.
+                    </li>
+                    <li class="mb-3">
+                        Une fois la pâte levée, fleurer la surface de travail, pétrir légèrement la pâte, former un boudin afin de la découper en 8 parts égales.
+                        Reformer des boules avec ces 8 parts puis les étaler afin d'obtenir un disque d'environ 10 à 12 cm de diamètre.
+                    </li>
+                    <li class="mb-3">
+                        Pour la confection des baos : déposer une boule de farce au centre d'un disque de pâte, y accoler un morceau d’œuf et
+                        2 tranches de saucisses chinoises puis suivre la vidéo pour former votre brioche.
+                    </li>
+                    <li class="mb-3">
+                        Déposer chaque brioche sur un petit morceau de papier sulfurisé puis les déposer dans un panier vapeur, les couvrir et
+                        laisser reposer environ 15 minutes si vous les voulez plus gonflés puis les faire cuire pendant 15 minutes.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Fin container // deroulement -->
 
 
 
