@@ -16,7 +16,7 @@
         <!-- MDB -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-        <title>Recette(s) - Bò bún</title>
+        <title>Recette(s) - Salade de papaye</title>
     </head>
 
     <!-- insertion entête -->
@@ -28,7 +28,7 @@
     >
 
     <!-- Titre du contenu -->
-    <div class="container mt-4 mb-4">
+    <div class="container mt-4 mb-5">
         <div class="title">
             <h4 style="font-family: 'Georgia', serif;
                         font-weight: bold;
@@ -43,14 +43,14 @@
     <div class="container">
         <div class="row gx-1">
             <div class="col-md-6">
-                <img src="../public/img/bo_bun_4.webp" class="img-fluid rounded-pill ms-5 mt-2" alt="bo_bun"
+                <img src="../public/img/salade_papaye_5.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="salade_papaye"
                      style="width:80%;
                                height:auto;">
             </div>
 
             <div class="col-md-6">
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/ievMUS_tzjI" title="YouTube video player bo_bun" class="rounded" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/G0eQ19XBzAM" title="YouTube video player salade_papaye" class="rounded" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

@@ -28,7 +28,7 @@
     >
 
     <!-- Titre du contenu -->
-    <div class="container mt-4 mb-4">
+    <div class="container mt-4 mb-5">
         <div class="title">
             <h4 style="font-family: 'Georgia', serif;
                     font-weight: bold;
