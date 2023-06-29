@@ -61,9 +61,8 @@
         .genealogy-body{
             white-space: nowrap;
             overflow-y: hidden;
-            padding: 50px;
             min-height: 500px;
-            padding-top: 10px;
+            padding: 10px 50px 50px;
         }
         .genealogy-tree ul {
             padding-top: 20px;
@@ -119,7 +118,7 @@
         .genealogy-tree li a{
             text-decoration: none;
             color: #666;
-            font-family: arial, verdana, tahoma;
+            font-family: arial, verdana, tahoma, sans-serif;
             font-size: 11px;
             display: inline-block;
             border-radius: 5px;
@@ -136,7 +135,7 @@
 
         /*--------------memeber-card-design----------*/
         .member-view-box{
-            padding:0px 20px;
+            padding:0 20px;
             text-align: center;
             border-radius: 4px;
             position: relative;
@@ -167,9 +166,10 @@
                     <a href="javascript:void(0);">
                         <div class="member-view-box">
                             <div class="member-image">
-                                <img src="https://image.flaticon.com/icons/svg/145/145867.svg" alt="Member">
+                                <img src="../public/img/Gia_Long.jpg" alt="gia_long">
                                 <div class="member-details">
-                                    <h3>John Doe</h3>
+                                    <h3>Gia Long</h3>
+                                    <h5>1802 – 1819</h5>
                                 </div>
                             </div>
                         </div>

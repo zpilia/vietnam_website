@@ -1,0 +1,15 @@
+{
+    "name": "vietnam_website/test",
+    "autoload": {
+        "psr-4": {
+            "VietnamWebsite\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zoé Pilia",
+            "email": "zpilia2@gmail.com"
+        }
+    ],
+    "require": {}
+}
