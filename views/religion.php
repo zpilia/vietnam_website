@@ -22,17 +22,36 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            color: #ff1a1a
+        }
+
+        p {
+            font-family: 'Georgia', serif;
+            text-align: justify;
+            font-size: 100%;
+            color: black;
+        }
+
+    </style>
 
         <!-- Titre -->
-        <div class="title"
-             style="font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 40px;
-                        color: #e60000"
-        >
+        <div class="title">
             <h1 class="mt-4 fw-bold text-center">Les différentes religions pratiquées</h1>
         </div>
 
@@ -83,14 +102,11 @@
                 <div class="row gx-5 wow fadeIn">
                     <!-- information -->
                     <div class="col-lg-6 my-auto">
-                        <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                        <h2 class="h2-responsive fw-bold text-center">
                             Bouddhisme
                         </h2>
                         <hr>
-                        <p style="font-family: 'Georgia', serif;
-                                  text-align: justify;
-                                  font-size: 100%;
-                                  color: black;">
+                        <p>
                             Le bouddhisme est largement défini non pas comme une religion mais plutôt comme une philosophie orientale, fondée en Inde par Siddhârta Gautama
                             (vers 560-483 av. J.-C.), prince de la tribu des Sakya, connu sous le nom de Bouddha "l'Illuminé".
                             <br><br>
@@ -130,14 +146,11 @@
 
                 <!-- information -->
                 <div class="col-lg-6 my-auto">
-                    <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    <h2 class="h2-responsive fw-bold text-center">
                         Confucianisme
                     </h2>
                     <hr>
-                    <p style="font-family: 'Georgia', serif;
-                                  text-align: justify;
-                                  font-size: 100%;
-                                  color: black;">
+                    <p>
                         Difficile de parler de religion transcendante avec le confucianisme qui ne se réfère à aucun dieu mais instaure une philosophie morale basée sur le respect de la
                         hiérarchie familiale et sociale, la bonté naturelle de l’homme et sa capacité à se perfectionner.
                         <br><br>
@@ -161,14 +174,11 @@
             <div class="row gx-5 wow fadeIn">
                 <!-- information -->
                 <div class="col-lg-6 my-auto">
-                    <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    <h2 class="h2-responsive fw-bold text-center">
                         Taoïsme
                     </h2>
                     <hr>
-                    <p style="font-family: 'Georgia', serif;
-                                  text-align: justify;
-                                  font-size: 100%;
-                                  color: black;">
+                    <p>
                         Avant d'être une religion, le taoïsme est d'abord une très belle leçon de sagesse orientale élaborée par un Chinois nommé Lao-tseu.
                         <br><br>
                         Ainsi naquit le Tao Te King (Dao De Jing) ou Livre de la Voie et de la Vertu. Cet ouvrage de 5 000 caractères constitue l’un des plus petits livres de Sagesse qui soient
@@ -212,14 +222,11 @@
 
                 <!-- information -->
                 <div class="col-lg-6 my-auto">
-                    <h2 class="h2-responsive fw-bold text-center" style="font-family: 'Georgia', serif; color: #ff1a1a">
+                    <h2 class="h2-responsive fw-bold text-center">
                         Christianisme
                     </h2>
                     <hr>
-                    <p style="font-family: 'Georgia', serif;
-                                  text-align: justify;
-                                  font-size: 100%;
-                                  color: black;">
+                    <p>
                         Les catholiques forment la 2e communauté religieuse, le Vietnam étant le 2e pays catholique d'Asie (avec 7 à 8 % de la population) après les Philippines.
                         <br><br>
                         Depuis 1975, les catholiques vivent en liberté surveillée. Le culte est autorisé. Mais les messes et les ordinations sont soumises à l'autorisation du gouvernement.
