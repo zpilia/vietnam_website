@@ -39,25 +39,24 @@
     </style>
 
 
-    <!-- Titre -->
-    <div class="title">
-        <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
-    </div>
+        <!-- Titre -->
+        <div class="title">
+            <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
+        </div>
 
-   <div class="container">
-
-   </div>
 
 
 
     </body>
 
 
+
+
     <!-- insertion en pied -->
     <?php require 'footer.php' ?>
 
     <!-- library JS-->
-    <script type="text/javascript" src="../public/js/main.js"></script>
+    <script src="../public/js/main.js"></script>
     <!-- Boostrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Boostrap 4-->
