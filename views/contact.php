@@ -19,66 +19,10 @@
     <title>Contact</title>
 </head>
 
-    <!-- insertion PHPMailer + entête-->
+    <!-- insertion entête + sendmail-->
     <?php
-
-    use PHPMailer\PHPMailer\PHPMailer;
-
     require 'header.php';
-    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/Exception.php';
-    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/PHPMailer.php';
-    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/SMTP.php';
-    ?>
-
-    <!-- form -->
-    <?php
-
-    $message_sent = false;
-    if (isset($_POST['send_mail'])) {
-        if (!empty($_POST['login'])) { // Nom
-            if (!empty($_POST['email'])) { // Email
-                if (!empty($_POST['subject'])) { // Objet
-                    if (!empty($_POST['content'])) { //message
-                        $mail = new PHPMailer();
-
-                        try {
-                            //Server settings
-                            $mail->isSMTP();                                            //Send using SMTP
-                            $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
-                            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                            $mail->Username   = 'dc678a16204ec3';                     //SMTP username
-                            $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
-                            $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-                            //Recipients
-                            $mail->setFrom('zpilia2@gmail.com', 'Mailer');
-                            $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
-                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé');
-
-                            //Content
-                            $mail->isHTML(true);                                  //Set email format to HTML
-                            $mail->Subject = $_POST['subject'];
-                            $mail->Body    = $_POST['content'];
-                            $mail->AltBody = $_POST['content'];
-
-                            $mail->send();
-                            echo 'Message has been sent';
-                        } catch (Exception $e) {
-                            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-                        }
-                    } else {
-                        // pas de contenu
-                    }
-                } else {
-                    // pas d'objet
-                }
-            } else {
-                // pas d'email
-            }
-        } else {
-            // pas de nom
-        }
-    }
+    require 'sendmail.php'
     ?>
 
     <body
@@ -95,55 +39,57 @@
         <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
 
         <!--Section: Content-->
-        <section class="dark-grey-text mb-5">
+        <section class="container my-auto py-auto z-depth-1">
 
             <!-- Grid row -->
             <div class="row">
 
+                <div class="col-lg-4 col-md-12"></div>
+
                 <!-- Grid column -->
-                <div class="col-12 mb-4">
+                <div class="col-lg-4 col-md-6">
 
                     <!-- Form with header -->
                     <div class="card">
                         <div class="card-body">
                             <!-- Body -->
+
                             <!-- TEST FORM RAJOUTE PAR MOI -->
                             <form action="contact.php" method="POST">
                                 <div class="md-form">
-                                    <i class="fa fa-user prefix grey-text"></i>
                                     <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
-                                    <i class="fa fa-envelope prefix grey-text"></i>
                                     <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
-                                    <i class="fa fa-tag prefix grey-text"></i>
                                     <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
-                                    <i class="fa fa-pencil-alt prefix grey-text"></i>
                                     <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message" required></textarea>
                                 </div>
                                 <br>
 
                                 <div class="text-center">
-                                    <button name="send_mail" type="submit" class="btn btn-light">Envoyer</button>
+                                    <button type="submit" class="btn btn-info btn-rounded ml-0">Envoyer<i class="far fa-paper-plane ml-2"></i></button>
                                 </div>
                                 <!-- TEST FIN DE FORM -->
                             </form>
                         </div>
                     </div>
                     <!-- Form with header -->
+
+                    <div class="col-lg-4 col-md-12"></div>
+
                 </div>
                 <!-- Grid column -->
             </div>

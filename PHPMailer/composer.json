@@ -31,6 +31,7 @@
         }
     },
     "require": {
+        "phpmailer/phpmailer": "v6.6.0",
         "php": ">=5.5.0",
         "ext-ctype": "*",
         "ext-filter": "*",
@@ -76,3 +77,4 @@
         ]
     }
 }
+
