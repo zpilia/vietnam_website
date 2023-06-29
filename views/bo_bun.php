@@ -106,7 +106,9 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou</label><label>crevettes)</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            400g de bœuf (ou poulet, ou</label><label>crevettes)
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -114,7 +116,9 @@
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de</label><label>poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            3 cuillères à soupe de sauce de</label><label>poisson
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -200,7 +204,9 @@
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">6 cuillères à soupe de sauce de</label><label>poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            6 cuillères à soupe de sauce de</label><label>poisson
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -277,12 +283,6 @@
         </div>
     </div>
     <!-- Fin container // deroulement -->
-
-
-
-
-
-
 
     </body>
 

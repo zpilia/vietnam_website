@@ -87,7 +87,9 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            400 g de pâtes de riz 5 mm </label>(réhydrater minimun 2h avant)<label>
+                        </label>
                     </li>
                 </ul>
             </div>
@@ -96,7 +98,7 @@
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
-                    Pour la marinade :
+                    Pour le bouillon :
                 </h5>
 
                 <ul class="form-check"
@@ -106,27 +108,61 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou</label><label>crevettes)</label>
+                        <label class="form-check-label" for="flexCheckDefault">500 g de jarret de bœuf avec os</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
+                        <label class="form-check-label" for="flexCheckDefault">4 anis étoilées</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de</label><label>poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            1/2 cuillère à soupe de grains de </label><label>poivre noir
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce d'huître</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 petit bâton de cannelle</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 branche de citronnelle</label>
+                        <label class="form-check-label" for="flexCheckDefault">3 clous de girofle</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 grosse échalote ou un demi oignon</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            1 cuillère à soupe de graines de </label><label>coriandre
+                        </label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 oignon</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 carotte</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 morceau de gingembre de 7 cm</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            1 cuillère à soupe de graines de </label><label>fenouil
+                        </label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">2 cardamomes noires</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe sauce poisson</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">Sel</label>
                     </li>
                 </ul>
             </div>
@@ -145,31 +181,27 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">5 à 6 feuilles de Salade</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            200 g de bœuf (pièce à fondue ou </label><label>rumsteck)
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 carotte</label>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            16 boulettes de bœuf (rayon surgelé </label><label>des épiceries asiatiques)
+                        </label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 à 10 branches de coriandre</label>
+                        <label class="form-check-label" for="flexCheckDefault">1/2 oignon</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 branches de menthe</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 branche de cébette</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 petit concombre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 poignée de cacahuètes</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Soja (option)</label>
+                        <label class="form-check-label" for="flexCheckDefault">Germes de soja</label>
                     </li>
                 </ul>
             </div>
@@ -178,7 +210,7 @@
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
-                    Pour la sauce :
+                    Accompagnements :
                 </h5>
 
                 <ul class="form-check"
@@ -188,27 +220,27 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 piments frais</label>
+                        <label class="form-check-label" for="flexCheckDefault">Sauce hoisin</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
+                        <label class="form-check-label" for="flexCheckDefault">Sriracha</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sucre</label>
+                        <label class="form-check-label" for="flexCheckDefault">1/2 citron</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">6 cuillères à soupe de sauce de</label><label>poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">Menthe</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1/2 citron vert</label>
+                        <label class="form-check-label" for="flexCheckDefault">Coriandre</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">20 cl d'eau</label>
+                        <label class="form-check-label" for="flexCheckDefault">2 piments</label>
                     </li>
                 </ul>
             </div>
@@ -243,29 +275,32 @@
                            font-size: 110%;
                            color: black;">
                     <li class="mb-3">
-                        Préparer la sauce : dans un bol, mettre les piments ciselés, le jus de citron, le sucre, la sauce de poisson, l’eau, l'ail haché.
-                        Bien mélanger et réserver.
+                        Pour le bouillon : éplucher et couper en 2 l'oignon, éplucher la carotte et retirer les extrémités, couper le gingembre en
+                        2 dans sa longueur.
+                        Torréfier les épices dans une poêle à feu doux, les transférer ensuite dans un sachet à thé puis bien le
+                        fermer à l'aide d'une ficelle. Mettre les demis oignons à griller côté coupé dans une poêle, réserver.
+                        Pour le gingembre, le faire griller des 2 côtés directement sur le feu.
+                        Blanchir le jarret de bœuf dans l'eau bouillante pendant 5 minutes. Puis bien le rincer.
+                        <br><br>
+                        Placer le jarret dans une cocote minute ainsi que l'oignon grillé, le gingembre, la carotte, le sachet d'épices,
+                        2,5 L d'eau et une cuillère à café de sel. Fermer et faire cuire pendant 45 minutes.
                     </li>
                     <li class="mb-3">
-                        Préparer la marinade : émincer finement le bœuf, le déposer dans un saladier et y ajouter la citronnelle (la partie blanche) et
-                        l'échalote émincées, l'ail écrasée, la sauce d'huître et la sauce de poisson. Bien mélanger l'ensemble et laisser mariner au moins
-                        30 minutes.
+                        Couper la cébette en rondelles, couper finement l'oignon, détailler 4 petits quartiers de citron, couper en fines rondelles
+                        les piments, émincer finement le bœuf. Disposer sur une assiette les germes de soja, la menthe, la coriandre, les piments et
+                        le citron qui serviront d'accompagnement à la soupe.
                     </li>
                     <li class="mb-3">
-                        Pour les vermicelles de riz, faire bouillir une casserole d'eau, y plonger les vermicelles et les faire cuire pendant 5 minutes
-                        à feu moyen. Les retirer, rincer à l'eau froide et réserver.
+                        Une fois le temps de cuisson terminé, retirer le jarret et débarrasser des éléments aromatiques.
+                        Ajouter la sauce poisson et les boulettes de bœuf et prolonger la cuisson de 5 minutes. Réajuster l'assaisonnement si nécessaire.
                     </li>
                     <li class="mb-3">
-                        Hacher les cacahuètes grossièrement au couteau, couper le concombre en bâtonnets et la carotte en fines juliennes.
-                        Déchirer les feuilles de coriandre, effeuiller la menthe et couper en chiffonnade la salade.
+                        Découper en fines tranches le jarret de bœuf. Mettre une casserole d'eau à bouillir et y faire ramollir les pâtes de riz 30 secondes.
                     </li>
                     <li class="mb-3">
-                        Pour la cuisson de la viande, mettre 3 cuillères à soupe d'huile dans une sauteuse à feu vif.
-                        Y faire revenir la viande marinée. Le temps de cuisson dépend de votre goût.
-                    </li>
-                    <li class="mb-3">
-                        Etape finale : déposer dans un bol les vermicelles de riz, ajouter la salade, la menthe, la coriandre, le concombre,
-                        le bœuf sauté et les juliennes de carottes. Ajouter la sauce et finir par les cacahuètes.
+                        Pour la préparation finale : mettre des pâtes de riz dans un bol, ajouter des germes de soja sur un côté, des tranches de bœuf crues
+                        sur les pâtes ainsi que des tranches de jarret, ajouter des boulettes de bœuf et du bouillon. Terminer par l'oignon finement émincé
+                        et par des rondelles de cébette.
                     </li>
                 </ol>
             </div>
@@ -277,12 +312,6 @@
         </div>
     </div>
     <!-- Fin container // deroulement -->
-
-
-
-
-
-
 
     </body>
 
