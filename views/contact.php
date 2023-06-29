@@ -19,9 +19,7 @@
     <title>Contact</title>
 </head>
 
-    <!-- insertion entête -->
-    <?php require 'header.php' ?>
-
+    <!-- insertion PHPMailer + entête-->
     <?php
 
     use PHPMailer\PHPMailer\PHPMailer;
@@ -32,6 +30,7 @@
     require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/SMTP.php';
     ?>
 
+    <!-- form -->
     <?php
 
     $message_sent = false;
@@ -154,9 +153,6 @@
         <!--Section: Content-->
 
     </div>
-
-
-
 
 
     </body>
