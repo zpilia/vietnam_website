@@ -36,6 +36,10 @@
             color: #e60000;
         }
 
+        p {
+
+        }
+
         /*----------------genealogy-scroll----------*/
 
         .genealogy-scroll::-webkit-scrollbar {
