@@ -114,21 +114,25 @@
                             <!-- TEST FORM RAJOUTE PAR MOI -->
                             <form action="contact.php" method="POST">
                                 <div class="md-form">
+                                    <label for="name"></label>
                                     <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
+                                    <label for="email"></label>
                                     <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
+                                    <label for="subject"></label>
                                     <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required>
                                 </div>
                                 <br>
 
                                 <div class="md-form">
+                                    <label for="text"></label>
                                     <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message" required></textarea>
                                 </div>
                                 <br>
