@@ -22,25 +22,27 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
 
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+    </style>
 
 
     <!-- Titre -->
-    <div class="title"
-         style="font-family: 'Georgia', 'Times New Roman', serif;
-                            font-size: 40px;
-                            color: #e60000"
-    >
+    <div class="title">
         <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
     </div>
-
-
-
-
 
 
 
@@ -52,6 +54,7 @@
     <?php require 'footer.php' ?>
 
     <!-- library JS-->
+    <script type="text/javascript" src="../public/js/main.js"></script>
     <!-- Boostrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Boostrap 4-->
