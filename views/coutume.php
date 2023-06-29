@@ -22,16 +22,43 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-        background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
 
-    <div class="title"
-         style="font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 40px;
-                        color: #e60000"
-    >
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+        img {
+            width:70%;
+            height:auto
+        }
+
+        h4 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: left;
+            color: #ff1a1a;
+        }
+
+        p {
+            font-family: 'Georgia', serif;
+            text-align: justify;
+            font-size: 110%;
+            color: black;
+        }
+
+
+    </style>
+
+    <div class="title">
         <h1 class="mt-4 fw-bold text-center">Les fêtes et les lunes</h1>
     </div>
 
@@ -43,23 +70,15 @@
 
             <!-- image -->
             <div class="col my-auto">
-                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded mx-5" style="width:70%; height:auto">
+                <img src="../public/img/tet.jpg" alt="tet" class="img-fluid rounded mx-5">
             </div>
 
             <!-- texte -->
             <div class="col my-auto">
-                <h4 class="mb-3" style="font-family: 'Georgia', serif;
-                    font-weight: bold;
-                    text-align: left;
-                    color: #ff1a1a"
-                >
+                <h4 class="mb-3">
                     Nouvel An - Têt Nguyên Dán
                 </h4>
-                <p style="font-family: 'Georgia', serif;
-                          text-align: justify;
-                          font-size: 110%;
-                          color: black;"
-                >
+                <p>
                     Le « Tet Nguyen Dan » (le Nouvel An Vietnamien) est célébré au même moment que le Nouvel An chinois, entre mi-janvier et mi-février, selon les années.
                     Suivant les moyens de la famille, les festivités peuvent durer de 3 à 7 jours.
                     <br><br>
@@ -82,18 +101,10 @@
 
             <!-- texte -->
             <div class="col my-auto">
-                <h4 class="mb-3" style="font-family: 'Georgia', serif;
-                    font-weight: bold;
-                    text-align: left;
-                    color: #ff1a1a"
-                >
+                <h4 class="mb-3">
                     Fête de la mi-automne - Tet Trung Thu
                 </h4>
-                <p style="font-family: 'Georgia', serif;
-                          text-align: justify;
-                          font-size: 110%;
-                          color: black;"
-                >
+                <p>
                     A l'origine, le Têt Trung Thu était dédié au culte à la lune, dont on espérait une saison florissante.
                     Aujourd'hui, la fête de la mi-automne est une fête haute en couleurs qui célèbre l'union familiale
                     et met à l'honneur les enfants, pour qui elle représente la fête la plus importante de l'année.
@@ -106,7 +117,7 @@
 
             <!-- image -->
             <div class="col my-auto">
-                <img src="../public/img/fete_mi_automne.jpg" alt="fete_mi_automne" class="img-fluid rounded ms-5 mt-2" style="width:70%; height:auto">
+                <img src="../public/img/fete_mi_automne.jpg" alt="fete_mi_automne" class="img-fluid rounded ms-5 mt-2">
             </div>
         </div>
     </div>
@@ -123,23 +134,15 @@
 
             <!-- image -->
             <div class="col my-auto">
-                <img src="../public/img/mort_3.jpg" alt="mort" class="img-fluid rounded mx-5" style="width:65%; height:auto">
+                <img src="../public/img/mort_3.jpg" alt="mort" class="img-fluid rounded mx-5">
             </div>
 
             <!-- texte -->
             <div class="col my-auto">
-                <h4 class="mb-3" style="font-family: 'Georgia', serif;
-                    font-weight: bold;
-                    text-align: left;
-                    color: #ff1a1a"
-                >
+                <h4 class="mb-3">
                     Têt Thanh Minh - l'hommage aux morts
                 </h4>
-                <p class="mt-5" style="font-family: 'Georgia', serif;
-                          text-align: justify;
-                          font-size: 110%;
-                          color: black;"
-                >
+                <p class="mt-5">
                     Têt Thanh Minh est célébré au cours des premiers jours du 3ème mois lunaire. A cette occasion, les vietnamiens se rendent sur les tombes de leurs ancêtres.
                     Ils les nettoient et organisent une cérémonie pour leur rendre hommage.
                 </p>

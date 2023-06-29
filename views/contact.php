@@ -80,17 +80,24 @@
     }
     ?>
 
-    <body
-        style="
-                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+    </style>
 
     <!-- Titre -->
-    <div class="title"
-         style="font-family: 'Georgia', 'Times New Roman', serif;
-                                font-size: 40px;
-                                color: #e60000"
-    >
+    <div class="title">
         <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
     </div>
 

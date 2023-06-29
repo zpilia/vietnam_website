@@ -25,14 +25,46 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body style="background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);">
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+        p {
+            font-family: 'Georgia', serif;
+            text-align: justify;
+            font-size: 100%;
+            color: black;
+        }
+
+        iframe {
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+
+        .map-container-9 {
+            overflow:hidden;
+            padding-bottom:55%;
+            position:relative;
+            height:0;
+        }
+
+    </style>
 
         <!-- Titre -->
-        <div class="title"
-             style="font-family: 'Georgia', 'Times New Roman', serif;
-                            font-size: 40px;
-                            color: #e60000"
-        >
+        <div class="title">
             <h1 class="mt-4 fw-bold text-center">Les lieux les plus important à visiter</h1>
         </div>
 
@@ -52,12 +84,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Hanoi</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 La capitale vietnamienne est connue pour son ambiance si particulière, typiquement vietnamienne avec son agitation
                                 et son ébullition qui est séduit par sa richesse culturelle dont le Temple de la Littérature,
                                 le lac Hoan Kiem, le Mausolée Ho Chi Minh ou son formidable musée d’Ethnographie ne sont que quelques-uns des sites culturels emblématiques de la ville.
@@ -78,19 +105,10 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59585.969790435425!2d105.79296009040836!3d21.02775943883605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2sHano%C3%AF%2C%20District%20de%20Hoan%20Kiem%2C%20Hano%C3%AF%2C%20Vietnam!5e0!3m2!1sfr!2sfr!4v1687455326871!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;">
+                                                >
                                                 </iframe>
                                             </div>
                                         </div>
@@ -120,12 +138,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Baie d’Halong</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 L’une des sept merveilles du monde moderne, la baie d’Halong se situe dans la province de Quang Ninh, à 160km à l’est de Hanoï.
                                 <br><br>
                                 On y admire quelque 1 969 îles et îlots rocheux jaillissant d’une mer émeraude. Ses paysages féeriques et ses grottes en font un chef-d’œuvre de la nature.
@@ -146,19 +159,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238637.4487194976!2d107.00954203101978!3d20.843408353365028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2sBaie%20de%20H%E1%BA%A1%20Long!5e0!3m2!1sfr!2sfr!4v1687529533133!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -189,12 +192,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Sapa – la reine des montagnes</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 La région de Sapa est la partie la plus haute du Vietnam avec le Mont Fansipan surnommé "le toit de l’Indochine".
                                 Doté d’un climat frais toute l’année, le bourg de Sapa était la station climatique de l’époque coloniale.
                                 Hors des rizières en terrasses à perte de vue, des montagnes, des ruisseaux...
@@ -217,20 +215,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:60%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236225.6457131593!2d103.74100695476814!3d22.314867237618376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36cd40a503ec6395%3A0x49032814dedb2fb8!2sSa%20Pa%2C%20L%C3%A0o%20Cai%2C%20Vietnam!5e0!3m2!1sfr!2sfr!4v1687529884888!5m2!1sfr!2sfr"
-                                                        frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
-                                                >
+                                                        frameborder="0" allowfullscreen>
                                                 </iframe>
                                             </div>
                                         </div>
@@ -268,12 +255,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Parc national - Phong Nha Ke Bang</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 Le parc national de Phong Nha-Ke Bang, classé au patrimoine mondial de l’Unesco, est une merveille naturelle du Vietnam.
                                 <br><br>
                                 Ces fantastiques paysages karstiques abritent un nombre impressionnant de cavités et de grottes traversées par des rivières dont
@@ -295,20 +277,10 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
 
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.6244720142067!2d106.12916858202793!3d17.47767894068741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3138ba4e96f40ad5%3A0x5d3b4a2c611e58b0!2sPhong%20Nha%20-%20Ke%20Bang%20National%20Park!5e0!3m2!1sfr!2sfr!4v1687535843643!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -339,12 +311,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Hué – la Cité impériale</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 Classée au patrimoine de l’Unesco, Hue subjugue les visiteurs par son impressionnant héritage de son passé glorieux puisqu’elle fut
                                 capitale impériale du Vietnam sous la Dynastie des Nguyen de 1802 à 1945.
                                 <br><br>
@@ -368,20 +335,10 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
 
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61222.994877237616!2d107.53591346305022!3d16.45338642630526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a115e1a7935f%3A0xbf3b50af70b5c7b7!2zSHXhur8sIFRo4burYSBUaGnDqm4gSHXhur8sIFZpZXRuYW0!5e0!3m2!1sfr!2sfr!4v1687536210935!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -412,12 +369,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Hoi An</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 La région de Sapa est la partie la plus haute du Vietnam avec le Mont Fansipan surnommé "le toit de l’Indochine".
                                 Doté d’un climat frais toute l’année, le bourg de Sapa était la station climatique de l’époque coloniale.
                                 Hors des rizières en terrasses à perte de vue, des montagnes, des ruisseaux...
@@ -440,19 +392,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:60%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122778.37554321792!2d108.3346715408288!3d15.918276471806571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420dd4e1353a7b%3A0xae336435edfcca3!2zSOG7mWkgQW4sIFByb3ZpbmNlIGRlIFF14bqjbmcgTmFtLCBWaWV0bmFt!5e0!3m2!1sfr!2sfr!4v1687536965314!5m2!1sfr!2sfr"
                                                         frameborder="0"  allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -492,12 +434,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Ho Chi Minh - Ville</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 Hô Chi Minh-Ville, l’ancienne Saigon est l’une des capitales économiques et culturelles de l’Asie du Sud-Est.
                                 <br><br>
                                 Mégalopole moderne, passionnante, gigantesque et métissée, tournée vers l’avenir sans pour autant renier son passé :
@@ -520,19 +457,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.46045380377!2d106.41503196962296!3d10.754666397185357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sH%C3%B4%20Chi%20Minh-Ville%2C%20H%C3%B4%20Chi%20Minh%2C%20Vietnam!5e0!3m2!1sfr!2sfr!4v1687537346186!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -563,12 +490,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">Delta du Mékong</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 Cette immense plaine extrêmement fertile traversée par les neuf bras du fleuve légendaire Mékong est quadrillé par une multitude de canaux et
                                 d’arroyos verdoyants, de rizières et de vergers, d’îles et de villages nonchalants.
                                 <br><br>
@@ -590,19 +512,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013014.7982425906!2d105.13668865!3d9.794004450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a09bba522eed6d%3A0xa5cd3e8fd29a2fe6!2sDelta%20du%20M%C3%A9kong%2C%20Vietnam!5e0!3m2!1sfr!2sfr!4v1687538549701!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
@@ -633,12 +545,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-dark text-center">L’île de Phu Quoc</h4>
                             <hr>
-                            <p class="card-text text-justify"
-                               style="font-family: 'Georgia', serif;
-                                      text-align: justify;
-                                      font-size: 100%;
-                                      color: black;"
-                            >
+                            <p class="card-text text-justify">
                                 Phu Quoc contentera les amateurs de belles plages, de sable blanc, de cocotiers langoureux et de nature préservée puisqu'elle abrite en son sein un parc national.
                                 <br><br>
                                 L'île est également connue pour son poivre et sa sauce de poisson de grande qualité et pour ses formidables fruits de mer.
@@ -659,19 +566,9 @@
                                         <!-- Modal body -->
                                         <div class="modal-body mb-0 p-0">
                                             <!-- Google Maps -->
-                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
-                                                 style="overflow:hidden;
-                                                        padding-bottom:55%;
-                                                        position:relative;
-                                                        height:0;"
-                                            >
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9">
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251290.06721921675!2d103.64557391358252!3d10.228697088500148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a78c62b49eda17%3A0x8aa79fbbdd72cdb!2zUGjDuiBRdeG7kWM!5e0!3m2!1sfr!2sfr!4v1687538731273!5m2!1sfr!2sfr"
                                                         frameborder="0" allowfullscreen
-                                                        style="left:0;
-                                                               top:0;
-                                                               height:100%;
-                                                               width:100%;
-                                                               position:absolute;"
                                                 >
                                                 </iframe>
                                             </div>
