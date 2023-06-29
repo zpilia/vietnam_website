@@ -79,7 +79,7 @@
     <div class="container">
         <div class="row gx-1 justify-content-center my-auto ">
 
-            <div class="col-lg-3 col-md-6 my-auto">
+            <div class="col-lg-4 col-md-12 my-auto">
                 <ul class="form-check"
                     style="font-family: 'Georgia', sans-serif;
                            font-size: 110%;
@@ -87,16 +87,16 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                        <label class="form-check-label" for="flexCheckDefault">Une boite de lait de coco de 400 ml</label>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
-                    Pour la marinade :
+                    Pour le sirop de caramel :
                 </h5>
 
                 <ul class="form-check"
@@ -106,105 +106,7 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou</label><label>crevettes)</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de</label><label>poisson</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce d'huître</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 branche de citronnelle</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 grosse échalote ou un demi oignon</label>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
-                    Pour la garniture :
-                </h5>
-
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">5 à 6 feuilles de Salade</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 carotte</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 à 10 branches de coriandre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 branches de menthe</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 petit concombre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 poignée de cacahuètes</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Soja (option)</label>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
-                    Pour la sauce :
-                </h5>
-
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 piments frais</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sucre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">6 cuillères à soupe de sauce de</label><label>poisson</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1/2 citron vert</label>
+                        <label class="form-check-label" for="flexCheckDefault">160 g de sucre</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -212,6 +114,38 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-decoration-underline"
+                    style="font-family: 'Georgia', sans-serif; color: black;"
+                >
+                    Pour les banh lot :
+                </h5>
+
+                <ul class="form-check"
+                    style="font-family: 'Georgia', sans-serif;
+                           font-size: 110%;
+                           color: black;"
+                >
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">25 g de farine de riz blanc</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">100 g d'amidon de soja</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">40 g de sucre</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1/2 cuillère à café d'extrait de pandan</label>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
     <!-- Fin container // liste ingredient -->
@@ -243,29 +177,29 @@
                            font-size: 110%;
                            color: black;">
                     <li class="mb-3">
-                        Préparer la sauce : dans un bol, mettre les piments ciselés, le jus de citron, le sucre, la sauce de poisson, l’eau, l'ail haché.
-                        Bien mélanger et réserver.
+                        Faire le sirop de caramel : verser le sucre dans une casserole à feu moyen, faire caraméliser et lorsqu'il a pris
+                        une couleur brune, couper le feu, ajouter l'eau (attention aux projections !!), remettre le feu, faire bouillir
+                        5 minutes puis réserver.
                     </li>
                     <li class="mb-3">
-                        Préparer la marinade : émincer finement le bœuf, le déposer dans un saladier et y ajouter la citronnelle (la partie blanche) et
-                        l'échalote émincées, l'ail écrasée, la sauce d'huître et la sauce de poisson. Bien mélanger l'ensemble et laisser mariner au moins
-                        30 minutes.
+                        Préparer un grand saladier d'eau froide avec des glaçons.
                     </li>
                     <li class="mb-3">
                         Pour les vermicelles de riz, faire bouillir une casserole d'eau, y plonger les vermicelles et les faire cuire pendant 5 minutes
                         à feu moyen. Les retirer, rincer à l'eau froide et réserver.
                     </li>
                     <li class="mb-3">
-                        Hacher les cacahuètes grossièrement au couteau, couper le concombre en bâtonnets et la carotte en fines juliennes.
-                        Déchirer les feuilles de coriandre, effeuiller la menthe et couper en chiffonnade la salade.
+                        Dans une grande casserole, verser l'amidon de soja, la farine de riz blanc, le sucre, 1L d'eau et l'extrait de pandan,
+                        bien mélanger, mettre sur feu moyen et remuer continuellement jusqu'à ce que cela épaississe puis réduire le feu et continuer
+                        la cuisson encore 5 minutes tout en remuant, couper ensuite le feu.
                     </li>
                     <li class="mb-3">
-                        Pour la cuisson de la viande, mettre 3 cuillères à soupe d'huile dans une sauteuse à feu vif.
-                        Y faire revenir la viande marinée. Le temps de cuisson dépend de votre goût.
+                        Transférer une petite partie du mélange dans une écumoire placée au-dessus du saladier d'eau et à l'aide du marise,
+                        presser sur la pâte afin de créer des filets qui vont se solidifier au contact de l'eau froide.
                     </li>
                     <li class="mb-3">
-                        Etape finale : déposer dans un bol les vermicelles de riz, ajouter la salade, la menthe, la coriandre, le concombre,
-                        le bœuf sauté et les juliennes de carottes. Ajouter la sauce et finir par les cacahuètes.
+                        Pour le dressage : mettre les banh lot obtenus dans un verre, ajouter 4 cuillères à soupe de sirop de caramel puis
+                        4 cuillères à soupe de lait de coco.
                     </li>
                 </ol>
             </div>
@@ -277,13 +211,6 @@
         </div>
     </div>
     <!-- Fin container // deroulement -->
-
-
-
-
-
-
-
 
     </body>
 

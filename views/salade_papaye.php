@@ -145,11 +145,11 @@
                 </ul>
             </div>
 
-            <div class="col-lg-4 col-md-6 my-auto">
+            <div class="col-lg-4 col-md-6">
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
-                    Pour la garniture :
+                    Pour accompagner :
                 </h5>
 
                 <ul class="form-check"
@@ -159,31 +159,15 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">5 à 6 feuilles de Salade</label>
+                        <label class="form-check-label" for="flexCheckDefault">Vermicelles de riz (Bun)</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 carotte</label>
+                        <label class="form-check-label" for="flexCheckDefault">Salade verte</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 à 10 branches de coriandre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">8 branches de menthe</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 petit concombre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 poignée de cacahuètes</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Soja (option)</label>
+                        <label class="form-check-label" for="flexCheckDefault">Riz gluant</label>
                     </li>
                 </ul>
             </div>
@@ -219,29 +203,20 @@
                            font-size: 110%;
                            color: black;">
                     <li class="mb-3">
-                        Préparer la sauce : dans un bol, mettre les piments ciselés, le jus de citron, le sucre, la sauce de poisson, l’eau, l'ail haché.
-                        Bien mélanger et réserver.
+                        Couper le haricot en tronçons de 5 cm environ, les tomates cerises en 4, éplucher la gousse d'ail, retirer le pédoncule du
+                        piment et éplucher la papaye verte.
                     </li>
                     <li class="mb-3">
-                        Préparer la marinade : émincer finement le bœuf, le déposer dans un saladier et y ajouter la citronnelle (la partie blanche) et
-                        l'échalote émincées, l'ail écrasée, la sauce d'huître et la sauce de poisson. Bien mélanger l'ensemble et laisser mariner au moins
-                        30 minutes.
+                        Découper la papaye verte en fines juliennes en suivant une des méthodes indiquée dans la vidéo.
                     </li>
                     <li class="mb-3">
-                        Pour les vermicelles de riz, faire bouillir une casserole d'eau, y plonger les vermicelles et les faire cuire pendant 5 minutes
-                        à feu moyen. Les retirer, rincer à l'eau froide et réserver.
-                    </li>
-                    <li class="mb-3">
-                        Hacher les cacahuètes grossièrement au couteau, couper le concombre en bâtonnets et la carotte en fines juliennes.
-                        Déchirer les feuilles de coriandre, effeuiller la menthe et couper en chiffonnade la salade.
-                    </li>
-                    <li class="mb-3">
-                        Pour la cuisson de la viande, mettre 3 cuillères à soupe d'huile dans une sauteuse à feu vif.
-                        Y faire revenir la viande marinée. Le temps de cuisson dépend de votre goût.
-                    </li>
-                    <li class="mb-3">
-                        Etape finale : déposer dans un bol les vermicelles de riz, ajouter la salade, la menthe, la coriandre, le concombre,
-                        le bœuf sauté et les juliennes de carottes. Ajouter la sauce et finir par les cacahuètes.
+                        Dans un mortier, mettre le ou les piments, l'ail, la moitié du sucre, écraser l'ail et le piment avec le pilon,
+                        ajouter les cacahuètes, les crevettes séchées, les tronçons de haricot kilomètre et écraser de nouveau grossièrement.
+                        <br><br>
+                        Ajouter ensuite la papaye, les tomates, le reste de sucre, la sauce de poisson, la pâte de crevettes, le tamarin et
+                        le jus de citron. Bien incorporer l'ensemble à l'aide du pilon et d'une cuillère en écrasant légèrement le tout.
+                        <br><br>
+                        Réajuster l’assaisonnement si nécessaire.
                     </li>
                 </ol>
             </div>
@@ -253,12 +228,6 @@
         </div>
     </div>
     <!-- Fin container // deroulement -->
-
-
-
-
-
-
 
     </body>
 
