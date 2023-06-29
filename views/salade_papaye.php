@@ -79,7 +79,7 @@
     <div class="container">
         <div class="row gx-1 justify-content-center my-auto ">
 
-            <div class="col-lg-3 col-md-6 my-auto">
+            <div class="col-lg-4 col-md-12 my-auto">
                 <ul class="form-check"
                     style="font-family: 'Georgia', sans-serif;
                            font-size: 110%;
@@ -87,26 +87,11 @@
                 >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">350g de vermicelle de riz</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 papaye verte (recette avec 250 g de juliennes)</label>
                     </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
-                    Pour la marinade :
-                </h5>
-
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">400g de bœuf (ou poulet, ou</label><label>crevettes)</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 haricot kilomètre</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
@@ -114,24 +99,53 @@
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce de</label><label>poisson</label>
+                        <label class="form-check-label" for="flexCheckDefault">2 piments (en fonction de l'intensité recherchée)</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sauce d'huître</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de tamarin</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 branche de citronnelle</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 grosse échalote ou un demi oignon</label>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de sucre</label>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6 my-auto">
+                <ul class="form-check"
+                    style="font-family: 'Georgia', sans-serif;
+                           font-size: 110%;
+                           color: black;"
+                >
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">5 tomates cerises</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1/4 de citron vert</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de kapi (pâte de crevettes)</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de cacahuètes</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de crevettes séchées</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label class="form-check-label" for="flexCheckDefault">4 cuillères à soupe de sauce poisson</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 my-auto">
                 <h5 class="text-decoration-underline"
                     style="font-family: 'Georgia', sans-serif; color: black;"
                 >
@@ -174,44 +188,6 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
-                    Pour la sauce :
-                </h5>
-
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 piments frais</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">3 cuillères à soupe de sucre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">6 cuillères à soupe de sauce de</label><label>poisson</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1/2 citron vert</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">20 cl d'eau</label>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
     <!-- Fin container // liste ingredient -->
