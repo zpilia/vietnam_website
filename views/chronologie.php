@@ -124,7 +124,7 @@
                 <!--1 section-->
                 <div class="row align-items-center how-it-works d-flex">
                     <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                        <div class="circle font-weight-bold">300 000 - 500 000 av. J.C</div>
+                        <div class="circle font-weight-bold">300 000 - 500 000</div>
                     </div>
                     <div class="col-6 text-justify">
                         <p>
@@ -202,7 +202,7 @@
                         </p>
                     </div>
                     <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                        <div class="circle font-weight-bold">111 av. J.C. à 938 ap. J.C.</div>
+                        <div class="circle font-weight-bold">111 av. J.C. - 938 ap. J.C.</div>
                     </div>
                 </div>
                 <!--path between 4-5-->
