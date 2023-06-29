@@ -112,7 +112,6 @@
                     <div class="card">
                         <div class="card-body">
                             <!-- Body -->
-
                             <!-- TEST FORM RAJOUTE PAR MOI -->
                             <form action="contact.php" method="POST">
                                 <div class="md-form">
@@ -143,9 +142,7 @@
                         </div>
                     </div>
                     <!-- Form with header -->
-
-                    <div class="col-lg-4 col-md-12"></div>
-
+                    <div class="col-lg-4 col-md-6"></div>
                 </div>
                 <!-- Grid column -->
             </div>
