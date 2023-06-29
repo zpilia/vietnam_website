@@ -27,9 +27,9 @@
     use PHPMailer\PHPMailer\PHPMailer;
 
     require 'header.php';
-    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/Exception.php';
-    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/PHPMailer.php';
-    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/SMTP.php';
+    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/Exception.php';
+    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/PHPMailer.php';
+    require '/Applications/MAMP/htdocs/vietnam_website/PHPMailer/src/SMTP.php';
     ?>
 
     <?php
@@ -138,7 +138,7 @@
                                 <br>
 
                                 <div class="text-center">
-                                    <button name="send_mail" type="submit" style="background-color: #f2f2f2" class="btn btn-light">Envoyer</button>
+                                    <button name="send_mail" type="submit" class="btn btn-light">Envoyer</button>
                                 </div>
                                 <!-- TEST FIN DE FORM -->
                             </form>
