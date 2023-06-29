@@ -22,19 +22,57 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: #e60000;
+        }
+
+        h4 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: black
+        }
+
+        h5 {
+            font-family: 'Georgia', sans-serif;
+            color: black;
+        }
+
+        ul, ol {
+            font-family: 'Georgia', sans-serif;
+            font-size: 110%;
+            color: black;
+        }
+
+        p {
+            font-family: 'Georgia', sans-serif;
+            text-align: justify;
+            font-size: 110%;
+            color: black;
+        }
+
+        img {
+            width:80%;
+            height:auto;
+        }
+
+    </style>
 
     <!-- Titre du contenu -->
     <div class="container mt-4 mb-5">
         <div class="title">
-            <h2 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: #e60000"
-            >
+            <h2>
                 Banh lot - Khao lod song (4 personnes)
             </h2>
         </div>
@@ -44,9 +82,7 @@
     <div class="container">
         <div class="row gx-1">
             <div class="col-md-6">
-                <img src="../public/img/banh_lot_3.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="banh_lot"
-                     style="width:80%;
-                               height:auto;">
+                <img src="../public/img/banh_lot_3.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="banh_lot">
             </div>
 
             <div class="col-md-6">
@@ -66,10 +102,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Ingrédients
             </h4>
         </div>
@@ -80,11 +113,7 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-lg-4 col-md-12 my-auto">
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">Une boite de lait de coco de 400 ml</label>
@@ -93,17 +122,11 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour le sirop de caramel :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">160 g de sucre</label>
@@ -116,17 +139,11 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour les banh lot :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">25 g de farine de riz blanc</label>
@@ -158,10 +175,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Déroulement
             </h4>
         </div>
@@ -172,10 +186,7 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-12 my-auto">
-                <ol style="font-family: 'Georgia', sans-serif;
-                           text-align: justify;
-                           font-size: 110%;
-                           color: black;">
+                <ol>
                     <li class="mb-3">
                         Faire le sirop de caramel : verser le sucre dans une casserole à feu moyen, faire caraméliser et lorsqu'il a pris
                         une couleur brune, couper le feu, ajouter l'eau (attention aux projections !!), remettre le feu, faire bouillir

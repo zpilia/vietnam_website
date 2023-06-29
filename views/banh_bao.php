@@ -22,19 +22,57 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: #e60000;
+        }
+
+        h4 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: black
+        }
+
+        h5 {
+            font-family: 'Georgia', sans-serif;
+            color: black;
+        }
+
+        ul, ol {
+            font-family: 'Georgia', sans-serif;
+            font-size: 110%;
+            color: black;
+        }
+
+        p {
+            font-family: 'Georgia', sans-serif;
+            text-align: justify;
+            font-size: 110%;
+            color: black;
+        }
+
+        img {
+            width:80%;
+            height:auto;
+        }
+
+    </style>
 
     <!-- Titre du contenu -->
     <div class="container mt-4 mb-5">
         <div class="title">
-            <h2 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: #e60000"
-            >
+            <h2>
                 Bánh Bao (8 brioches)
             </h2>
         </div>
@@ -44,9 +82,7 @@
     <div class="container">
         <div class="row gx-1">
             <div class="col-md-6">
-                <img src="../public/img/banh_bao_2.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="banh_bao"
-                     style="width:80%;
-                               height:auto;">
+                <img src="../public/img/banh_bao_2.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="banh_bao">
             </div>
 
             <div class="col-md-6">
@@ -66,10 +102,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Ingrédients
             </h4>
         </div>
@@ -80,17 +113,11 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-md-6 my-auto">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour la pâte :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">300 g de farine de blé</label>
@@ -123,17 +150,11 @@
             </div>
 
             <div class="col-md-6 my-auto">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour la farce :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">350 g de porc haché</label>
@@ -188,10 +209,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Déroulement
             </h4>
         </div>
@@ -202,17 +220,10 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-12 my-auto">
-                <p style="font-family: 'Georgia', sans-serif;
-                          text-align: justify;
-                          font-size: 110%;
-                          color: black;"
-                >
+                <p>
                     Avant la préparation réhydrater les champignons noirs.
                 </p>
-                <ol style="font-family: 'Georgia', sans-serif;
-                           text-align: justify;
-                           font-size: 110%;
-                           color: black;">
+                <ol>
                     <li class="mb-3">
                         Préparer la pâte : dans un saladier, mélanger la farine de blé, la farine de riz blanc, le sucre,
                         la levure boulangère et la levure chimique, ajouter progressivement l'eau puis pétrir une minute,

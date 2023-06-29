@@ -22,19 +22,33 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-        background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        .title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 40px;
+            color: #e60000;
+        }
+
+        p, ol {
+            font-family: 'Georgia', serif;
+            text-align: justify;
+            font-size: 120%;
+            color: black;
+        }
+
+    </style>
 
         <!--Présentation du pays -->
 
         <!-- Titre -->
-        <div class="title"
-             style="font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 40px;
-                        color: #e60000"
-        >
+        <div class="title">
             <h1 class="mt-4 fw-bold text-center">Terre de courage et de ténacité</h1>
         </div>
 
@@ -50,12 +64,7 @@
 
                 <!-- texte -->
                 <div class="col-md-5">
-                    <p class="mt-5"
-                       style="font-family: 'Georgia', serif;
-                              text-align: justify;
-                              font-size: 120%;
-                              color: black;"
-                    >
+                    <p class="mt-5">
                         Le Vietnam est un pays du sud-est de l’Asie qui s’étend sur toute la longueur de la péninsule
                         indochinoise (le Laos et le Cambodge) et que baigne la mer de Chine sur son flanc oriental.
                         <br><br>
@@ -74,20 +83,10 @@
 
                 <!-- texte -->
                 <div class="col-lg-6">
-                    <p class="mt-5"
-                       style="font-family: 'Georgia', serif;
-                              text-align: justify;
-                              font-size: 110%;
-                              color: black;"
-                    >
+                    <p class="mt-5">
                         Les différentes régions du pays :
                     </p>
-                    <ol class="mt-4"
-                        style="font-family: 'Georgia', serif;
-                                   text-align: justify;
-                                   font-size: 110%;
-                                   color: black;"
-                    >
+                    <ol class="mt-4">
                         <li>Le Nord-ouest (Tây Bắc)</li>
                         <br>
                         <li>Le Nord-est (Đông Bắc)</li>

@@ -22,19 +22,57 @@
     <!-- insertion entête -->
     <?php require 'header.php' ?>
 
-    <body
-        style="
-                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
-    >
+    <body>
+
+    <style>
+
+        body {
+            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: #e60000;
+        }
+
+        h4 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-align: center;
+            color: black
+        }
+
+        h5 {
+            font-family: 'Georgia', sans-serif;
+            color: black;
+        }
+
+        ul, ol {
+            font-family: 'Georgia', sans-serif;
+            font-size: 110%;
+            color: black;
+        }
+
+        p {
+            font-family: 'Georgia', sans-serif;
+            text-align: justify;
+            font-size: 110%;
+            color: black;
+        }
+
+        img {
+            width:80%;
+            height:auto;
+        }
+
+    </style>
 
     <!-- Titre du contenu -->
     <div class="container mt-4 mb-5">
         <div class="title">
-            <h2 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: #e60000"
-            >
+            <h2>
                 Phở (4 personnes)
             </h2>
         </div>
@@ -44,9 +82,7 @@
     <div class="container">
         <div class="row gx-1">
             <div class="col-md-6">
-                <img src="../public/img/pho_4.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="pho"
-                     style="width:80%;
-                               height:auto;">
+                <img src="../public/img/pho_4.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="pho">
             </div>
 
             <div class="col-md-6">
@@ -66,10 +102,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Ingrédients
             </h4>
         </div>
@@ -80,11 +113,7 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-lg-3 col-md-6 my-auto">
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">
@@ -95,17 +124,11 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour le bouillon :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">500 g de jarret de bœuf avec os</label>
@@ -168,17 +191,11 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Pour la garniture :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">
@@ -207,17 +224,11 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h5 class="text-decoration-underline"
-                    style="font-family: 'Georgia', sans-serif; color: black;"
-                >
+                <h5 class="text-decoration-underline">
                     Accompagnements :
                 </h5>
 
-                <ul class="form-check"
-                    style="font-family: 'Georgia', sans-serif;
-                           font-size: 110%;
-                           color: black;"
-                >
+                <ul class="form-check">
                     <li>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
                         <label class="form-check-label" for="flexCheckDefault">Sauce hoisin</label>
@@ -256,10 +267,7 @@
     <!-- Titre 2 du contenu -->
     <div class="container mb-4">
         <div class="title">
-            <h4 style="font-family: 'Georgia', serif;
-                        font-weight: bold;
-                        text-align: center;
-                        color: black">
+            <h4>
                 Déroulement
             </h4>
         </div>
@@ -270,10 +278,7 @@
         <div class="row gx-1 justify-content-center my-auto ">
 
             <div class="col-12 my-auto">
-                <ol style="font-family: 'Georgia', sans-serif;
-                           text-align: justify;
-                           font-size: 110%;
-                           color: black;">
+                <ol>
                     <li class="mb-3">
                         Pour le bouillon : éplucher et couper en 2 l'oignon, éplucher la carotte et retirer les extrémités, couper le gingembre en
                         2 dans sa longueur.
