@@ -27,6 +27,8 @@
             background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);"
     >
 
+
+
     <!-- Titre -->
     <div class="title"
          style="font-family: 'Georgia', 'Times New Roman', serif;
@@ -35,6 +37,8 @@
     >
         <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
     </div>
+
+
 
 
 
