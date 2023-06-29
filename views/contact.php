@@ -33,52 +33,52 @@
     <!-- form -->
     <?php
 
-    $message_sent = false;
-    if (isset($_POST['send_mail'])) {
-        if (!empty($_POST['login'])) { // Nom
-            if (!empty($_POST['email'])) { // Email
-                if (!empty($_POST['subject'])) { // Objet
-                    if (!empty($_POST['content'])) { //message
-                        $mail = new PHPMailer();
+        $message_sent = false;
+        if (isset($_POST['send_mail'])) {
+            if (!empty($_POST['login'])) { // Nom
+                if (!empty($_POST['email'])) { // Email
+                    if (!empty($_POST['subject'])) { // Objet
+                        if (!empty($_POST['content'])) { //message
+                            $mail = new PHPMailer();
 
-                        try {
-                            //Server settings
-                            $mail->isSMTP();                                            //Send using SMTP
-                            $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
-                            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                            $mail->Username   = 'dc678a16204ec3';                     //SMTP username
-                            $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
-                            $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+                            try {
+                                //Server settings
+                                $mail->isSMTP();                                            //Send using SMTP
+                                $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
+                                $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                                $mail->Username   = 'dc678a16204ec3';                     //SMTP username
+                                $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
+                                $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-                            //Recipients
-                            $mail->setFrom('zpilia2@gmail.com', 'Mailer');
-                            $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
-                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé');
+                                //Recipients
+                                $mail->setFrom('zpilia2@gmail.com', 'Mailer');
+                                $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
+                                $mail->addReplyTo('zpilia2@gmail.com', 'Zoé');
 
-                            //Content
-                            $mail->isHTML(true);                                  //Set email format to HTML
-                            $mail->Subject = $_POST['subject'];
-                            $mail->Body    = $_POST['content'];
-                            $mail->AltBody = $_POST['content'];
+                                //Content
+                                $mail->isHTML(true);                                  //Set email format to HTML
+                                $mail->Subject = $_POST['subject'];
+                                $mail->Body    = $_POST['content'];
+                                $mail->AltBody = $_POST['content'];
 
-                            $mail->send();
-                            echo 'Message has been sent';
-                        } catch (Exception $e) {
-                            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                                $mail->send();
+                                echo 'Message has been sent';
+                            } catch (Exception $e) {
+                                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                            }
+                        } else {
+                            // pas de contenu
                         }
                     } else {
-                        // pas de contenu
+                        // pas d'objet
                     }
                 } else {
-                    // pas d'objet
+                    // pas d'email
                 }
             } else {
-                // pas d'email
+                // pas de nom
             }
-        } else {
-            // pas de nom
         }
-    }
     ?>
 
     <body
@@ -95,7 +95,7 @@
         <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-4">
 
         <!--Section: Content-->
         <section class="container my-auto py-auto z-depth-1">
