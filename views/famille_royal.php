@@ -250,14 +250,28 @@
                                                             <a href="javascript:void(0);">
                                                                 <div class="member-view-box">
                                                                     <div class="member-image">
-                                                                        <img src="../public/img/point_interro.webp" alt="duc_duc">
+                                                                        <img src="../public/img/Thanh_Thai.JPG" alt="thanh_thai">
                                                                         <div class="member-details">
-                                                                            <h3>Duc Duc</h3>
-                                                                            <h5>1883</h5>
+                                                                            <h3>Thanh-Thai</h3>
+                                                                            <h5>1889 - 1907</h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </a>
+                                                            <ul class="active">
+                                                                <li>
+                                                                    <a href="javascript:void(0);">
+                                                                        <div class="member-view-box">
+                                                                            <div class="member-image">
+                                                                                <img src="../public/img/duy_tan.JPG" alt="duy_tan">
+                                                                                <div class="member-details">
+                                                                                    <h3>Duy-Tân</h3>
+                                                                                    <h5>1907 - 1916</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                            </ul>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -273,6 +287,77 @@
                                                     </div>
                                                 </div>
                                             </a>
+                                            <ul class="active">
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <div class="member-view-box">
+                                                            <div class="member-image">
+                                                                <img src="../public/img/dongkhanh.jpg" alt="dong_khanh">
+                                                                <div class="member-details">
+                                                                    <h3>Dong Khanh</h3>
+                                                                    <h5>1885 - 1889</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <ul class="active">
+                                                        <li>
+                                                            <a href="javascript:void(0);">
+                                                                <div class="member-view-box">
+                                                                    <div class="member-image">
+                                                                        <img src="../public/img/Khai_Dinh.jpg" alt="khai_dinh">
+                                                                        <div class="member-details">
+                                                                            <h3>Khai-Dinh</h3>
+                                                                            <h5>1916 - 1925</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <ul class="active">
+                                                                <li>
+                                                                    <a href="javascript:void(0);">
+                                                                        <div class="member-view-box">
+                                                                            <div class="member-image">
+                                                                                <img src="../public/img/bao_dai.jpg" alt="bao_dai">
+                                                                                <div class="member-details">
+                                                                                    <h3>Bao-Dai</h3>
+                                                                                    <h5>1925 - 1945</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <div class="member-view-box">
+                                                            <div class="member-image">
+                                                                <img src="../public/img/Ham_Nghi.JPG" alt="ham_nghi">
+                                                                <div class="member-details">
+                                                                    <h3>Ham-Nghi</h3>
+                                                                    <h5>1884 - 1885</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <div class="member-view-box">
+                                                            <div class="member-image">
+                                                                <img src="../public/img/Kien_Phuc.jpg" alt="kien_phuoc">
+                                                                <div class="member-details">
+                                                                    <h3>Kiên Phuoc</h3>
+                                                                    <h5>1883 - 1884</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);">
