@@ -22,6 +22,8 @@
     <!-- insertion PHPMailer + entête-->
     <?php
         use PHPMailer\PHPMailer\PHPMailer;
+        use PHPMailer\PHPMailer\SMTP;
+        use PHPMailer\PHPMailer\Exception;
 
         require 'header.php';
         //require '/Applications/MAMP/htdocs/vietnam_website/vendor/autoload.php';
