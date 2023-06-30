@@ -225,19 +225,48 @@
                                             <a href="javascript:void(0);">
                                                 <div class="member-view-box">
                                                     <div class="member-image">
-                                                        <img src="../public/img/" alt="thoai_thai">
+                                                        <img src="../public/img/point_interro.webp" alt="thoai_thai">
                                                         <div class="member-details">
                                                             <h3>Prince<br>Thoai Thai</h3>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </a>
+                                            <ul class="active">
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <div class="member-view-box">
+                                                            <div class="member-image">
+                                                                <img src="../public/img/point_interro.webp" alt="duc_duc">
+                                                                <div class="member-details">
+                                                                    <h3>Duc Duc</h3>
+                                                                    <h5>1883</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <ul class="active">
+                                                        <li>
+                                                            <a href="javascript:void(0);">
+                                                                <div class="member-view-box">
+                                                                    <div class="member-image">
+                                                                        <img src="../public/img/point_interro.webp" alt="duc_duc">
+                                                                        <div class="member-details">
+                                                                            <h3>Duc Duc</h3>
+                                                                            <h5>1883</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);">
                                                 <div class="member-view-box">
                                                     <div class="member-image">
-                                                        <img src="../public/img/" alt="kien_thai">
+                                                        <img src="../public/img/point_interro.webp" alt="kien_thai">
                                                         <div class="member-details">
                                                             <h3>Prince<br>Kien Thai</h3>
                                                         </div>
