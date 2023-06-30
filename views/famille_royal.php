@@ -201,12 +201,64 @@
                                             <div class="member-image">
                                                 <img src="../public/img/Thieu_tri.webp" alt="thieu_tri">
                                                 <div class="member-details">
-                                                    <h3>Thieu Tri</h3>
+                                                    <h3>Thiêu-Tri</h3>
                                                     <h5>1841 - 1847</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </a>
+                                    <ul class="active">
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <div class="member-view-box">
+                                                    <div class="member-image">
+                                                        <img src="../public/img/Tu_Duc.jpg" alt="tu_duc">
+                                                        <div class="member-details">
+                                                            <h3>Tu Duc</h3>
+                                                            <h5>1847 - 1883</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <div class="member-view-box">
+                                                    <div class="member-image">
+                                                        <img src="../public/img/" alt="thoai_thai">
+                                                        <div class="member-details">
+                                                            <h3>Prince<br>Thoai Thai</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <div class="member-view-box">
+                                                    <div class="member-image">
+                                                        <img src="../public/img/" alt="kien_thai">
+                                                        <div class="member-details">
+                                                            <h3>Prince<br>Kien Thai</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <div class="member-view-box">
+                                                    <div class="member-image">
+                                                        <img src="../public/img/Thieu_tri.webp" alt="thieu_tri">
+                                                        <div class="member-details">
+                                                            <h3>Thieu Tri</h3>
+                                                            <h5>1841 - 1847</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
                             </ul>
                         </li>
                     </ul>
