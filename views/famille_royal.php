@@ -217,7 +217,7 @@
             <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
         </div>
 
-        <div class="section">
+        <div class="container-fluid">
                 <div class="body genealogy-body genealogy-scroll">
                     <div class="genealogy-tree">
                         <ul>
