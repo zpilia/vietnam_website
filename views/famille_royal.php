@@ -234,7 +234,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <ul class="active">
+                                <ul class="">
                                     <li>
                                         <a href="javascript:void(0);">
                                             <div class="member-view-box">
@@ -248,7 +248,7 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <ul class="active">
+                                        <ul class="">
                                             <li>
                                                 <a href="javascript:void(0);">
                                                     <div class="member-view-box">
@@ -262,7 +262,7 @@
                                                         </div>
                                                     </div>
                                                 </a>
-                                                <ul class="active">
+                                                <ul class="">
                                                     <li>
                                                         <a href="javascript:void(0);">
                                                             <div class="member-view-box">
@@ -288,7 +288,7 @@
                                                                 </div>
                                                             </div>
                                                         </a>
-                                                        <ul class="active">
+                                                        <ul class="">
                                                             <li>
                                                                 <a href="javascript:void(0);">
                                                                     <div class="member-view-box">
@@ -302,7 +302,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </a>
-                                                                <ul class="active">
+                                                                <ul class="">
                                                                     <li>
                                                                         <a href="javascript:void(0);">
                                                                             <div class="member-view-box">
@@ -316,7 +316,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </a>
-                                                                        <ul class="active">
+                                                                        <ul class="">
                                                                             <li>
                                                                                 <a href="javascript:void(0);">
                                                                                     <div class="member-view-box">
@@ -346,7 +346,7 @@
                                                                 </div>
                                                             </div>
                                                         </a>
-                                                        <ul class="active">
+                                                        <ul class="">
                                                             <li>
                                                                 <a href="javascript:void(0);">
                                                                     <div class="member-view-box">
@@ -360,7 +360,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </a>
-                                                                <ul class="active">
+                                                                <ul class="">
                                                                     <li>
                                                                         <a href="javascript:void(0);">
                                                                             <div class="member-view-box">
@@ -374,7 +374,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </a>
-                                                                        <ul class="active">
+                                                                        <ul class="">
                                                                             <li>
                                                                                 <a href="javascript:void(0);">
                                                                                     <div class="member-view-box">
@@ -445,10 +445,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
         </div>
-
-
 
     </body>
 
