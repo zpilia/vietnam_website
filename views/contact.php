@@ -41,7 +41,7 @@
             if (!empty($_POST['email'])) { // Email
                 if (!empty($_POST['subject'])) { // Objet
                     if (!empty($_POST['content'])) { //message
-                        $phpmailer = new PHPMailer(true);
+                        $phpmailer = new PHPMailer();
 
                         try {
                             //Server settings
@@ -49,7 +49,7 @@
                             $phpmailer->Host = 'sandbox.smtp.mailtrap.io';               //Set the SMTP server to send through
                             $phpmailer->SMTPAuth = true;                                    //Enable SMTP authentication
                             $phpmailer->Username = 'dc678a16204ec3';                        //SMTP username
-                            $phpmailer->Password = 'e7e9824ff977e4';                        //SMTP password
+                            $phpmailer->Password = '********77e4';                        //SMTP password
                             $phpmailer->Port = 2525;                                   //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                             //Recipients
