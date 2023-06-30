@@ -218,8 +218,12 @@
         </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Section / Arbre généalogie -->
         <div class="section">
+=======
+        <div class="container-fluid">
+>>>>>>> 7220e5c2e225df990ca94c0e9a9c43a8a6bbca79
 =======
         <div class="container-fluid">
 >>>>>>> 7220e5c2e225df990ca94c0e9a9c43a8a6bbca79
