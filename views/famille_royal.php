@@ -241,7 +241,8 @@
                                                 <div class="member-image">
                                                     <img src="../public/img/Minh_Mang.jpg" alt="minh_mang">
                                                     <div class="member-details">
-                                                        <h3>(2) Minh Mang</h3>
+                                                        <h2>2</h2>
+                                                        <h3>Minh Mang</h3>
                                                         <h5>1820 - 1840</h5>
                                                     </div>
                                                 </div>
@@ -254,7 +255,8 @@
                                                         <div class="member-image">
                                                             <img src="../public/img/Thieu_tri.webp" alt="thieu_tri">
                                                             <div class="member-details">
-                                                                <h3>(3) Thiêu-Tri</h3>
+                                                                <h2>3</h2>
+                                                                <h3>Thiêu-Tri</h3>
                                                                 <h5>1841 - 1847</h5>
                                                             </div>
                                                         </div>
@@ -267,7 +269,8 @@
                                                                 <div class="member-image">
                                                                     <img src="../public/img/Tu_Duc.jpg" alt="tu_duc">
                                                                     <div class="member-details">
-                                                                        <h3>(4) Tu Duc</h3>
+                                                                        <h2>4</h2>
+                                                                        <h3>Tu Duc</h3>
                                                                         <h5>1847 - 1883</h5>
                                                                     </div>
                                                                 </div>
@@ -292,7 +295,8 @@
                                                                         <div class="member-image">
                                                                             <img src="../public/img/point_interro.webp" alt="duc_duc">
                                                                             <div class="member-details">
-                                                                                <h3>(5) Duc Duc</h3>
+                                                                                <h2>5</h2>
+                                                                                <h3>Duc Duc</h3>
                                                                                 <h5>1883</h5>
                                                                             </div>
                                                                         </div>
@@ -305,7 +309,8 @@
                                                                                 <div class="member-image">
                                                                                     <img src="../public/img/Thanh_Thai.JPG" alt="thanh_thai">
                                                                                     <div class="member-details">
-                                                                                        <h3>(10) Thanh-Thai</h3>
+                                                                                        <h2>10</h2>
+                                                                                        <h3>Thanh-Thai</h3>
                                                                                         <h5>1889 - 1907</h5>
                                                                                     </div>
                                                                                 </div>
@@ -318,7 +323,8 @@
                                                                                         <div class="member-image">
                                                                                             <img src="../public/img/duy_tan.JPG" alt="duy_tan">
                                                                                             <div class="member-details">
-                                                                                                <h3>(11) Duy-Tân</h3>
+                                                                                                <h2>11</h2>
+                                                                                                <h3>Duy-Tân</h3>
                                                                                                 <h5>1907 - 1916</h5>
                                                                                             </div>
                                                                                         </div>
@@ -347,7 +353,8 @@
                                                                         <div class="member-image">
                                                                             <img src="../public/img/dongkhanh.jpg" alt="dong_khanh">
                                                                             <div class="member-details">
-                                                                                <h3>(9) Dong Khanh</h3>
+                                                                                <h2>9</h2>
+                                                                                <h3>Dong Khanh</h3>
                                                                                 <h5>1885 - 1889</h5>
                                                                             </div>
                                                                         </div>
@@ -360,7 +367,8 @@
                                                                                 <div class="member-image">
                                                                                     <img src="../public/img/Khai_Dinh.jpg" alt="khai_dinh">
                                                                                     <div class="member-details">
-                                                                                        <h3>(12) Khai-Dinh</h3>
+                                                                                        <h2>12</h2>
+                                                                                        <h3>Khai-Dinh</h3>
                                                                                         <h5>1916 - 1925</h5>
                                                                                     </div>
                                                                                 </div>
@@ -373,7 +381,8 @@
                                                                                         <div class="member-image">
                                                                                             <img src="../public/img/bao_dai.jpg" alt="bao_dai">
                                                                                             <div class="member-details">
-                                                                                                <h3>(13) Bao-Dai</h3>
+                                                                                                <h2>13</h2>
+                                                                                                <h3>Bao-Dai</h3>
                                                                                                 <h5>1925 - 1945</h5>
                                                                                             </div>
                                                                                         </div>
@@ -390,7 +399,8 @@
                                                                         <div class="member-image">
                                                                             <img src="../public/img/Ham_Nghi.JPG" alt="ham_nghi">
                                                                             <div class="member-details">
-                                                                                <h3>(8) Ham-Nghi</h3>
+                                                                                <h2>8</h2>
+                                                                                <h3>Ham-Nghi</h3>
                                                                                 <h5>1884 - 1885</h5>
                                                                             </div>
                                                                         </div>
@@ -403,7 +413,8 @@
                                                                         <div class="member-image">
                                                                             <img src="../public/img/Kien_Phuc.jpg" alt="kien_phuoc">
                                                                             <div class="member-details">
-                                                                                <h3>(7) Kiên Phuoc</h3>
+                                                                                <h2>7</h2>
+                                                                                <h3>Kiên Phuoc</h3>
                                                                                 <h5>1883 - 1884</h5>
                                                                             </div>
                                                                         </div>
@@ -418,7 +429,8 @@
                                                                 <div class="member-image">
                                                                     <img src="../public/img/Hiep_hoa.jpg" alt="hiep_hoa">
                                                                     <div class="member-details">
-                                                                        <h3>(6) Hiêp Hoa</h3>
+                                                                        <h2>6</h2>
+                                                                        <h3>Hiêp Hoa</h3>
                                                                         <h5>1883</h5>
                                                                     </div>
                                                                 </div>
