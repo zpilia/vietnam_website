@@ -24,7 +24,7 @@
 
     <body>
 
-    <style>
+        <style>
 
         body {
             background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
@@ -69,178 +69,183 @@
 
     </style>
 
-    <!-- Titre du contenu -->
-    <div class="container mt-4 mb-5">
-        <div class="title">
-            <h2>
-                Salade de papaye (2 personnes)
-            </h2>
-        </div>
-    </div>
-
-    <!-- container // Video + photo -->
-    <div class="container">
-        <div class="row gx-1">
-            <div class="col-md-6">
-                <img src="../public/img/salade_papaye_5.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="salade_papaye">
+        <!-- Titre du contenu -->
+        <div class="container mt-4 mb-5">
+            <div class="title">
+                <h2>
+                    Salade de papaye (2 personnes)
+                </h2>
             </div>
+        </div>
+        <!-- Fin Titre du contenu -->
 
-            <div class="col-md-6">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/G0eQ19XBzAM" title="YouTube video player salade_papaye" class="rounded" allowfullscreen></iframe>
+        <!-- container // Video + photo -->
+        <div class="container">
+            <div class="row gx-1">
+                <div class="col-md-6">
+                    <img src="../public/img/salade_papaye_5.jpg" class="img-fluid rounded-pill ms-5 mt-2" alt="salade_papaye">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/G0eQ19XBzAM" title="YouTube video player salade_papaye" class="rounded" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Fin container // Video + photo -->
+        <!-- Fin container // Video + photo -->
 
-    <!-- container ligne séparation -->
-    <div class="container mt-4 mb-4">
-        <hr>
-    </div>
-
-    <!-- Titre 2 du contenu -->
-    <div class="container mb-4">
-        <div class="title">
-            <h4>
-                Ingrédients
-            </h4>
+        <!-- container ligne séparation -->
+        <div class="container mt-4 mb-4">
+            <hr>
         </div>
-    </div>
+        <!-- Fin container ligne séparation -->
 
-    <!-- container // liste ingredient -->
-    <div class="container">
-        <div class="row gx-1 justify-content-center my-auto ">
-
-            <div class="col-lg-4 col-md-12 my-auto">
-                <ul class="form-check">
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 papaye verte (recette avec 250 g de juliennes)</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 haricot kilomètre</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">2 piments (en fonction de l'intensité recherchée)</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de tamarin</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de sucre</label>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6 my-auto">
-                <ul class="form-check">
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">5 tomates cerises</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1/4 de citron vert</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de kapi (pâte de crevettes)</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de cacahuètes</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de crevettes séchées</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">4 cuillères à soupe de sauce poisson</label>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <h5 class="text-decoration-underline">
-                    Pour accompagner :
-                </h5>
-
-                <ul class="form-check">
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Vermicelles de riz (Bun)</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Salade verte</label>
-                    </li>
-                    <li>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label class="form-check-label" for="flexCheckDefault">Riz gluant</label>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    <!-- Fin container // liste ingredient -->
-
-    <!-- container ligne séparation -->
-    <div class="container mt-4 mb-4">
-        <hr>
-    </div>
-
-    <!-- Titre 2 du contenu -->
-    <div class="container mb-4">
-        <div class="title">
-            <h4>
-                Déroulement
-            </h4>
-        </div>
-    </div>
-
-    <!-- container // deroulement -->
-    <div class="container">
-        <div class="row gx-1 justify-content-center my-auto ">
-
-            <div class="col-12 my-auto">
-                <ol>
-                    <li class="mb-3">
-                        Couper le haricot en tronçons de 5 cm environ, les tomates cerises en 4, éplucher la gousse d'ail, retirer le pédoncule du
-                        piment et éplucher la papaye verte.
-                    </li>
-                    <li class="mb-3">
-                        Découper la papaye verte en fines juliennes en suivant une des méthodes indiquée dans la vidéo.
-                    </li>
-                    <li class="mb-3">
-                        Dans un mortier, mettre le ou les piments, l'ail, la moitié du sucre, écraser l'ail et le piment avec le pilon,
-                        ajouter les cacahuètes, les crevettes séchées, les tronçons de haricot kilomètre et écraser de nouveau grossièrement.
-                        <br><br>
-                        Ajouter ensuite la papaye, les tomates, le reste de sucre, la sauce de poisson, la pâte de crevettes, le tamarin et
-                        le jus de citron. Bien incorporer l'ensemble à l'aide du pilon et d'une cuillère en écrasant légèrement le tout.
-                        <br><br>
-                        Réajuster l’assaisonnement si nécessaire.
-                    </li>
-                </ol>
-            </div>
-
-            <!-- bouton retour -->
-            <div class="container text-center mt-4">
-                <a type="button" class="btn btn-link text-dark" href="recette.php">Retour</a>
+        <!-- Titre 2 du contenu -->
+        <div class="container mb-4">
+            <div class="title">
+                <h4>
+                    Ingrédients
+                </h4>
             </div>
         </div>
-    </div>
-    <!-- Fin container // deroulement -->
+        <!-- Fin Titre 2 du contenu -->
+
+        <!-- container // liste ingredient -->
+        <div class="container">
+            <div class="row gx-1 justify-content-center my-auto ">
+
+                <div class="col-lg-4 col-md-12 my-auto">
+                    <ul class="form-check">
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 papaye verte (recette avec 250 g de juliennes)</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 haricot kilomètre</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 gousse d'ail</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">2 piments (en fonction de l'intensité recherchée)</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de tamarin</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de sucre</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-auto">
+                    <ul class="form-check">
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">5 tomates cerises</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1/4 de citron vert</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 cuillère à café de kapi (pâte de crevettes)</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de cacahuètes</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">1 cuillère à soupe de crevettes séchées</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">4 cuillères à soupe de sauce poisson</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-decoration-underline">
+                        Pour accompagner :
+                    </h5>
+
+                    <ul class="form-check">
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">Vermicelles de riz (Bun)</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">Salade verte</label>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label class="form-check-label" for="flexCheckDefault">Riz gluant</label>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- Fin container // liste ingredient -->
+
+        <!-- container ligne séparation -->
+        <div class="container mt-4 mb-4">
+            <hr>
+        </div>
+        <!-- Fin container ligne séparation -->
+
+        <!-- Titre 3 du contenu -->
+        <div class="container mb-4">
+            <div class="title">
+                <h4>
+                    Déroulement
+                </h4>
+            </div>
+        </div>
+        <!-- Fin Titre 3 du contenu -->
+
+        <!-- container // deroulement -->
+        <div class="container">
+            <div class="row gx-1 justify-content-center my-auto ">
+
+                <div class="col-12 my-auto">
+                    <ol>
+                        <li class="mb-3">
+                            Couper le haricot en tronçons de 5 cm environ, les tomates cerises en 4, éplucher la gousse d'ail, retirer le pédoncule du
+                            piment et éplucher la papaye verte.
+                        </li>
+                        <li class="mb-3">
+                            Découper la papaye verte en fines juliennes en suivant une des méthodes indiquée dans la vidéo.
+                        </li>
+                        <li class="mb-3">
+                            Dans un mortier, mettre le ou les piments, l'ail, la moitié du sucre, écraser l'ail et le piment avec le pilon,
+                            ajouter les cacahuètes, les crevettes séchées, les tronçons de haricot kilomètre et écraser de nouveau grossièrement.
+                            <br><br>
+                            Ajouter ensuite la papaye, les tomates, le reste de sucre, la sauce de poisson, la pâte de crevettes, le tamarin et
+                            le jus de citron. Bien incorporer l'ensemble à l'aide du pilon et d'une cuillère en écrasant légèrement le tout.
+                            <br><br>
+                            Réajuster l’assaisonnement si nécessaire.
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- bouton retour -->
+                <div class="container text-center mt-4">
+                    <a type="button" class="btn btn-link text-dark" href="recette.php">Retour</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fin container // deroulement -->
 
     </body>
 

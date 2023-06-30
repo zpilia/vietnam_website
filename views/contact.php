@@ -22,6 +22,8 @@
     <!-- insertion PHPMailer + entête-->
     <?php
         use PHPMailer\PHPMailer\PHPMailer;
+        //use PHPMailer\PHPMailer\SMTP;
+        use PHPMailer\PHPMailer\Exception;
 
         require 'header.php';
         //require '/Applications/MAMP/htdocs/vietnam_website/vendor/autoload.php';
@@ -83,86 +85,86 @@
 
     <body>
 
-    <style>
+        <style>
 
-        body {
-            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
-        }
+            body {
+                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+            }
 
-        .title {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            font-size: 40px;
-            color: #e60000;
-        }
+            .title {
+                font-family: 'Georgia', 'Times New Roman', serif;
+                font-size: 40px;
+                color: #e60000;
+            }
 
-    </style>
+        </style>
 
-    <!-- Titre -->
-    <div class="title">
-        <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
-    </div>
+        <!-- Titre -->
+        <div class="title">
+            <h1 class="mt-4 fw-bold text-center">Des question ? Contactez-moi !</h1>
+        </div>
 
-    <div class="container mt-5 mb-4">
+        <div class="container mt-5 mb-4">
 
-        <!--Section: Content-->
-        <section class="container my-auto py-auto z-depth-1">
+            <!--Section: Content-->
+            <section class="container my-auto py-auto z-depth-1">
 
-            <!-- Grid row -->
-            <div class="row">
+                <!-- Grid row -->
+                <div class="row">
 
-                <div class="col-lg-4 col-md-12"></div>
+                    <div class="col-lg-4 col-md-12"></div>
 
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-6">
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6">
 
-                    <!-- Form with header -->
-                    <div class="card">
-                        <div class="card-body">
-                            <!-- Body -->
-                            <!-- TEST FORM RAJOUTE PAR MOI -->
-                            <form action="contact.php" method="POST">
-                                <div class="md-form">
-                                    <label for="name"></label>
-                                    <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
-                                </div>
-                                <br>
+                        <!-- Form with header -->
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Body -->
+                                <!-- TEST FORM RAJOUTE PAR MOI -->
+                                <form action="contact.php" method="POST">
+                                    <div class="md-form">
+                                        <label for="name"></label>
+                                        <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
+                                    </div>
+                                    <br>
 
-                                <div class="md-form">
-                                    <label for="email"></label>
-                                    <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
-                                </div>
-                                <br>
+                                    <div class="md-form">
+                                        <label for="email"></label>
+                                        <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
+                                    </div>
+                                    <br>
 
-                                <div class="md-form">
-                                    <label for="subject"></label>
-                                    <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required>
-                                </div>
-                                <br>
+                                    <div class="md-form">
+                                        <label for="subject"></label>
+                                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required>
+                                    </div>
+                                    <br>
 
-                                <div class="md-form">
-                                    <label for="text"></label>
-                                    <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message" required></textarea>
-                                </div>
-                                <br>
+                                    <div class="md-form">
+                                        <label for="text"></label>
+                                        <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message" required></textarea>
+                                    </div>
+                                    <br>
 
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-info btn-rounded ml-0">Envoyer<i class="far fa-paper-plane ml-2"></i></button>
-                                </div>
-                                <!-- TEST FIN DE FORM -->
-                            </form>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-info btn-rounded ml-0">Envoyer<i class="far fa-paper-plane ml-2"></i></button>
+                                    </div>
+                                    <!-- TEST FIN DE FORM -->
+                                </form>
+                            </div>
                         </div>
+                        <!-- Form with header -->
+                        <div class="col-lg-4 col-md-6"></div>
                     </div>
-                    <!-- Form with header -->
-                    <div class="col-lg-4 col-md-6"></div>
+                    <!-- Grid column -->
                 </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
+                <!-- Grid row -->
 
-        </section>
-        <!--Section: Content-->
+            </section>
+            <!--Section: Content-->
 
-    </div>
+        </div>
 
 
     </body>

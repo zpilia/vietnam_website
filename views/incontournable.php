@@ -27,7 +27,7 @@
 
     <body>
 
-    <style>
+        <style>
 
         body {
             background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);

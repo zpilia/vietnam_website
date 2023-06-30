@@ -54,21 +54,25 @@
             .how-it-works.row .col-2 {
                 align-self: stretch;
             }
+
             .how-it-works.row .col-2::after {
                 content: "";
                 position: absolute;
                 border-left: 3px solid black;
                 z-index: 1;
             }
+
             .how-it-works.row .col-2.bottom::after {
                 height: 50%;
                 left: 50%;
                 top: 50%;
             }
+
             .how-it-works.row .col-2.full::after {
                 height: 100%;
                 left: calc(50% - 3px);
             }
+
             .how-it-works.row .col-2.top::after {
                 height: 50%;
                 left: 50%;
@@ -79,38 +83,46 @@
                 padding: 0;
                 height: 40px;
             }
+
             .timeline hr {
                 border-top: 3px solid black;
                 margin: 0;
                 top: 17px;
                 position: relative;
             }
+
             .timeline .col-2 {
                 display: flex;
                 overflow: hidden;
             }
+
             .timeline .corner {
                 border: 3px solid black;
                 width: 100%;
                 position: relative;
                 border-radius: 15px;
             }
+
             .timeline .top-right {
                 left: 50%;
                 top: -50%;
             }
+
             .timeline .left-bottom {
                 left: -50%;
                 top: calc(50% - 3px);
             }
+
             .timeline .top-left {
                 left: -50%;
                 top: -50%;
             }
+
             .timeline .right-bottom {
                 left: 50%;
                 top: calc(50% - 3px);
             }
+
         </style>
 
         <!-- Titre -->
@@ -118,6 +130,7 @@
             <h1 class="mt-4 fw-bold text-center">Dates importantes</h1>
         </div>
 
+        <!-- Container -->
         <div class="container mt-5">
             <div class="container">
 
@@ -144,6 +157,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 1 section-->
 
                 <!--2 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -168,6 +182,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 2 section-->
 
                 <!--3 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -192,6 +207,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 3 section-->
 
                 <!--4 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -202,7 +218,7 @@
                         </p>
                     </div>
                     <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                        <div class="circle font-weight-bold">111 av. J.C. - 938 ap. J.C.</div>
+                        <div class="circle font-weight-bold">111 - 938 ap. J.C.</div>
                     </div>
                 </div>
                 <!--path between 4-5-->
@@ -217,6 +233,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 4 section-->
 
                 <!--5 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -241,6 +258,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 5 section-->
 
                 <!--6 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -265,6 +283,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 6 section-->
 
                 <!--7 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -289,6 +308,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 7 section-->
 
                 <!--8 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -313,6 +333,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 8 section-->
 
                 <!--9 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -337,6 +358,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 9 section-->
 
                 <!--10 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -361,6 +383,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 10 section-->
 
                 <!--11 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -386,6 +409,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 11 section-->
 
                 <!--12 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -410,6 +434,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 12 section-->
 
                 <!--13 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -434,6 +459,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 13 section-->
 
                 <!--14 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -458,6 +484,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 14 section-->
 
                 <!--15 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -482,6 +509,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 15 section-->
 
                 <!--16 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -508,6 +536,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 16 section-->
 
                 <!--17 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -532,6 +561,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 17 section-->
 
                 <!--18 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -556,6 +586,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 18 section-->
 
                 <!--19 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -580,6 +611,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 19 section-->
 
                 <!--20 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -604,6 +636,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 20 section-->
 
                 <!--21 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -629,6 +662,7 @@
                         <div class="corner left-bottom"></div>
                     </div>
                 </div>
+                <!--Fin 21 section-->
 
                 <!--22 section-->
                 <div class="row align-items-center justify-content-end how-it-works d-flex">
@@ -653,6 +687,7 @@
                         <div class="corner top-left"></div>
                     </div>
                 </div>
+                <!--Fin 22 section-->
 
                 <!--23 section-->
                 <div class="row align-items-center how-it-works d-flex">
@@ -665,8 +700,10 @@
                         </p>
                     </div>
                 </div>
+                <!--Fin 23 section-->
             </div>
         </div>
+        <!-- Fin Container -->
 
     </body>
 

@@ -24,118 +24,123 @@
 
     <body>
 
-    <style>
+        <style>
 
-        body {
-            background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
-        }
+            body {
+                background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
+            }
 
-        .title {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            font-size: 40px;
-            color: #e60000;
-        }
+            .title {
+                font-family: 'Georgia', 'Times New Roman', serif;
+                font-size: 40px;
+                color: #e60000;
+            }
 
-    </style>
+        </style>
 
-    <!-- Titre -->
-    <div class="title">
-        <h1 class="mt-4 fw-bold text-center">Cuisinons ensemble !</h1>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row ">
-
-            <!-- 1er post -->
-            <div class="col-lg-4 col-md-12">
-                <!-- image -->
-                <div class="card text-center ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="../public/img/bo_bun_4.webp" class="img-fluid" alt="bo_bun"/>
-                    </div>
-                    <!-- titre + bouton direction recette -->
-                    <div class="card-body">
-                        <h5 class="card-title">Bò bún</h5>
-                        <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 1er post -->
-
-            <!-- 2ème post -->
-            <div class="col-lg-4 col-md-12">
-                <!-- image -->
-                <div class="card text-center ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="../public/img/banh_bao_3.jpg" class="img-fluid" alt="banh_bao"/>
-                    </div>
-                    <!-- titre + bouton direction recette -->
-                    <div class="card-body">
-                        <h5 class="card-title">Bánh Bao</h5>
-                        <a href="banh_bao.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 2ème post -->
-
-            <!-- 3ème post -->
-            <div class="col-lg-4 col-md-12">
-                <!-- image -->
-                <div class="card text-center ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="../public/img/pho_3.jpg" class="img-fluid" alt="pho"/>
-                    </div>
-                    <!-- titre + bouton direction recette -->
-                    <div class="card-body">
-                        <h5 class="card-title">Phở</h5>
-                        <a href="pho.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 3ème post -->
+        <!-- Titre -->
+        <div class="title">
+            <h1 class="mt-4 fw-bold text-center">Cuisinons ensemble !</h1>
         </div>
-    </div>
+        <!-- Fin Titre -->
 
-    <div class="container mt-4">
-        <div class="row ">
+        <!-- 1er Container -->
+        <div class="container mt-5">
+            <div class="row ">
 
-            <!-- 1er post -->
-            <div class="col-lg-4 col-md-12">
-                <!-- image -->
-                <div class="card text-center ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="../public/img/salade_papaye_5.jpg" class="img-fluid" alt="salade_papaye"/>
-                    </div>
-                    <!-- titre + bouton direction recette -->
-                    <div class="card-body">
-                        <h5 class="card-title">Salade de papaye</h5>
-                        <a href="salade_papaye.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Fin 1er post -->
-
-            <!-- 2ème post -->
-            <div class="col-lg-4 col-md-12"></div>
-            <!-- Fin 2ème post -->
-
-            <!-- 3ème post -->
-            <div class="col-lg-4 col-md-12">
-                <!-- image -->
-                <div class="card text-center ">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="../public/img/banh_lot_3.jpg" class="img-fluid" alt="banh_lot"/>
-                    </div>
-                    <!-- titre + bouton direction recette -->
-                    <div class="card-body">
-                        <h5 class="card-title">Banh lot - Khao lod song</h5>
-                        <a href="banh_lot.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                <!-- 1er post -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- image -->
+                    <div class="card text-center ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/bo_bun_4.webp" class="img-fluid" alt="bo_bun"/>
+                        </div>
+                        <!-- titre + bouton direction recette -->
+                        <div class="card-body">
+                            <h5 class="card-title">Bò bún</h5>
+                            <a href="bo_bun.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        </div>
                     </div>
                 </div>
+                <!-- Fin 1er post -->
+
+                <!-- 2ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- image -->
+                    <div class="card text-center ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/banh_bao_3.jpg" class="img-fluid" alt="banh_bao"/>
+                        </div>
+                        <!-- titre + bouton direction recette -->
+                        <div class="card-body">
+                            <h5 class="card-title">Bánh Bao</h5>
+                            <a href="banh_bao.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 2ème post -->
+
+                <!-- 3ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- image -->
+                    <div class="card text-center ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/pho_3.jpg" class="img-fluid" alt="pho"/>
+                        </div>
+                        <!-- titre + bouton direction recette -->
+                        <div class="card-body">
+                            <h5 class="card-title">Phở</h5>
+                            <a href="pho.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 3ème post -->
             </div>
-            <!-- Fin 3ème post -->
         </div>
-    </div>
+        <!-- Fin 1er Container -->
+
+        <!-- 2ème Container -->
+        <div class="container mt-4">
+            <div class="row ">
+
+                <!-- 1er post -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- image -->
+                    <div class="card text-center ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/salade_papaye_5.jpg" class="img-fluid" alt="salade_papaye"/>
+                        </div>
+                        <!-- titre + bouton direction recette -->
+                        <div class="card-body">
+                            <h5 class="card-title">Salade de papaye</h5>
+                            <a href="salade_papaye.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 1er post -->
+
+                <!-- 2ème post -->
+                <div class="col-lg-4 col-md-12"></div>
+                <!-- Fin 2ème post -->
+
+                <!-- 3ème post -->
+                <div class="col-lg-4 col-md-12">
+                    <!-- image -->
+                    <div class="card text-center ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="../public/img/banh_lot_3.jpg" class="img-fluid" alt="banh_lot"/>
+                        </div>
+                        <!-- titre + bouton direction recette -->
+                        <div class="card-body">
+                            <h5 class="card-title">Banh lot - Khao lod song</h5>
+                            <a href="banh_lot.php" type="button" class="btn btn-outline-primary btn-rounded btn-block">Recette</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin 3ème post -->
+            </div>
+        </div>
+        <!-- Fin 2ème Container -->
 
 
     </body>

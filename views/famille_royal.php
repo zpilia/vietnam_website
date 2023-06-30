@@ -24,7 +24,7 @@
 
     <body>
 
-    <style>
+        <style>
 
         body {
             background: linear-gradient(45deg, #ffff00, #a7ddf1, #70db70);
@@ -217,7 +217,12 @@
             <h1 class="mt-4 fw-bold text-center">Dynastie Nguyễn</h1>
         </div>
 
+<<<<<<< HEAD
+        <!-- Section / Arbre généalogie -->
         <div class="section">
+=======
+        <div class="container-fluid">
+>>>>>>> 7220e5c2e225df990ca94c0e9a9c43a8a6bbca79
                 <div class="body genealogy-body genealogy-scroll">
                     <div class="genealogy-tree">
                         <ul>
@@ -446,6 +451,7 @@
                     </div>
                 </div>
         </div>
+        <!-- Fin Section / Arbre généalogie -->
 
     </body>
 

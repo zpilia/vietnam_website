@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-        <!-- NavBar-->
+            <!-- NavBar-->
             <nav class="navbar navbar-expand-sm navbar-light bg-light m-2">
                 <div class="container-fluid">
                     <div id="navbarCollapse" class="collapse navbar-collapse">
