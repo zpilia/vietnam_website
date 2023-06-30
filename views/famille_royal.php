@@ -181,7 +181,7 @@
                             </div>
                         </div>
                     </a>
-                    <ul class="">
+                    <ul class="active">
                         <li>
                             <a href="javascript:void(0);">
                                 <div class="member-view-box">
@@ -194,21 +194,20 @@
                                     </div>
                                 </div>
                             </a>
-                            <ul class="">
+                            <ul class="active">
                                 <li>
                                     <a href="javascript:void(0);">
                                         <div class="member-view-box">
                                             <div class="member-image">
-                                                <img src="../public/img/" alt="thieu_tri">
+                                                <img src="../public/img/Thieu_tri.webp" alt="thieu_tri">
                                                 <div class="member-details">
-                                                    <h3>Member 2</h3>
+                                                    <h3>Thieu Tri</h3>
+                                                    <h5>1841 - 1847</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </a>
                             </ul>
-                        </li>
-
                         </li>
                     </ul>
                 </li>
