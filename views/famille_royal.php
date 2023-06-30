@@ -43,17 +43,21 @@
             color: black;
         }
 
+        h2 {
+            font-family: 'Georgia', sans-serif;
+            text-align: center;
+            color: #ff3300;
+        }
+
         h3 {
             font-family: 'Georgia', sans-serif;
             text-align: center;
-            font-size: 28px;
             color: black;
         }
 
         h5 {
             font-family: 'Georgia', sans-serif;
             text-align: center;
-            font-size: 28px;
             color: black;
         }
 
@@ -64,15 +68,18 @@
             width: 5px;
             height: 8px;
         }
+
         .genealogy-scroll::-webkit-scrollbar-track {
             border-radius: 10px;
             background-color: #e4e4e4;
         }
+
         .genealogy-scroll::-webkit-scrollbar-thumb {
             background: #212121;
             border-radius: 10px;
             transition: 0.5s;
         }
+
         .genealogy-scroll::-webkit-scrollbar-thumb:hover {
             background: #d5b14c;
             transition: 0.5s;
@@ -82,21 +89,23 @@
         .genealogy-body {
             white-space: nowrap;
             overflow-y: hidden;
-            padding: 50px;
             min-height: 500px;
-            padding-top: 10px;
+            padding: 10px 50px 50px;
             text-align: center;
         }
+
         .genealogy-tree {
             display: inline-block;
         }
+
         .genealogy-tree ul {
             padding-top: 20px;
             position: relative;
-            padding-left: 0px;
+            padding-left: 0;
             display: flex;
             justify-content: center;
         }
+
         .genealogy-tree li {
             float: left;
             text-align: center;
@@ -104,52 +113,61 @@
             position: relative;
             padding: 20px 5px 0 5px;
         }
+
         .genealogy-tree li::before,
         .genealogy-tree li::after {
             content: "";
             position: absolute;
             top: 0;
             right: 50%;
-            border-top: 2px solid #ccc;
+            border-top: 3px solid #ccc;
             width: 50%;
             height: 18px;
         }
+
         .genealogy-tree li::after {
             right: auto;
             left: 50%;
-            border-left: 2px solid #ccc;
+            border-left: 3px solid #ccc;
         }
+
         .genealogy-tree li:only-child::after,
         .genealogy-tree li:only-child::before {
             display: none;
         }
+
         .genealogy-tree li:only-child {
             padding-top: 0;
         }
+
         .genealogy-tree li:first-child::before,
         .genealogy-tree li:last-child::after {
             border: 0 none;
         }
+
         .genealogy-tree li:last-child::before {
-            border-right: 2px solid #ccc;
+            border-right: 3px solid #ccc;
             border-radius: 0 5px 0 0;
             -webkit-border-radius: 0 5px 0 0;
             -moz-border-radius: 0 5px 0 0;
         }
+
         .genealogy-tree li:first-child::after {
             border-radius: 5px 0 0 0;
             -webkit-border-radius: 5px 0 0 0;
             -moz-border-radius: 5px 0 0 0;
         }
+
         .genealogy-tree ul ul::before {
             content: "";
             position: absolute;
             top: 0;
             left: 50%;
-            border-left: 2px solid #ccc;
+            border-left: 3px solid #ccc;
             width: 0;
             height: 20px;
         }
+
         .genealogy-tree li a {
             text-decoration: none;
             color: #666;
@@ -200,7 +218,6 @@
         </div>
 
         <div class="section">
-            <div class="container ">
                 <div class="body genealogy-body genealogy-scroll">
                     <div class="genealogy-tree">
                         <ul>
@@ -210,7 +227,8 @@
                                         <div class="member-image">
                                             <img src="../public/img/Gia_Long.jpg" alt="gia_long">
                                             <div class="member-details">
-                                                <h3>(1) Gia Long</h3>
+                                                <h2>1</h2>
+                                                <h3>Gia Long</h3>
                                                 <h5>1802 – 1819</h5>
                                             </div>
                                         </div>
