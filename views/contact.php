@@ -45,11 +45,11 @@
 
                         try {
                             //Server settings
-                            $mail->isSMTP();                                            //Send using SMTP
-                            $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
-                            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                            $mail->Username   = 'dc678a16204ec3';                     //SMTP username
-                            $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
+                            $mail->isSMTP();                                                  //Send using SMTP
+                            $mail->Host       = 'smtp.mailtrap.io';                          //Set the SMTP server to send through
+                            $mail->SMTPAuth   = true;                                       //Enable SMTP authentication
+                            $mail->Username   = 'dc678a16204ec3';                          //SMTP username
+                            $mail->Password   = 'e7e9824ff977e4';                         //SMTP password
                             $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                             //Recipients
