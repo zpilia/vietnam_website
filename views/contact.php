@@ -41,32 +41,32 @@
             if (!empty($_POST['email'])) { // Email
                 if (!empty($_POST['subject'])) { // Objet
                     if (!empty($_POST['content'])) { //message
-                        $phpmailer = new PHPMailer();
+                        $mail = new PHPMailer();
 
                         try {
                             //Server settings
-                            $phpmailer->isSMTP();                                         //Send using SMTP
-                            $phpmailer->Host = 'sandbox.smtp.mailtrap.io';               //Set the SMTP server to send through
-                            $phpmailer->SMTPAuth = true;                                    //Enable SMTP authentication
-                            $phpmailer->Username = 'dc678a16204ec3';                        //SMTP username
-                            $phpmailer->Password = '********77e4';                        //SMTP password
-                            $phpmailer->Port = 2525;                                   //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+                            $mail->isSMTP();                                            //Send using SMTP
+                            $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
+                            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                            $mail->Username   = 'dc678a16204ec3';                     //SMTP username
+                            $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
+                            $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                             //Recipients
-                            $phpmailer->setFrom('zpilia2@gmail.com', 'Mailer');
-                            $phpmailer->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
-                            $phpmailer->addReplyTo('zpilia2@gmail.com', 'Zoé');
+                            $mail->setFrom('zpilia2@gmail.com', 'Mailer');
+                            $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
+                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé');
 
                             //Content
-                            $phpmailer->isHTML(true);                                  //Set email format to HTML
-                            $phpmailer->Subject = $_POST['subject'];
-                            $phpmailer->Body    = $_POST['content'];
-                            $phpmailer->AltBody = $_POST['content'];
+                            $mail->isHTML(true);                                  //Set email format to HTML
+                            $mail->Subject = $_POST['subject'];
+                            $mail->Body    = $_POST['content'];
+                            $mail->AltBody = $_POST['content'];
 
-                            $phpmailer->send();
+                            $mail->send();
                             echo 'Message has been sent';
                         } catch (Exception $e) {
-                            echo "Message could not be sent. Mailer Error: {$phpmailer->ErrorInfo}";
+                            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
                         }
                     } else {
                         // pas de contenu
@@ -148,7 +148,7 @@
                                     <br>
 
                                     <div class="text-center">
-                                        <button type="submit" class="btn btn-info btn-rounded ml-0">Envoyer<i class="far fa-paper-plane ml-2"></i></button>
+                                        <button name="send_mail" type="submit" class="btn btn-info btn-rounded ml-0">Envoyer<i class="far fa-paper-plane ml-2"></i></button>
                                     </div>
                                     <!-- TEST FIN DE FORM -->
                                 </form>
